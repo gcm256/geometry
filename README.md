@@ -29,7 +29,10 @@ Isogonal Conjugate (IC) of a straight line L, is a circumconic (and vice versa).
 - Iff L does not meet the circumcircle, IC(L) is a circumellipse.
 - Iff L is tangent to the circumcircle, IC(L) is a circumparabola.
 - Iff L cuts the circumcircle, IC(L) is a circumhyperbola.
-   - Iff L passes through $`O`$, the circumcenter, ie L is a circumcircle diameter, then the IC(L) hyperbola is a rectangular hyperbola passing through the orthocenter $`H`$ (Since $`O`$ and $`H`$ are isogonal conjugates (ICs)). And the center of the IC(L) rectangular hyperbola is on the nine-point circle, where the two ($`\perp`$) Simson lines at the ends of the diameter L meet.
+   - Iff L passes through $`O`$, the circumcenter, ie L is a circumcircle diameter, then the IC(L) circumhyperbola is a rectangular hyperbola. Every rectangular circumhyperbola:
+       - Is the IC of a circumcircle diamater L.
+       - Passes through the orthocenter $`H`$ (Since $`O`$ and $`H`$ are isogonal conjugates (ICs)).
+       - Has its center on the nine-point circle, where the two ($`\perp`$) Simson lines at the ends of the diameter L meet.
 
 ### Circumcircle
 
