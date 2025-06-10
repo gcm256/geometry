@@ -7,7 +7,7 @@ Conics, Modern Triangle Geometry, Triangle Centers, Triangle Conics, Circumconic
      - Mid points of any number of parallel chords are all collinear and lie on a line parallel to the axis.
      - Line joining the intersection of two tangents and the mid point of their chord-of-contact, is parallel to the axis.
      - Both have $`y`$ co-ordinate $`a(t+t')`$ where $`t`$ and $`t'`$ are parameters of the extremities of any of the parallel chords of $`y^2 = 4ax`$
-       with slope $`\frac{1}{t+t'}`$.
+       with slope $`{1} \over {t+t'}`$.
      - A circle with any focal chord as diameter, is tangent to the directrix.
      - The intersection points of any three tangents to a parabola, are vertices of a triangle whose orthocenter belongs to the directrix of the parabola and the circumcircle of the triangle passes through the focus of the parabola.
      - The foot of the $`\perp`$ from the focus to any tangent, always lies on the tangent at vertex.
