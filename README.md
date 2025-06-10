@@ -11,7 +11,7 @@ Conics, Modern Triangle Geometry, Triangle Centers, Triangle Conics, Circumconic
      - A circle with any focal chord as diameter, is tangent to the directrix.
      - The intersection points of any three tangents to a parabola, are vertices of a triangle whose orthocenter belongs to the directrix of the parabola and the circumcircle of the triangle passes through the focus of the parabola.
 3. In ellipse and hyperbola only,
-     - Product of the lengths of the two $`\perp`$'s from foci on any tangent is $`b^2`$ where $`b`$ is the minor or conjugate axis of ellipse or hyperbola respectively.
+     - Product of the lengths of the two $`\perp`$'s from foci on any tangent is $`b^2`$ where $`b`$ is the length of the semi-minor or semi-conjugate axis of ellipse or hyperbola respectively.
 5. Reflection property for all conics.
 6. For all conics,
     - Tangent intercept between point of contact and directrix, subtends $`90^\circ`$ at the (corresponding) focus.
