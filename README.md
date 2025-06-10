@@ -9,6 +9,7 @@ Conics, Modern Triangle Geometry, Triangle Centers, Triangle Conics, Circumconic
      - Both have $`y`$ co-ordinate $`a(t+t')`$ where $`t`$ and $`t'`$ are parameters of the extremities of any of the parallel chords of $`y^2 = 4ax`$
        with slope $`\frac{1}{t+t'}`$.
      - A circle with any focal chord as diameter, is tangent to the directrix.
+     - The intersection points of any three tangents to a parabola, are vertices of a triangle whose orthocenter belongs to the directrix of the parabola and the circumcircle of the triangle passes through the focus of the parabola.
 3. In ellipse and hyperbola only,
      - Product of the lengths of the two $`\perp`$'s from foci on any tangent is $`b^2`$ where $`b`$ is the minor or conjugate axis of ellipse or hyperbola respectively.
 5. Reflection property for all conics.
