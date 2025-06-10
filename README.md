@@ -42,7 +42,7 @@ Isogonal Conjugate (IC) of a straight line L, is a circumconic (and vice versa).
 ### Using Trilinear
 
 - IC of line $`f(x, y, z) = 0`$ is the circumconic $`f(\frac{1}{x}, \frac{1}{y}, \frac{1}{z})`$, and vice versa.
-- Let line L be $`\tau_1x + \tau_2y + \tau_3z = 0`$. Then IC(L) is $`\frac{\tau_1}{x} + \frac{\tau_2}{y} + \frac{\tau_3}{z} = 0`$.
+- Let line L be $`\tau_1x + \tau_2y + \tau_3z = 0`$. Then IC(L) is $`\frac{\tau_1}{x} + \frac{\tau_2}{y} + \frac{\tau_3}{z} = 0`$. L is called the Central Line of the point $`(\tau_1 : \tau_2 : \tau_3)`$.
 - Center of IC(L) is $`\tau_1(-a\tau_1 + b\tau_2 + c\tau_3) : do : do`$.
 - 4th Point of IC(L) is $`(a\tau_2 - b\tau_1)(a\tau_3 - c\tau_1) : do : do`$.
 
