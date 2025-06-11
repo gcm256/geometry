@@ -56,5 +56,7 @@ Isogonal Conjugate (IC) of a straight line L, is a circumconic (and vice versa).
 - Point $`X_n`$, say $`(\tau_1 : \tau_2 : \tau_3)`$, is the crossdifference of every pair of points on line $`\tau_1x + \tau_2y + \tau_3z = 0`$. This line is denoted by $`L_n`$ in ETC. Further, $`X_n`$ is the only point that is the crossdifference of any pair of points on this line.
 
 
-Question: Is the Steiner Circumellipse the only conic whose center ($G$) is its own perspector?
+## Questions 
+- Is the Steiner Circumellipse the only triangle-conic whose center ($G$) is its own perspector?
+- Is the circumconic $`\frac{\tau_1(-a\tau_1 + b\tau_2 + c\tau_3)}{x} : \frac{do}{y} : \frac{do}{z} = 0`$ the only circumconic with center $`(\tau_1 : \tau_2 : \tau_3)`$?
 
