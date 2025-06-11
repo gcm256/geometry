@@ -20,6 +20,13 @@ Conics, Modern Triangle Geometry, Triangle Centers, Triangle Conics, Circumconic
 ### Hyperbola
 
 - Angle between asymptotes, $`\theta = 2sec^{-1}(e)`$, where $`e`$ is the eccentricity.
+- Tangents from a given point: 0, 1, or 2 tangents are possible depending on the location of the point.
+     - If given point lies in the region inside a branch, then no tangent can be drawn to any of the two branches.
+     - If given point lies on the hyperbola, only one tangent can be drawn. The given point itself will be point of tangency. The tangent will never meet, cut or touch the other branch. This is because the point of tangency already accounts for the two (equal) roots when we solve this tangent line with the hyperbola.
+     - If the given point lies in the region in between the asymptotes and a branch, two tangents can be drawn. Both touching the same branch.
+     - If the given point lies in the region in between the asymptotes not containing any branch, then also two tangents can be drawn. One tangent each to each branch.
+- Normals from a given point: 0, 1, 2, 3, or 4 normals are possible depending on the location of the point.
+     - TODO: What are these regions that decide the number of normals that can be drawn from a point in the region?
 
 ## Circumconics
 
