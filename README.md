@@ -27,6 +27,7 @@ Conics, Modern Triangle Geometry, Triangle Centers, Triangle Conics, Circumconic
      - If the given point lies in the region in between the asymptotes not containing any branch, then also two tangents can be drawn. One tangent each to each branch.
 - Normals from a given point: 0, 1, 2, 3, or 4 normals are possible depending on the location of the point.
      - TODO: What are these regions that decide the number of normals that can be drawn from a point in the region?
+- Number of tangents or normals from a given point relate to the Theory of Equations. Beacuse, we need to find the number of possible real roots (and their multiplicities), of the equation obtained by passing the general equation of tangent or normal, through the given point.
 
 ## Circumconics
 
@@ -49,6 +50,8 @@ Isogonal Conjugate (IC) of a straight line L, is a circumconic (and vice versa).
 
 - If the angle between asymptotes of IC(L) is $`\theta`$ and the angle of incidence of L on the circumcircle is $`i`$, then $`\theta + i = 90^\circ`$.
 
+  Ref: [Casey, J. A Treatise on the Analytical Geometry of the Point, Line, Circle, and Conic Sections, Containing an Account of Its Most Recent Extensions with Numerous Examples, 2nd rev. enl. ed. Dublin: Hodges, Figgis, & Co., Article 342, p. 428, 1893.](https://archive.org/details/treatiseonanalyt00caseuoft/treatiseonanalyt00caseuoft/page/n465/mode/2up)
+
 ### Using Trilinear
 
 - IC of line $`f(x, y, z) = 0`$ is the circumconic $`f(\frac{1}{x}, \frac{1}{y}, \frac{1}{z})`$, and vice versa.
@@ -66,4 +69,5 @@ Isogonal Conjugate (IC) of a straight line L, is a circumconic (and vice versa).
 ## Questions 
 - Is the Steiner Circumellipse the only triangle-conic whose center ($G$) is its own perspector?
 - Is the circumconic $`\frac{\tau_1(-a\tau_1 + b\tau_2 + c\tau_3)}{x} : \frac{do}{y} : \frac{do}{z} = 0`$ the only circumconic with center $`(\tau_1 : \tau_2 : \tau_3)`$?
+- What is the angle of intersection of a line $`\tau_1x + \tau_2y + \tau_3z = 0`$ with the circumcircle ($`\frac{a}{x} + \frac{b}{y} + \frac{c}{z} = 0`$)?
 
