@@ -70,4 +70,6 @@ Isogonal Conjugate (IC) of a straight line L, is a circumconic (and vice versa).
 - Is the Steiner Circumellipse the only triangle-conic whose center ($G$) is its own perspector?
 - Is the circumconic $`\frac{\tau_1(-a\tau_1 + b\tau_2 + c\tau_3)}{x} : \frac{do}{y} : \frac{do}{z} = 0`$ the only circumconic with center $`(\tau_1 : \tau_2 : \tau_3)`$?
 - What is the angle of intersection of a line $`\tau_1x + \tau_2y + \tau_3z = 0`$ with the circumcircle ($`\frac{a}{x} + \frac{b}{y} + \frac{c}{z} = 0`$)?
+- What is the equation of the polar wrt the circumcircle (circumcircle polar), of a point $`(\tau_1 : \tau_2 : \tau_3)`$ in trilinear form?
+- Is the Lemoine Axis the only line which is the circumcircle polar of a point (K) and also the central line of that point's IC ie. G?
 
