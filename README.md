@@ -48,4 +48,13 @@ Isogonal Conjugate (IC) of a straight line L, is a circumconic (and vice versa).
 - Let line L be $`\tau_1x + \tau_2y + \tau_3z = 0`$. Then IC(L) is $`\frac{\tau_1}{x} + \frac{\tau_2}{y} + \frac{\tau_3}{z} = 0`$. L is called the Central Line of the point $`(\tau_1 : \tau_2 : \tau_3)`$.
 - Center of IC(L) is $`\tau_1(-a\tau_1 + b\tau_2 + c\tau_3) : do : do`$.
 - 4th Point of IC(L) is $`(a\tau_2 - b\tau_1)(a\tau_3 - c\tau_1) : do : do`$.
+- The point $`(\tau_1 : \tau_2 : \tau_3)`$ is the perspector of the reference Triangle $`\Delta ABC`$ and its Polar Triangle wrt the circumconic  $`\frac{\tau_1}{x} + \frac{\tau_2}{y} + \frac{\tau_3}{z} = 0`$.
+     - Note: The perspector of $`\Delta ABC`$ and its polar triangle with respect to a given conic is simply called the perspector of that conic.
+- Point $Q$ is the Center of the IC of Central Line L of Point $P$ iff Point $P$ is the Center of the IC of Central Line L of Point $Q$.
+     - Ie, $$Q = Center(IC(L(P))) \iff P = Center(IC(L(Q))$$.
+     - This means, the center of circumconic $`\frac{\tau_1}{x} + \frac{\tau_2}{y} + \frac{\tau_3}{z} = 0`$ is the perspector of the circumconic centered at $`(\tau_1 : \tau_2 : \tau_3)`$, and vice versa. This is because the Center of the circumconic $`\frac{\tau_1(-a\tau_1 + b\tau_2 + c\tau_3)}{x} : \frac{do}{y} : \frac{do}{z} = 0`$ is simply the point $`(\tau_1 : \tau_2 : \tau_3)`$.
+- Point $`X_n`$, say $`(\tau_1 : \tau_2 : \tau_3)`$, is the crossdifference of every pair of points on line $`\tau_1x + \tau_2y + \tau_3z = 0`$. This line is denoted by $`L_n`$ in ETC. Further, $`X_n`$ is the only point that is the crossdifference of any pair of points on this line.
+
+
+Question: Is the Steiner Circumellipse the only conic whose center ($G$) is its own perspector?
 
