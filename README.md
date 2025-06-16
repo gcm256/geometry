@@ -26,7 +26,7 @@ Conics, Modern Triangle Geometry, Triangle Centers, Triangle Conics, Circumconic
      - If the given point lies in the region in between the asymptotes and a branch, two tangents can be drawn. Both touching the same branch.
      - If the given point lies in the region in between the asymptotes not containing any branch, then also two tangents can be drawn. One tangent each to each branch.
 - Normals from a given point: 0, 1, 2, 3, or 4 normals are possible depending on the location of the point.
-     - TODO: What are these regions that decide the number of normals that can be drawn from a point in the region?
+     - ‼️: TODO: What are these regions that decide the number of normals that can be drawn from a point in the region?
 - Number of tangents or normals from a given point relate to the Theory of Equations. Beacuse, we need to find the number of possible real roots (and their multiplicities), of the equation obtained by passing the general equation of tangent or normal, through the given point.
 
 ## Circumconics
