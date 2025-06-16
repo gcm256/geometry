@@ -10,7 +10,7 @@ Conics, Modern Triangle Geometry, Triangle Centers, Triangle Conics, Circumconic
        with slope $`{1} \over {t+t'}`$.
      - A circle with any focal chord as diameter, is tangent to the directrix.
      - The intersection points of any three tangents to a parabola, are vertices of a triangle whose orthocenter belongs to the directrix of the parabola and the circumcircle of the triangle passes through the focus of the parabola.
-     - The foot of the $`\perp`$ from the focus to any tangent, always lies on the tangent at vertex. Ref: Ross Honsberger, Episodes in Nineteenth and Twentieth Century Euclidean Geometry, Mathematical Assoc. of Amer., Chapter 5, pp. 47-48, 1995.
+     - The foot of the $`\perp`$ from the focus to any tangent, always lies on the tangent at vertex. Ref: Ross Honsberger, ***Episodes in Nineteenth and Twentieth Century Euclidean Geometry***, Mathematical Assoc. of Amer., Chapter 5, pp. 47-48, 1995.
 3. In ellipse and hyperbola only,
      - Product of the lengths of the two $`\perp`$'s from foci on any tangent is $`b^2`$ where $`b`$ is the length of the semi-minor or semi-conjugate axis of ellipse or hyperbola respectively.
 5. Reflection property for all conics.
@@ -50,7 +50,7 @@ Isogonal Conjugate (IC) of a straight line L, is a circumconic (and vice versa).
 
 - If the angle between asymptotes of IC(L) is $`\theta`$ and the angle of incidence of L on the circumcircle is $`i`$, then $`\theta + i = 90^\circ`$.
 
-  Ref: [Casey, J. A Treatise on the Analytical Geometry of the Point, Line, Circle, and Conic Sections, Containing an Account of Its Most Recent Extensions with Numerous Examples, 2nd rev. enl. ed. Dublin: Hodges, Figgis, & Co., Article 342, p. 428, 1893.](https://archive.org/details/treatiseonanalyt00caseuoft/treatiseonanalyt00caseuoft/page/n465/mode/2up)
+  Ref: [Casey, J. *A Treatise on the Analytical Geometry of the Point, Line, Circle, and Conic Sections, Containing an Account of Its Most Recent Extensions with Numerous Examples, 2nd rev. enl. ed.* Dublin: Hodges, Figgis, & Co., Article 342, p. 428, 1893.](https://archive.org/details/treatiseonanalyt00caseuoft/treatiseonanalyt00caseuoft/page/n465/mode/2up)
 
 ### Using Trilinear
 
