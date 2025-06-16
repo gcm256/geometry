@@ -17,11 +17,16 @@ The line through $X_{20}$, $O$, $G$, $X_5$, $H$ is Euler Line. The Green Line in
 The line through $I$, $G$, $X_{10}$, $X_8$ is Nagel Line. The Blue Line in the figure.
 
 - $X_{10}$ is midpoint of $I$ and $X_8$.
-- $\overline{IG}:\overline{GX_8} = 1:2$.
+- $\overline{IG}:\overline{GX_8} = 1:2$.[^1]
 
 ## Fuhrmann Center
 
-The segment $`\overline{HX_8}`$ is the diameter of the Fuhrmann Circle. The Red Line in the figure.
+The segment $`\overline{HX_8}`$ is the diameter of the Fuhrmann Circle.[^2] The Red Line in the figure. 
 
 - $\therefore$ Center of Fuhrmann Circle, $Fu(X_{355})$, is midpoint of $H$ and $X_8$.
 
+
+## References
+
+[^1]: Ross Honsberger, ***Episodes in Nineteenth and Twentieth Century Euclidean Geometry***, Mathematical Assoc. of Amer., Chapter 1, pp. 7-8, 1995.
+[^2]: Ross Honsberger, ***Episodes in Nineteenth and Twentieth Century Euclidean Geometry***, Mathematical Assoc. of Amer., Chapter 6, pp. 49-50, 1995.
