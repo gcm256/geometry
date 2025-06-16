@@ -16,7 +16,7 @@ The line through $X_{20}$, $O$, $G$, $X_5$, $H$ is Euler Line. The Green Line in
 
 The line through $I$, $G$, $X_{10}$, $X_8$ is Nagel Line. The Blue Line in the figure.
 
-- $X_{10}$ is midpoint of $I$ and $X8$.
+- $X_{10}$ is midpoint of $I$ and $X_8$.
 - $\overline{IG}:\overline{GX_8} = 1:2$.
 
 ## Fuhrmann Center
