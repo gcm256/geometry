@@ -83,7 +83,7 @@ Trilinear Polar of:
 - What is the angle of intersection of a line $`\tau_1x + \tau_2y + \tau_3z = 0`$ with the circumcircle ($`\dfrac{a}{x} + \dfrac{b}{y} + \dfrac{c}{z} = 0`$)?
 - What is the equation of the polar wrt the circumcircle (circumcircle polar), of a point $`(\tau_1 : \tau_2 : \tau_3)`$ in trilinear form?
      - Is it $`\sum \dfrac{ax}{\tau^2} = 0`$ ?
-     - In general is $`\sum \dfrac{\tau 'x}{\tau^2} = 0`$ the Polar of point $`P(\tau_1 : \tau_2 : \tau_3)`$ wrt the circumconic $`\sum \dfrac{\tau '}{x} = 0`$ ?
+     - In general, is $`\sum \dfrac{\tau 'x}{\tau^2} = 0`$ the Polar of point $`P(\tau_1 : \tau_2 : \tau_3)`$ wrt the circumconic $`\sum \dfrac{\tau '}{x} = 0`$ ?
           - If so, putting $`\tau ' = \tau`$ above, is the Trilinear Polar of $P(\tau$) ie $`\sum \dfrac{x}{\tau} = 0`$, also the Polar of $P$ wrt its own circumconic $`\sum \dfrac{\tau}{x} = 0`$? (This circumconic is the IC of $P$'s own Central Line).
 - Is the Lemoine Axis the only line which is the circumcircle polar of a point (K) and also the central line of that point's IC ie. G?
      - In other words, is K the only point whose circumcircle polar (CP) and Trilinear Polar (TP) are the same? (Both CP and TP being the Lemoine Axis).
