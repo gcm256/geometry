@@ -7,7 +7,7 @@ Conics, Modern Triangle Geometry, Triangle Centers, Triangle Conics, Circumconic
      - Mid points of any number of parallel chords are all collinear and lie on a line parallel to the axis.
      - Line joining the intersection of two tangents and the mid point of their chord-of-contact, is parallel to the axis.
      - Both have $`y`$ co-ordinate $`a(t+t')`$ where $`t`$ and $`t'`$ are parameters of the extremities of any of the parallel chords of $`y^2 = 4ax`$
-       with slope $`{1} \over {t+t'}`$.
+       with slope $`\dfrac{1}{t+t'}`$.
      - A circle with any focal chord as diameter, is tangent to the directrix.
      - The intersection points of any three tangents to a parabola, are vertices of a triangle whose orthocenter belongs to the directrix of the parabola and the circumcircle of the triangle passes through the focus of the parabola.
      - The foot of the $`\perp`$ from the focus to any tangent, always lies on the tangent at vertex. Ref: Ross Honsberger, ***Episodes in Nineteenth and Twentieth Century Euclidean Geometry***, Mathematical Assoc. of Amer., Chapter 5, pp. 47-48, 1995.
@@ -54,25 +54,33 @@ Isogonal Conjugate (IC) of a straight line L, is a circumconic (and vice versa).
 
 ### Using Trilinear
 
-- IC of line $`f(x, y, z) = 0`$ is the circumconic $`f(\frac{1}{x}, \frac{1}{y}, \frac{1}{z})`$, and vice versa.
-- Let line L be $`\tau_1x + \tau_2y + \tau_3z = 0`$. Then IC(L) is $`\frac{\tau_1}{x} + \frac{\tau_2}{y} + \frac{\tau_3}{z} = 0`$. L is called the Central Line of the point $`(\tau_1 : \tau_2 : \tau_3)`$.
+- IC of line $`f(x, y, z) = 0`$ is the circumconic $`f(\dfrac{1}{x}, \dfrac{1}{y}, \dfrac{1}{z})`$, and vice versa.
+- Let line L be $`\tau_1x + \tau_2y + \tau_3z = 0`$. Then IC(L) is $`\dfrac{\tau_1}{x} + \dfrac{\tau_2}{y} + \dfrac{\tau_3}{z} = 0`$. L is called the Central Line of the point $`(\tau_1 : \tau_2 : \tau_3)`$.
 - Center of IC(L) is $`\tau_1(-a\tau_1 + b\tau_2 + c\tau_3) : do : do`$.
 - 4th Point of IC(L) is $`(a\tau_2 - b\tau_1)(a\tau_3 - c\tau_1) : do : do`$.
-- The point $`(\tau_1 : \tau_2 : \tau_3)`$ is the perspector of the reference Triangle $`\Delta ABC`$ and its Polar Triangle (Tangential Triangle) wrt the circumconic $`\frac{\tau_1}{x} + \frac{\tau_2}{y} + \frac{\tau_3}{z} = 0`$.
+- The point $`(\tau_1 : \tau_2 : \tau_3)`$ is the perspector of the reference Triangle $`\Delta ABC`$ and its Polar Triangle (Tangential Triangle) wrt the circumconic $`\dfrac{\tau_1}{x} + \dfrac{\tau_2}{y} + \dfrac{\tau_3}{z} = 0`$.
      - Note: The perspector of $`\Delta ABC`$ and its polar triangle with respect to a given conic is simply called the perspector of that conic.
-     - ❓ What is equation of the perspectrix (perspective axis) of the reference Triangle $`\Delta ABC`$ and its Polar Triangle (Tangential Triangle) wrt the circumconic  $`\frac{\tau_1}{x} + \frac{\tau_2}{y} + \frac{\tau_3}{z} = 0`$❓ Is it the Trilinear Polar of $`(\tau_1 : \tau_2 : \tau_3)`$?
-     - Trilinear Polar (TP) of Point $`P(\tau_1 : \tau_2 : \tau_3)`$ is the perspectrix of the reference Triangle $`\Delta ABC`$ and $P$'s Cevian Triangle. Their perspector is $P$ by definition. Equation of TP of $P$ is $`\frac{x}{\tau_1} + \frac{y}{\tau_2} + \frac{z}{\tau_3} = 0`$. $\therefore$ TP of $P$ is the Central Line of IC($P$), and vice versa.
-     - $\therefore$ A point $P(\tau_1 : \tau_2 : \tau_3)$ is the perspector of 3 triangles: the reference Triangle $`\Delta ABC`$, $P$'s Cevian Triangle, and the Polar (Tangential) Triangle wrt the circumconic  $`\frac{\tau_1}{x} + \frac{\tau_2}{y} + \frac{\tau_3}{z} = 0`$. So do these 3 triangles also have the same perspectrix (namely the Trilinear Polar of $P$)?❓
+     - ❓ What is equation of the perspectrix (perspective axis) of the reference Triangle $`\Delta ABC`$ and its Polar Triangle (Tangential Triangle) wrt the circumconic  $`\dfrac{\tau_1}{x} + \dfrac{\tau_2}{y} + \dfrac{\tau_3}{z} = 0`$❓ Is it the Trilinear Polar of $`(\tau_1 : \tau_2 : \tau_3)`$?
+     - Trilinear Polar (TP) of Point $`P(\tau_1 : \tau_2 : \tau_3)`$ is the perspectrix of the reference Triangle $`\Delta ABC`$ and $P$'s Cevian Triangle. Their perspector is $P$ by definition. Equation of TP of $P$ is $`\dfrac{x}{\tau_1} + \dfrac{y}{\tau_2} + \dfrac{z}{\tau_3} = 0`$. $\therefore$ TP of $P$ is the Central Line of IC($P$), and vice versa.
+     - $\therefore$ A point $P(\tau_1 : \tau_2 : \tau_3)$ is the perspector of 3 triangles: the reference Triangle $`\Delta ABC`$, $P$'s Cevian Triangle, and the Polar (Tangential) Triangle wrt the circumconic  $`\dfrac{\tau_1}{x} + \dfrac{\tau_2}{y} + \dfrac{\tau_3}{z} = 0`$. So do these 3 triangles also have the same perspectrix (namely the Trilinear Polar of $P$)?❓
 - Point $Q$ is the Center of the IC of Central Line L of Point $P$ iff Point $P$ is the Center of the IC of Central Line L of Point $Q$.
      - ie, $$Q = Center(IC(L(P))) \iff P = Center(IC(L(Q))$$.
-     - This means, the center of circumconic $`\frac{\tau_1}{x} + \frac{\tau_2}{y} + \frac{\tau_3}{z} = 0`$ is the perspector of the circumconic centered at $`(\tau_1 : \tau_2 : \tau_3)`$, and vice versa. This is because the Center of the circumconic $`\frac{\tau_1(-a\tau_1 + b\tau_2 + c\tau_3)}{x} : \frac{do}{y} : \frac{do}{z} = 0`$ is simply the point $`(\tau_1 : \tau_2 : \tau_3)`$.
+     - This means, the center of circumconic $`\dfrac{\tau_1}{x} + \dfrac{\tau_2}{y} + \dfrac{\tau_3}{z} = 0`$ is the perspector of the circumconic centered at $`(\tau_1 : \tau_2 : \tau_3)`$, and vice versa. This is because the Center of the circumconic $`\dfrac{\tau_1(-a\tau_1 + b\tau_2 + c\tau_3)}{x} : \dfrac{do}{y} : \dfrac{do}{z} = 0`$ is simply the point $`(\tau_1 : \tau_2 : \tau_3)`$.
 - Point $`X_n`$, say $`(\tau_1 : \tau_2 : \tau_3)`$, is the crossdifference of every pair of points on line $`\tau_1x + \tau_2y + \tau_3z = 0`$. This line is denoted by $`L_n`$ in ETC. Further, $`X_n`$ is the only point that is the crossdifference of any pair of points on this line.
 
+### Trilinear Polar
+
+Trilinear Polar of:
+- $I$: $x + y + z = 0$ ie $L_1$ (Anti-orthic Axis)
+- $G$: $ax + by + cz = 0$ ie $L_6$ or $L_\infty$ (Line at Infinity)
+- $O$: $x { } \sec A + y { } \sec B + z { } \sec C = 0$ ie $L_4$ (What is its name?❓)
+- $H$: $x { } \cos A + y { } \cos B + z { } \cos C = 0$ ie $L_3$ (Orthic Axis)
+- $K$: $\dfrac{x}{a} + \dfrac{y}{b} + \dfrac{z}{c} = 0$ ie $L_2$ (Lemoine Axis)
 
 ## Questions 
 - Is the Steiner Circumellipse the only triangle-conic whose center ($G$) is its own perspector?
-- Is the circumconic $`\frac{\tau_1(-a\tau_1 + b\tau_2 + c\tau_3)}{x} : \frac{do}{y} : \frac{do}{z} = 0`$ the only circumconic with center $`(\tau_1 : \tau_2 : \tau_3)`$?
-- What is the angle of intersection of a line $`\tau_1x + \tau_2y + \tau_3z = 0`$ with the circumcircle ($`\frac{a}{x} + \frac{b}{y} + \frac{c}{z} = 0`$)?
+- Is the circumconic $`\dfrac{\tau_1(-a\tau_1 + b\tau_2 + c\tau_3)}{x} : \dfrac{do}{y} : \dfrac{do}{z} = 0`$ the only circumconic with center $`(\tau_1 : \tau_2 : \tau_3)`$?
+- What is the angle of intersection of a line $`\tau_1x + \tau_2y + \tau_3z = 0`$ with the circumcircle ($`\dfrac{a}{x} + \dfrac{b}{y} + \dfrac{c}{z} = 0`$)?
 - What is the equation of the polar wrt the circumcircle (circumcircle polar), of a point $`(\tau_1 : \tau_2 : \tau_3)`$ in trilinear form?
 - Is the Lemoine Axis the only line which is the circumcircle polar of a point (K) and also the central line of that point's IC ie. G?
 
