@@ -83,4 +83,5 @@ Trilinear Polar of:
 - What is the angle of intersection of a line $`\tau_1x + \tau_2y + \tau_3z = 0`$ with the circumcircle ($`\dfrac{a}{x} + \dfrac{b}{y} + \dfrac{c}{z} = 0`$)?
 - What is the equation of the polar wrt the circumcircle (circumcircle polar), of a point $`(\tau_1 : \tau_2 : \tau_3)`$ in trilinear form?
 - Is the Lemoine Axis the only line which is the circumcircle polar of a point (K) and also the central line of that point's IC ie. G?
+- What kind of circumconics are IC's of $L_1$, $L_3$, $L_4$ ? ❓ 
 
