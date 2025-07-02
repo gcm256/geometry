@@ -25,8 +25,20 @@ The segment $`\overline{HX_8}`$ is the diameter of the Fuhrmann Circle.[^2] The 
 
 - $\therefore$ Center of Fuhrmann Circle, $Fu(X_{355})$, is midpoint of $H$ and $X_8$.
 
+## Bevan Point
+
+Bevan Point ($X_{40}$), often denoted by $V$ or $J$, is the circumcenter of the Excentral Triangle.[^3][^4]
+
+<img width="817" alt="Euler Line, Nagel Line, Fuhrmann Center, Bevan Point" src="https://github.com/user-attachments/assets/71246c4f-041d-4598-84de-32a8b249e361" />
+
+
+- $O$ is midpoint of $I$ and $J$.
+- $X_{10}$ is midpoint of $H$ and $J$.
+- $J$ is midpoint of $X_8$ and $X_{20}$.
 
 ## References
 
 [^1]: Ross Honsberger, ***Episodes in Nineteenth and Twentieth Century Euclidean Geometry***, Mathematical Assoc. of Amer., Chapter 1, pp. 7-8, 1995.
 [^2]: Ross Honsberger, ***Episodes in Nineteenth and Twentieth Century Euclidean Geometry***, Mathematical Assoc. of Amer., Chapter 6, pp. 49-50, 1995.
+[^3]: Gallatly, ***The Modern Geometry of the Triangle***, 2nd ed, 1910, pp. 1-2.
+[^4]: https://mathworld.wolfram.com/BevanPoint.html
