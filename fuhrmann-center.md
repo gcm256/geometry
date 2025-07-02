@@ -36,6 +36,17 @@ Bevan Point ($X_{40}$), often denoted by $V$ or $J$, is the circumcenter of the 
 - $X_{10}$ is midpoint of $H$ and $J$.
 - $J$ is midpoint of $X_8$ and $X_{20}$.
 
+> [!NOTE]
+> - $HIJX_8$ is a parallelogram, since $X_{10}$ bisects both diagonals. Therefore, $`\overline{IJ} = \overline{HX_8}`$ and $`\overline{IH} = \overline{JX_8}`$.
+> - $X_{10}$ is midpoint of $O$ and $Fu$.
+> - $X_5$ is midpoint of $I$ and $Fu$.
+
+> [!CAUTION]
+> In general, $`\overline{IG} \neq \overline{OG}`$. See another figure below.
+
+<img width="778" alt="HIJX8 Parallelogram" src="https://github.com/user-attachments/assets/e4368581-c310-4546-a566-efb75e24c1fd" />
+
+
 ## References
 
 [^1]: Ross Honsberger, ***Episodes in Nineteenth and Twentieth Century Euclidean Geometry***, Mathematical Assoc. of Amer., Chapter 1, pp. 7-8, 1995.
