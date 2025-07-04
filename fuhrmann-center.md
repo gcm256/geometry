@@ -27,7 +27,7 @@ The segment $`\overline{HX_8}`$ is the diameter of the Fuhrmann Circle.[^2] The 
 
 ## Bevan Point
 
-Bevan Point ($X_{40}$), often denoted by $V$ or $J$, is the circumcenter of the Excentral Triangle.[^3][^4]
+Bevan Point ($X_{40}$), often denoted by $V$ or $J$, is the circumcenter of the [Excentral Triangle](https://mathworld.wolfram.com/ExcentralTriangle.html).[^3][^4]
 
 <img width="817" alt="Euler Line, Nagel Line, Fuhrmann Center, Bevan Point" src="https://github.com/user-attachments/assets/71246c4f-041d-4598-84de-32a8b249e361" />
 
