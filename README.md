@@ -9,8 +9,8 @@ Conics, Modern Triangle Geometry, Triangle Centers, Triangle Conics, Circumconic
      - Both have $`y`$ co-ordinate $`a(t+t')`$ where $`t`$ and $`t'`$ are parameters of the extremities of any of the parallel chords of $`y^2 = 4ax`$
        with slope $`\dfrac{1}{t+t'}`$.
      - A circle with any focal chord as diameter, is tangent to the directrix.
-     - The intersection points of any three tangents to a parabola, are vertices of a triangle whose orthocenter belongs to the directrix of the parabola and the circumcircle of the triangle passes through the focus of the parabola.
-     - The foot of the $`\perp`$ from the focus to any tangent, always lies on the tangent at vertex. Ref: Ross Honsberger, ***Episodes in Nineteenth and Twentieth Century Euclidean Geometry***, Mathematical Assoc. of Amer., Chapter 5, pp. 47-48, 1995.
+     - The intersection points of any three tangents to a parabola, are vertices of a triangle whose orthocenter belongs to the directrix of the parabola[^5], and the circumcircle of the triangle passes through the focus of the parabola.[^3]
+     - The foot of the $`\perp`$ from the focus to any tangent, always lies on the tangent at vertex.[^3] 
 3. In ellipse and hyperbola only,
      - Product of the lengths of the two $`\perp`$'s from foci on any tangent is $`b^2`$ where $`b`$ is the length of the semi-minor or semi-conjugate axis of ellipse or hyperbola respectively.
 5. Reflection property for all conics.
@@ -48,9 +48,8 @@ Isogonal Conjugate (IC) of a straight line L, is a circumconic (and vice versa).
 
 ### Circumhyperbolas
 
-- If the angle between asymptotes of IC(L) is $`\theta`$ and the angle of incidence of L on the circumcircle is $`i`$, then $`\theta + i = 90^\circ`$.
+- If the angle between asymptotes of IC(L) is $`\theta`$ and the angle of incidence of L on the circumcircle is $`i`$, then $`\theta + i = 90^\circ`$.[^4]
 
-  Ref: [Casey, J. *A Treatise on the Analytical Geometry of the Point, Line, Circle, and Conic Sections, Containing an Account of Its Most Recent Extensions with Numerous Examples, 2nd rev. enl. ed.* Dublin: Hodges, Figgis, & Co., Article 342, p. 428, 1893.](https://archive.org/details/treatiseonanalyt00caseuoft/treatiseonanalyt00caseuoft/page/n465/mode/2up)
 
 ### Using Trilinear
 
@@ -90,6 +89,9 @@ Trilinear Polar of:
 - What kind of circumconics are IC's of $L_1$, $L_3$, $L_4$ ? ❓ [^1][^2]
 
 ## References
+[^3]: Ross Honsberger, ***Episodes in Nineteenth and Twentieth Century Euclidean Geometry***, Mathematical Assoc. of Amer., Chapter 5, pp. 47-48, 1995.
+[^4]: [John Casey, ***A Treatise on the Analytical Geometry of the Point, Line, Circle, and Conic Sections, Containing an Account of Its Most Recent Extensions, with Numerous Examples., 2nd rev. enl. ed.*** Dublin: Hodges, Figgis, & Co., Article 342, p. 428, 1893.](https://archive.org/details/treatiseonanalyt00caseuoft/treatiseonanalyt00caseuoft/page/n465/mode/2up)
+[^5]: Steiner's Theorem. [John Wellesley Russell, ***An Elementary Treatise on Pure Geometry with Numerous Examples***, p. 161, 1893](https://archive.org/details/cu31924059551501/page/n184/mode/1up)
 [^1]: https://www.geogebra.org/classic/nvvcfq36
 [^2]: https://www.geogebra.org/m/nvvcfq36
 
