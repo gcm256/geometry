@@ -14,7 +14,7 @@
 
 ---
 
-# Formulas for Lengths of Some Special Cevians and Triangle Centers from a Vertex
+# Formulas for Distances of $O$, $G$, $I$, $H$ from a Vertex. Also Formulas for Their Cevian Lengths
 
 <img width="719" alt="Cevian Lengths" src="https://github.com/user-attachments/assets/4acef8fb-35c2-4a0c-8bc6-01fe4bafc061" />
 
