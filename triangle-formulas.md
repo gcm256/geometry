@@ -62,7 +62,7 @@ $\therefore \\; \overline{OM_a} = R\\, \cos A = \dfrac{1}{2}\overline{AH}$
 ## Formulas for Distances Amongst $O$, $G$, $I$, $H$
 
 - 🟣🟢 $\overline{IG} =$ See [^18][^19][^20]
-- 🟣🟠 $\overline{IO} = \sqrt{R^2 - 2Rr}$ [^20][^21]
+- 🟣🟠 $\overline{IO} = \sqrt{R^2 - 2Rr}$ [^20][^21][^33]
 - 🟣🔴 $\overline{IH} = \sqrt{2r^2 - 4R^2 \\: \cos A \\: \cos B \\: \cos C}$ [^22]
 - 🟠🔴 $\overline{OH} = R\sqrt{1 - 8\\: \cos A \\: \cos B \\: \cos C} = 3R\sqrt{1 - \dfrac{a^2+b^2+c^2}{9R^2}}$
 
@@ -161,3 +161,4 @@ See [^16][^17]
 [^30]: https://www.geogebra.org/m/TGHZwMFW
 [^31]: https://www.geogebra.org/m/sRVERPyd
 [^32]: https://mathworld.wolfram.com/TriangleCentroid.html
+[^33]: https://mathworld.wolfram.com/EulerTriangleFormula.html
