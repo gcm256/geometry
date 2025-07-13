@@ -67,11 +67,11 @@ $\therefore \\; \overline{OM_a} = R\\, \cos A = \dfrac{1}{2}\overline{AH}$
 - 🟠🔴 $\overline{OH} = R\sqrt{1 - 8\\: \cos A \\: \cos B \\: \cos C} = 3R\sqrt{1 - \dfrac{a^2+b^2+c^2}{9R^2}}$
 
 > [!NOTE]
-> And, we already know:
+> And, we already know:[^32]
 > - 🟢🟠 $\overline{GO} = \dfrac{1}{3}\overline{OH}$
 > - 🟢🔴 $\overline{GH} = \dfrac{2}{3}\overline{OH}$
 
-# Pedal Triangle[^4], Pedal Circle[^5], Cevian Triangle[^6]
+# Pedal Triangle[^4], Pedal Circle[^5], Cevian Triangle[^6], Polar Triangle[^26]
 
 - Radius of Pedal Circle of a point $P$\
   $$r_P = \dfrac{\overline{PA}.\overline{PB}.\overline{PC}}{2(R^2 - \overline{PO}^2)}$$
@@ -79,22 +79,55 @@ $\therefore \\; \overline{OM_a} = R\\, \cos A = \dfrac{1}{2}\overline{AH}$
 > [!NOTE] 
 > Notation:
 > 
-> $P$ = A Point.
+> $P$ = A Point. $P(\tau)$ = A Point $P$ with Trilinear coordinates $(\tau_1, \tau_2, \tau_3)$.
 >
-> $P^*$ = Isogonal Conjugate of $P$.[^7]
+> $`P^*`$ = Isogonal Conjugate of $P$.[^7][^31]
 >
 > $P^+$ = Isotomic Conjugate of $P$.[^8]
 >
 > $P^\\#$ = Cyclocevian Conjugate of $P$.[^9]
 
-- Pedal Triangles of $P$ and $P^*$ share the same circumcircle.
-- Cevian Triangles of $P$, $P^+$, $P^\\#$ (by defn of Cyclocevian Conjugate), $(P^+)^\\#$ (also by defn of Cyclocevian Conjugate), and $(P^\\#)^+$ (because of $P^\\#$) share the same circumcircle.
-- ❓Is $(P^+)^\\#$ the same point as $(P^\\#)^+$ ? ie is the Cyclocevian Conjugate of the Isotomic Conjugate of a point $P$, the same as the Isotomic Conjugate of the Cyclocevian Conjugate of $P$ ? ie do Cyclocevian Conjugation and Isotomic Cojugation operations commute with each other?❓ (Most probably No. Check this.)
+- Pedal Triangles of $P$ and $`P^*`$ share the same circumcircle.
+  - Its center is the midpoint of $P$ and $`P^*`$. But diameter $\neq |PP^*|$.
+  - Also, The 3 Cevians of one isogonal conjugate are $\perp$ to the 3 corresponding sides, respectively, of the Pedal Triangle of the other isogonal conjugate.[^30]
+- Cevian Triangles of $P$, $P^+$, $P^\\#$ (by defn of Cyclocevian Conjugate), $(P^+)^\\#$ (also by defn of Cyclocevian Conjugate), and $(P^\\#)^+$ (because of $P^\\#$) share the same circumcircle. ‼️Check this[^23]‼️.
+- ❓Is $(P^+)^\\#$ the same point as $(P^\\#)^+$ ? ie is the Cyclocevian Conjugate of the Isotomic Conjugate of a point $P$, the same as the Isotomic Conjugate of the Cyclocevian Conjugate of $P$ ? ie do Cyclocevian Conjugation and Isotomic Cojugation operations commute with each other?❓ (Most probably No. ‼️Check this‼️.)
+
+
+- $P(\tau)$ is the Perspector[^27] of the reference $\Delta ABC$, its Cevian Triangle, and the Polar Triangle of $\sum \dfrac{\tau}{x}=0$.
+  - When $P(\tau)$ lies inside the Medial Triangle, its Anticevian Triangle is nothing but the Polar Triangle of $\sum \dfrac{\tau}{x}=0$.
+  - Otherwise, its Anticevian Triangle does not exist, because not all of the 3 vertices $A$, $B$, $C$ lie on the side segments of the Polar Triangle.
+- The Trilinear Polar[^29] of $P(\tau)$ ie $\sum \dfrac{x}{\tau} = 0$ is the Perspectrix[^28] of all these Triangles ($\Delta ABC$, $P(\tau)$'s Cevian Triangle, and Polar Triangle of $\sum \dfrac{\tau}{x}=0$, which is $P(\tau)$'s Anticevian Triangle when the latter exists).
 
 ## Pedal-Cevian Points[^10], CPCC Points[^11], Darboux Cubic[^12], Thomson Cubic[^13], Lucas Cubic[^14][^15]
 
 See CTC[^12] Table http://bernard-gibert.fr/Tables/table11.html
+
 See [^16][^17]
+
+---
+
+- Antipedal Triangle[^24] of point $X$ $\equiv$ Anticevian Triangle[^25] of point $Y$\
+  $$\iff$$ (iff)\
+  Antipedal Triangle of point $`X^*`$ $\equiv$ Anticevian Triangle of point $`Y^*`$
+
+> [!NOTE]
+> $X$ and $`X^*`$ lie on Darboux Cubic, $Y$ and $`Y^*`$ lie on Thomson Cubic.
+
+---
+
+- Pedal Triangle of point $X$ $\equiv$ Cevian Triangle of point $Y$\
+  $$\iff$$ (iff)\
+  Pedal Triangle of point $`X^*`$ $\equiv$ Cevian Triangle of point $Y^\\#$
+
+> [!NOTE]
+> $X$ and $`X^*`$ lie on Darboux Cubic, $Y$ and $Y^{\\#}$ lie on Lucas Cubic[^15].
+
+## Questions
+
+- ❓❓ What is the Pedal Circle of $G$ (or of $K$ ie $`G^*`$) called?
+- ❓❓ What is the condition for a point $P(\tau)$ to lie inside the Medial Triangle?
+- ❓❓ If $P$ lies inside the Medial Triangle, does $`P^*`$ have to lie inside it also?
 
 [^1]: https://mathworld.wolfram.com/Cevian.html
 [^2]: https://mathworld.wolfram.com/Excircles.html
@@ -118,3 +151,13 @@ See [^16][^17]
 [^20]: https://mathworld.wolfram.com/Incenter.html
 [^21]: https://mathworld.wolfram.com/Circumcenter.html
 [^22]: https://mathworld.wolfram.com/Orthocenter.html
+[^23]: https://math.stackexchange.com/questions/1239973/what-is-the-isotomic-conjugate-version-of-the-six-point-circle-of-isogonal-conju
+[^24]: https://mathworld.wolfram.com/AntipedalTriangle.html
+[^25]: https://mathworld.wolfram.com/AnticevianTriangle.html
+[^26]: https://mathworld.wolfram.com/PolarTriangle.html
+[^27]: https://mathworld.wolfram.com/Perspector.html
+[^28]: https://mathworld.wolfram.com/Perspectrix.html
+[^29]: https://mathworld.wolfram.com/TrilinearPolar.html
+[^30]: https://www.geogebra.org/m/TGHZwMFW
+[^31]: https://www.geogebra.org/m/sRVERPyd
+[^32]: https://mathworld.wolfram.com/TriangleCentroid.html
