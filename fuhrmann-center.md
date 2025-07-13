@@ -25,6 +25,8 @@ The segment $`\overline{HX_8}`$ is the diameter of the Fuhrmann Circle.[^2] The 
 
 - $\therefore$ Center of Fuhrmann Circle, $Fu(X_{355})$, is midpoint of $H$ and $X_8$.
 
+The [Fuhrmann Circle](https://mathworld.wolfram.com/FuhrmannCircle.html) is a [Central Circle](https://mathworld.wolfram.com/CentralCircle.html).
+
 ## Bevan Point
 
 Bevan Point ($X_{40}$), often denoted by $V$ or $J$, is the circumcenter of the [Excentral Triangle](https://mathworld.wolfram.com/ExcentralTriangle.html).[^3][^4]
