@@ -92,10 +92,13 @@ $\therefore \\; \overline{OM_a} = R\\, \cos A = \dfrac{1}{2}\overline{AH}$
 > $P^©$ = Complement of $P$.[^35]
 
 - Pedal Triangles of $P$ and $`P^*`$ share the same circumcircle.
-  - Its center is the midpoint of $P$ and $`P^*`$. But diameter $\neq |PP^*|$.
-  - Also, The 3 Cevians of one isogonal conjugate are $\perp$ to the 3 corresponding sides, respectively, of the Pedal Triangle of the other isogonal conjugate.[^30]
-- Cevian Triangles of $P$, $P^+$, $P^\\#$ (by defn of Cyclocevian Conjugate), $(P^+)^\\#$ (also by defn of Cyclocevian Conjugate), and $(P^\\#)^+$ (because of $P^\\#$) share the same circumcircle. ‼️Check this[^23]‼️.[^38]
-- ❓Is $(P^+)^\\#$ the same point as $(P^\\#)^+$ ? ie is the Cyclocevian Conjugate of the Isotomic Conjugate of a point $P$, the same as the Isotomic Conjugate of the Cyclocevian Conjugate of $P$ ? ie do Cyclocevian Conjugation and Isotomic Cojugation operations commute with each other?❓ (Most probably No. ‼️Check this‼️.)
+  - Its center is the midpoint of $P$ and $`P^*`$. But diameter $\neq \overline{PP^*}$.
+  - Also, the 3 Cevians of one isogonal conjugate are $\perp$ to the 3 corresponding sides, respectively, of the Pedal Triangle of the other isogonal conjugate.[^30]
+  - Converse is also true. Two points with a common Pedal Circle, must be isogonal conjugates. This can be proved by contradiction since at most two points can have a commom Pedal Circle.
+    - Because one side of a triangle is a straight line which can cut a circle in at most two points.
+    - Therefore, also, at most two points can have a common Cevian Circle.
+- Cevian Triangles of $P$ and $P^+$ $\color{red}DO$ $\color{red}NOT$ share the same circumcircle. ‼️Check this[^23]‼️.[^38]
+- Cevian Triangles of $P$ and $P^\\#$ share the same circumcircle (by definition).[^9][^40]
 
 
 - $P(\tau)$ is the Perspector[^27] of the reference $\Delta ABC$, its Cevian Triangle, and the Polar Triangle of $\sum \dfrac{\tau}{x}=0$.
@@ -138,6 +141,10 @@ See [^16][^17]
   - Constructed $O^\\# = (X275^@)^+$. See [^39].
 - ❓❓ What is the Isotomic Conjugate of the Circumcenter?
   - Answer: $X264$
+- ❓❓ Is every circle some point's Pedal Circle? Is every circle some point's Cevian Circle?
+- ❓❓ Is $(P^+)^\\#$ the same point as $(P^\\#)^+$ ? ie is the Cyclocevian Conjugate of the Isotomic Conjugate of a point $P$, the same as the Isotomic Conjugate of the Cyclocevian Conjugate of $P$ ? ie do Cyclocevian Conjugation and Isotomic Cojugation operations commute with each other?❓ (Most probably No. ‼️Check this‼️.)
+  - ❓❓ Is $(P^\*)^\\# = (P^\\#)^\*$ ? (Most probably No. ‼️Check this‼️.)
+  - ❓❓ Is $(P^\*)^+ = (P^+)^\*$ ? (Most probably No. ‼️Check this‼️.)
 
 [^1]: https://mathworld.wolfram.com/Cevian.html
 [^2]: https://mathworld.wolfram.com/Excircles.html
@@ -178,3 +185,4 @@ See [^16][^17]
 [^37]: https://faculty.evansville.edu/ck6/encyclopedia/glossary.html
 [^38]: Ross Honsberger, Episodes in Nineteenth and Twentieth Century Euclidean Geometry, Mathematical Assoc. of Amer., Chapter 12, pp. 141-142, 1995.
 [^39]: https://www.geogebra.org/m/qtn8ntrz
+[^40]: https://mathworld.wolfram.com/CevianCircle.html
