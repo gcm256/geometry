@@ -71,6 +71,8 @@ $\therefore \\; \overline{OM_a} = R\\, \cos A = \dfrac{1}{2}\overline{AH}$
 > - 🟢🟠 $\overline{GO} = \dfrac{1}{3}\overline{OH}$
 > - 🟢🔴 $\overline{GH} = \dfrac{2}{3}\overline{OH}$
 
+---
+
 # Pedal Triangle[^4], Pedal Circle[^5], Cevian Triangle[^6], Polar Triangle[^26]
 
 - Radius of Pedal Circle of a point $P$\
@@ -112,23 +114,33 @@ See CTC[^12] Table http://bernard-gibert.fr/Tables/table11.html
 
 See [^16][^17]
 
----
+### $\mathcal{APAC}$-Points
 
 - Antipedal Triangle[^24] of point $X$ $\equiv$ Anticevian Triangle[^25] of point $Y$\
   $$\iff$$ (iff)\
   Antipedal Triangle of point $`X^*`$ $\equiv$ Anticevian Triangle of point $`Y^*`$
 
 > [!NOTE]
-> $X$ and $`X^*`$ lie on Darboux Cubic, $Y$ and $`Y^*`$ lie on Thomson Cubic.
+> - We will call such points $X$ as $\mathcal{APAC}$-Points, short for AntiPedalAntiCevian-Points.
+> - Locus of $X$ (and $`X^*`$) is Darboux Cubic[^41], Locus of $Y$ (and $`Y^*`$) is Thomson Cubic[^42].
 
----
+### $\mathcal{PC}$-Points
 
 - Pedal Triangle of point $X$ $\equiv$ Cevian Triangle of point $Y$\
   $$\iff$$ (iff)\
   Pedal Triangle of point $`X^*`$ $\equiv$ Cevian Triangle of point $Y^\\#$
 
 > [!NOTE]
-> $X$ and $`X^*`$ lie on Darboux Cubic, $Y$ and $Y^{\\#}$ lie on Lucas Cubic[^15].
+> - Such points $X$ are called as $\mathcal{PC}$-Points, short for PedalCevian-Points.[^38][^10]
+> - Locus of $X$ (and $`X^*`$) is Darboux Cubic[^41], Locus of $Y$ (and $Y^{\\#}$) is Lucas Cubic[^15][^43].
+
+### $\mathcal{CPCC}$-Points
+
+Those points which have ***Coincident Pedal and Cevian Circles*** are called $\mathcal{CPCC}$-Points. The Darboux Cubic and the Lucas Cubic intersect in exactly 9 points including $H$, $L=X20$, and the vertices $A$, $B$, $C$. The remaining 4 are the $\mathcal{CPCC}$-Points.[^11]
+
+- A Point M is a $\mathcal{CPCC}$-Point\
+  $$\iff$$ (iff)\
+  $M$'s Pedal Triangle is a Cevian Triangle (of some point $P$ on Lucas Cubic) and $M$'s Cevian Triangle is a Pedal Triangle (of some point $Q$ on Darboux Cubic). So $M$ lies on both the Darboux and the Lucas Cubics ie their points of intersection. So $P = M^\\#$ and $Q = M^\*$.[^11]
 
 ## Questions
 
@@ -186,3 +198,6 @@ See [^16][^17]
 [^38]: Ross Honsberger, Episodes in Nineteenth and Twentieth Century Euclidean Geometry, Mathematical Assoc. of Amer., Chapter 12, pp. 141-142, 1995.
 [^39]: https://www.geogebra.org/m/qtn8ntrz
 [^40]: https://mathworld.wolfram.com/CevianCircle.html
+[^41]: http://bernard-gibert.fr/Exemples/k004.html
+[^42]: http://bernard-gibert.fr/Exemples/k002.html
+[^43]: http://bernard-gibert.fr/Exemples/k007.html
