@@ -176,5 +176,5 @@ See [^16][^17]
 [^35]: https://mathworld.wolfram.com/Complement.html
 [^36]: https://faculty.evansville.edu/ck6/encyclopedia/etc.html
 [^37]: https://faculty.evansville.edu/ck6/encyclopedia/glossary.html
-[^38]: Ross Honsberger, Episodes in Nineteenth and Twentieth Century Euclidean Geometry, Mathematical Assoc. of Amer., Chapter 5, pp. 141-142, 1995.
+[^38]: Ross Honsberger, Episodes in Nineteenth and Twentieth Century Euclidean Geometry, Mathematical Assoc. of Amer., Chapter 12, pp. 141-142, 1995.
 [^39]: https://www.geogebra.org/m/qtn8ntrz
