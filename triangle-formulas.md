@@ -85,12 +85,16 @@ $\therefore \\; \overline{OM_a} = R\\, \cos A = \dfrac{1}{2}\overline{AH}$
 >
 > $P^+$ = Isotomic Conjugate of $P$.[^8]
 >
-> $P^\\#$ = Cyclocevian Conjugate of $P$.[^9]
+> $P^\\#$ = Cyclocevian Conjugate of $P$.[^9] = $`((((P^+)^©)^*)^@)^+`$[^37]
+>
+> $P^@$ = Anticomplement of $P$.[^34]
+>
+> $P^©$ = Complement of $P$.[^35]
 
 - Pedal Triangles of $P$ and $`P^*`$ share the same circumcircle.
   - Its center is the midpoint of $P$ and $`P^*`$. But diameter $\neq |PP^*|$.
   - Also, The 3 Cevians of one isogonal conjugate are $\perp$ to the 3 corresponding sides, respectively, of the Pedal Triangle of the other isogonal conjugate.[^30]
-- Cevian Triangles of $P$, $P^+$, $P^\\#$ (by defn of Cyclocevian Conjugate), $(P^+)^\\#$ (also by defn of Cyclocevian Conjugate), and $(P^\\#)^+$ (because of $P^\\#$) share the same circumcircle. ‼️Check this[^23]‼️.
+- Cevian Triangles of $P$, $P^+$, $P^\\#$ (by defn of Cyclocevian Conjugate), $(P^+)^\\#$ (also by defn of Cyclocevian Conjugate), and $(P^\\#)^+$ (because of $P^\\#$) share the same circumcircle. ‼️Check this[^23]‼️.[^38]
 - ❓Is $(P^+)^\\#$ the same point as $(P^\\#)^+$ ? ie is the Cyclocevian Conjugate of the Isotomic Conjugate of a point $P$, the same as the Isotomic Conjugate of the Cyclocevian Conjugate of $P$ ? ie do Cyclocevian Conjugation and Isotomic Cojugation operations commute with each other?❓ (Most probably No. ‼️Check this‼️.)
 
 
@@ -128,6 +132,12 @@ See [^16][^17]
 - ❓❓ What is the Pedal Circle of $G$ (or of $K$ ie $`G^*`$) called?
 - ❓❓ What is the condition for a point $P(\tau)$ to lie inside the Medial Triangle?
 - ❓❓ If $P$ lies inside the Medial Triangle, does $`P^*`$ have to lie inside it also?
+- ❓❓ What is the Cevian Triangle of the Circumcenter called?
+- ❓❓ What is the Cyclocevian Conjugate of the Circumcenter? Could not find on ETC[^36] after searching all Parts 1 through 36.
+  - Could only find on ETC that $`((O^+)^©)^*`$ is $X275$.
+  - Constructed $O^\\# = (X275^@)^+$. See [^39].
+- ❓❓ What is the Isotomic Conjugate of the Circumcenter?
+  - Answer: $X264$
 
 [^1]: https://mathworld.wolfram.com/Cevian.html
 [^2]: https://mathworld.wolfram.com/Excircles.html
@@ -162,3 +172,9 @@ See [^16][^17]
 [^31]: https://www.geogebra.org/m/sRVERPyd
 [^32]: https://mathworld.wolfram.com/TriangleCentroid.html
 [^33]: https://mathworld.wolfram.com/EulerTriangleFormula.html
+[^34]: https://mathworld.wolfram.com/Anticomplement.html
+[^35]: https://mathworld.wolfram.com/Complement.html
+[^36]: https://faculty.evansville.edu/ck6/encyclopedia/etc.html
+[^37]: https://faculty.evansville.edu/ck6/encyclopedia/glossary.html
+[^38]: Ross Honsberger, Episodes in Nineteenth and Twentieth Century Euclidean Geometry, Mathematical Assoc. of Amer., Chapter 5, pp. 141-142, 1995.
+[^39]: https://www.geogebra.org/m/qtn8ntrz
