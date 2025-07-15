@@ -104,9 +104,10 @@ $\therefore \\; \overline{OM_a} = R\\, \cos A = \dfrac{1}{2}\overline{AH}$
 
 
 - $P(\tau)$ is the Perspector[^27] of the reference $\Delta ABC$, its Cevian Triangle, and the Polar Triangle of $\sum \dfrac{\tau}{x}=0$.
-  - When $P(\tau)$ lies inside the Medial Triangle, its Anticevian Triangle is nothing but the Polar Triangle of $\sum \dfrac{\tau}{x}=0$.
-  - Otherwise, its Anticevian Triangle does not exist, because not all of the 3 vertices $A$, $B$, $C$ lie on the side segments of the Polar Triangle.
-- The Trilinear Polar[^29] of $P(\tau)$ ie $\sum \dfrac{x}{\tau} = 0$ is the Perspectrix[^28] of all these Triangles ($\Delta ABC$, $P(\tau)$'s Cevian Triangle, and Polar Triangle of $\sum \dfrac{\tau}{x}=0$, which is $P(\tau)$'s Anticevian Triangle when the latter exists).
+  - The Polar Triangle of $\sum \dfrac{\tau}{x}=0$ is the same as the Anticevian Triangle of $P(\tau)$.
+  - If $P(\tau)$ lies inside the Medial Triangle, its Anticevian Triangle ie the Polar Triangle of $\sum \dfrac{\tau}{x}=0$, circumscribes the reference $\Delta ABC$.
+  - Otherwise, the Anticevian / Polar Triangle won't circumscribe the reference $\Delta ABC$. Because, at least one of the 3 vertices $A$, $B$, $C$ will lie on the ***extended*** side(s) of the Anticevian / Polar Triangle.
+- The Trilinear Polar[^29] of $P(\tau)$ ie $\sum \dfrac{x}{\tau} = 0$ is the Perspectrix[^28] of all these Triangles ($\Delta ABC$, $P(\tau)$'s Cevian Triangle, and Polar Triangle of $\sum \dfrac{\tau}{x}=0$, which is $P(\tau)$'s Anticevian Triangle).
 
 ## Pedal-Cevian Points[^10], CPCC Points[^11], Darboux Cubic[^12], Thomson Cubic[^13], Lucas Cubic[^14][^15]
 
@@ -144,17 +145,20 @@ Those points which have ***Coincident Pedal and Cevian Circles*** are called $\m
 
 ## Questions
 
-- ❓❓ What is the Pedal Circle of $G$ (or of $K$ ie $`G^*`$) called?
+- ❓❓ Just as the Anticevian Triangle of point $P(\tau)$ is the Polar Triangle of circumconic $\sum \dfrac{\tau}{x}=0$, is the Antipedal Triangle of $P(\tau)$ the Polar Triangle of some circumconic? If so, what is the equation of that circumconic?
 - ❓❓ What is the condition for a point $P(\tau)$ to lie inside the Medial Triangle?
 - ❓❓ If $P$ lies inside the Medial Triangle, does $`P^*`$ have to lie inside it also?
-- ❓❓ What is the Cevian Triangle of the Circumcenter called?
+- ❓❓ What is the Pedal Circle of $G$ (or of $K$ ie $`G^*`$) called? What is the Pedal Triangle of $G$ called?
+- ❓❓ What are the Cevian Triangle and the Cevian Circle of the Circumcenter called?
+  - ✅ Cevian Triangle of $G$ = Medial Triangle = Pedal Triangle of $O$.
+  - ✅ Cevian Circle of $G$ = 9-point Circle (aka Medial Circle) = Pedal Circle of $O$ = Pedal Circle of $H$ ie $`O^*`$.
 - ❓❓ What is the Cyclocevian Conjugate of the Circumcenter? Could not find on ETC[^36] after searching all Parts 1 through 36.
   - Could only find on ETC that $`((O^+)^©)^*`$ is $X275$.
   - Constructed $O^\\# = (X275^@)^+$. See [^39].
 - ❓❓ What is the Isotomic Conjugate of the Circumcenter?
   - Answer: $X264$
 - ❓❓ Is every circle some point's Pedal Circle? Is every circle some point's Cevian Circle?
-- ❓❓ Is $(P^+)^\\#$ the same point as $(P^\\#)^+$ ? ie is the Cyclocevian Conjugate of the Isotomic Conjugate of a point $P$, the same as the Isotomic Conjugate of the Cyclocevian Conjugate of $P$ ? ie do Cyclocevian Conjugation and Isotomic Cojugation operations commute with each other?❓ (Most probably No. ‼️Check this‼️.)
+- ❓❓ Is $(P^+)^\\#$ the same point as $(P^\\#)^+$ ? ie is the Cyclocevian Conjugate of the Isotomic Conjugate of a point $P$, the same as the Isotomic Conjugate of the Cyclocevian Conjugate of $P$ ? ie do Cyclocevian Conjugation and Isotomic Cojugation operations commute with each other? (Most probably No. ‼️Check this‼️.)
   - ❓❓ Is $(P^\*)^\\# = (P^\\#)^\*$ ? (Most probably No. ‼️Check this‼️.)
   - ❓❓ Is $(P^\*)^+ = (P^+)^\*$ ? (Most probably No. ‼️Check this‼️.)
 
