@@ -41,6 +41,7 @@ Isogonal Conjugate (IC) of a straight line L, is a circumconic (and vice versa).
        - Is the IC of a circumcircle diamater L.
        - Passes through the orthocenter $`H`$ (Since $`O`$ and $`H`$ are isogonal conjugates (ICs)).
        - Has its center on the nine-point circle, where the two ($`\perp`$) Simson lines at the ends of the diameter L meet.
+         - These two Simson lines are the asymptotes. See [below](#circumhyperbolas).
 
 ### Circumcircle
 
@@ -49,6 +50,7 @@ Isogonal Conjugate (IC) of a straight line L, is a circumconic (and vice versa).
 ### Circumhyperbolas
 
 - If the angle between asymptotes of IC(L) is $`\theta`$ and the angle of incidence of L on the circumcircle is $`i`$, then $`\theta + i = 90^\circ`$.[^4]
+- The asymptotes of Circumhyperbola IC(L) are the two Simson lines at the two points where the straight line L cuts the circumcircle.
 
 
 ### Using Trilinear
