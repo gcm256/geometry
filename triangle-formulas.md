@@ -95,7 +95,8 @@ $\therefore \\; \overline{OM_a} = R\\, \cos A = \dfrac{1}{2}\overline{AH}$
 
 - Pedal Triangles of $P$ and $`P^*`$ share the same circumcircle.
   - Its center is the midpoint of $P$ and $`P^*`$. But diameter $\neq \overline{PP^*}$.
-  - Also, the 3 Cevians of one isogonal conjugate are $\perp$ to the 3 corresponding sides, respectively, of the Pedal Triangle of the other isogonal conjugate.[^30]
+  - Also, the 3 Cevians of one isogonal conjugate are $\perp$ to the 3 corresponding sides, respectively, of the Pedal Triangle of the other isogonal conjugate.[^30]. That means, for any $P$, the Cevian Triangle of $P$ and the Pedal Triangle of $`P^*`$ are Orthologic[^44]. Their Orthology Centers[^45] are $P$ and $`P^*`$.
+    - Note: Also, for any Triangle $ABC$, and point $P$, $\Delta ABC$ and Pedal Triangle of $P$ are Orthologic with Orthology Centers $P$ and $`P^*`$.[^46]
   - Converse is also true. Two points with a common Pedal Circle, must be isogonal conjugates. This can be proved by contradiction since at most two points can have a commom Pedal Circle.
     - Because one side of a triangle is a straight line which can cut a circle in at most two points.
     - Therefore, also, at most two points can have a common Cevian Circle.
@@ -205,3 +206,6 @@ Those points which have ***Coincident Pedal and Cevian Circles*** are called $\m
 [^41]: http://bernard-gibert.fr/Exemples/k004.html
 [^42]: http://bernard-gibert.fr/Exemples/k002.html
 [^43]: http://bernard-gibert.fr/Exemples/k007.html
+[^44]: https://mathworld.wolfram.com/OrthologicTriangles.html
+[^45]: https://mathworld.wolfram.com/OrthologyCenter.html
+[^46]: https://www.cut-the-knot.org/Curriculum/Geometry/OrthologicPedal.shtml#explanation
