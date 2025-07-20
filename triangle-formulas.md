@@ -100,14 +100,16 @@ $\therefore \\; \overline{OM_a} = R\\, \cos A = \dfrac{1}{2}\overline{AH}$
 
 - Pedal Triangles of $P$ and $`P^*`$ share the same circumcircle.
   - Its center is the midpoint of $P$ and $`P^*`$. But diameter $\neq \overline{PP^*}$.
-  - Also, the 3 Cevians of one isogonal conjugate are $\perp$ to the 3 corresponding sides, respectively, of the Pedal Triangle of the other isogonal conjugate.[^30]. That means, for any $P$, the Cevian Triangle of $`P^*`$ and the Pedal Triangle of $`P`$ are Orthologic[^44]. Their Orthology Centers[^45] are $`P^*`$ and another point which is not $P$. $\color{red}!!TODO:\\: Find\\: the\\: identity\\: of\\: this\\: point!!$ The concurrency point of the 3 $\color{green}GREEN$ lines (in [^47]) which is the orthology center of $\Delta A_1B_1C_1$ (Pedal Triangle of $P$) wrt $\Delta A_2B_2C_2$ (Cevian Triangle of $`P^*`$). See [^47]. Note: The orthology center of $\Delta A_2B_2C_2$ wrt $\Delta A_1B_1C_1$ is $`P^*`$.
-    - Note: Also, for any Triangle $ABC$, and point $P$, $\Delta ABC$ and Pedal Triangle of $P$ are Orthologic with Orthology Centers $P$ and $`P^*`$.[^46]
-    - Also, Orthology is a symmetric, but $\color{red}NOT$ a transitive relation. If $\Delta ABC$ and $\Delta A_1B_1C_1$ are orthologic, and $\Delta A_1B_1C_1$ and $\Delta A_2B_2C_2$ are orthologic, then it does $\color{red}NOT$ imply $\Delta ABC$ and $\Delta A_2B_2C_2$ are orthologic.[^47]
   - Converse is also true. Two points with a common Pedal Circle, must be isogonal conjugates. This can be proved by contradiction since at most two points can have a commom Pedal Circle.
     - Because one side of a triangle is a straight line which can cut a circle in at most two points.
     - Therefore, also, at most two points can have a common Cevian Circle.
 - Cevian Triangles of $P$ and $P^+$ $\color{red}DO$ $\color{red}NOT$ share the same circumcircle. ‼️Check this[^23]‼️.[^38]
 - Cevian Triangles of $P$ and $P^\\#$ share the same circumcircle (by definition).[^9][^40]
+
+
+- Also, the 3 Cevians of one isogonal conjugate are $\perp$ to the 3 corresponding sides, respectively, of the Pedal Triangle of the other isogonal conjugate.[^30]. That means, for any $P$, the Cevian Triangle of $`P^*`$ and the Pedal Triangle of $`P`$ are Orthologic[^44]. Their Orthology Centers[^45] are $`P^*`$ and another point which is not $P$. $\color{red}!!TODO:\\: Find\\: the\\: identity\\: of\\: this\\: point!!$ The concurrency point of the 3 $\color{green}GREEN$ lines (in [^47]) which is the orthology center of $\Delta A_1B_1C_1$ (Pedal Triangle of $P$) wrt $\Delta A_2B_2C_2$ (Cevian Triangle of $`P^*`$). See [^47]. Note: The orthology center of $\Delta A_2B_2C_2$ wrt $\Delta A_1B_1C_1$ is $`P^*`$.
+  - Note: Also, for any Triangle $ABC$, and point $P$, $\Delta ABC$ and Pedal Triangle of $P$ are Orthologic with Orthology Centers $`P^*`$ and $P$.[^46]
+  - Also, Orthology is a reflexive ($\Delta ABC$ is Orthologic with itself with Orthology Center as $H$)[^48], symmetric, but $\color{red}NOT$ a transitive relation. If $\Delta ABC$ and $\Delta A_1B_1C_1$ are orthologic, and $\Delta A_1B_1C_1$ and $\Delta A_2B_2C_2$ are orthologic, then it does $\color{red}NOT$ imply $\Delta ABC$ and $\Delta A_2B_2C_2$ are orthologic.[^47]
 
 
 - $P(\tau)$ is the Perspector[^27] of the reference $\Delta ABC$, its Cevian Triangle, and the Polar Triangle of $\sum \dfrac{\tau}{x}=0$.
@@ -216,3 +218,4 @@ Those points which have ***Coincident Pedal and Cevian Circles*** are called $\m
 [^45]: https://mathworld.wolfram.com/OrthologyCenter.html
 [^46]: https://www.cut-the-knot.org/Curriculum/Geometry/OrthologicPedal.shtml#explanation
 [^47]: https://www.geogebra.org/m/etp8ypns
+[^48]: Smarandache, Florentin and Ion Patrascu. "THE GEOMETRY OF THE ORTHOLOGICAL TRIANGLES." (2020). Section 1.2, pp. 26. Section 1.3, pp. 31,35,37. https://digitalrepository.unm.edu/math_fsp/260 https://fs.unm.edu/GeometryOrthologicalTriangles.pdf
