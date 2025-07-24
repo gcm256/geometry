@@ -8,7 +8,7 @@
 | $`P^\#`$ | $`\cdot \to \cdot`$ | Cyclocevian Conjugate of $P$. | $`(P^\#)^\# = P`$. <br> $`P^\#`$ = $`((((P^+)^©)^*)^@)^+`$.[^1] |
 | $P^@$ | $`\cdot \to \cdot`$ | Anticomplement of $P$. | | 
 | $P^©$ | $`\cdot \to \cdot`$ | Complement of $P$. | $(P^©)^@ = P = (P^@)^©$. <br> $(P^©)^© \neq P \iff P \neq G$. <br> $(P^@)^@ \neq P\iff P \neq G$. |
-| $P/U$ | $`\cdot \to (\cdot \to \cdot)`$ | $P$-Ceva-Conjugate of $U$. | Perspector of $(P_V)\Delta$ and $(U_V)^{-1}\Delta$. <br> $P/P = P$. <br> Since it is called conjugate, is $P/(P/U) = U$❓|
+| $P/U$ | $`\cdot \to (\cdot \to \cdot)`$ | $P$-Ceva-Conjugate of $U$. | Perspector of $(P_V)\Delta$ and $(U_V)^{-1}\Delta$. <br> $P/P = P$. <br> Since it is called conjugate, is $P/(P/U) = U$❓ Yes. See [^4]. <br> So the $`(P/)`$ **transformation** is an **involution**.[^1][^5] |
 | $P*U$ | $`\cdot \to (\cdot \to \cdot)`$ | $P$-isoconjugate of $U$. | $`P=(p:q:r) \land U=(u:v:w) \implies P*U=(p^{-1}u^{-1} ::)`$. <br> $`P*U = U*P`$. <br> $`P*(P*U) = U`$. <br> $`P*P=(p^{-2}::)`$. <br> $`P*(P*P) = P`$. <br> $`(P*P)*U=(p^2/u ::) \neq P*(P*U)=U`$. <br> Thus the isoconjugation operator is commutative but not associative.|
 | $`P \div U`$ | $`\cdot \to (\cdot \to \cdot)`$ | $P$-reciprocal-conjugate of $U$. | In Barycentric coordinates, $`P=(p:q:r)_b \land U=(u:v:w)_b \implies P \div U=(p/u::)_b`$. <br> $`P \div U = G \div (U \div P)`$. <br> $`P \div P = (1:1:1)_b = G`$.|
 | $(P_\perp)\Delta$ | $`(\Delta , \cdot) \to \Delta`$ | Pedal Triangle of $P$ wrt Triangle $\Delta$. | |
@@ -37,3 +37,5 @@
 [^1]: https://faculty.evansville.edu/ck6/encyclopedia/glossary.html
 [^2]: Smarandache, Florentin and Ion Patrascu. "THE GEOMETRY OF THE ORTHOLOGICAL TRIANGLES." (2020). Section 1.2, pp. 26. Section 1.3, pp. 31,35,37. https://digitalrepository.unm.edu/math_fsp/260 https://fs.unm.edu/GeometryOrthologicalTriangles.pdf
 [^3]: https://faculty.evansville.edu/ck6/encyclopedia/etc.html
+[^4]: ./Ceva-Conjugate--Construction-Protocol.html
+[^5]: https://mathworld.wolfram.com/Involution.html, https://en.wikipedia.org/wiki/Involution_(mathematics), https://encyclopediaofmath.org/index.php?title=Involution
