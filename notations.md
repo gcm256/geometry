@@ -37,5 +37,5 @@
 [^1]: https://faculty.evansville.edu/ck6/encyclopedia/glossary.html
 [^2]: Smarandache, Florentin and Ion Patrascu. "THE GEOMETRY OF THE ORTHOLOGICAL TRIANGLES." (2020). Section 1.2, pp. 26. Section 1.3, pp. 31,35,37. https://digitalrepository.unm.edu/math_fsp/260 https://fs.unm.edu/GeometryOrthologicalTriangles.pdf
 [^3]: https://faculty.evansville.edu/ck6/encyclopedia/etc.html
-[^4]: ./Ceva-Conjugate--Construction-Protocol.html
+[^4]: [./Ceva-Conjugate--Construction-Protocol.html](./Ceva-Conjugate--Construction-Protocol.html)
 [^5]: https://mathworld.wolfram.com/Involution.html, https://en.wikipedia.org/wiki/Involution_(mathematics), https://encyclopediaofmath.org/index.php?title=Involution
