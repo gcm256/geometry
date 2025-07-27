@@ -22,6 +22,7 @@
 | $`P^* \times U^*`$ | $`(\cdot , \cdot) \to \cdot`$ | Cross-sum of $P$ and $U$.[^1] | It is the crosspoint of $`P^*`$ and $`U^*`$. <br> $`P=(p:q:r) \land U=(u:v:w) \implies P^* \times U^* = (qw+rv) ::`$. |
 | $`\tau(\overline{PU})`$ | $`(\cdot , \cdot) \to \cdot`$ | Cross-difference of $P$ and $U$.[^1] | It is the point whose Central Line is the line joining $P$ and $U$. <br> $`P=(p:q:r) \land U=(u:v:w) \implies \tau(\overline{PU}) = (qw-rv) ::`$. |
 | $`P*X(48)`$ | $`\cdot \to \cdot`$ | Polar Conjugate of $P$.[^3] | $X(48)$-isoconjugate of $P$. |
+| $`P \vee U`$ <br> or `PvU` | $`(\cdot , \cdot) \to \cdot`$ | Cevapoint of $P$ and $U$. <br> (Note that it is the isogonal-conjugate of the cross-sum of $P$ and $U$). | $`P=(p:q:r) \land U=(u:v:w) \implies P \vee U = (qw + rv)^{-1}::`$. <br> Thus, $`P \vee U = (P^* \times U^*)^*`$. <br> Clearly, $`P \vee U = U \vee P`$. <br> $`P = (P/U) \vee U`$. <br> $`P = (P \vee U) / U`$. So, $P$ is Perspector of $((P \vee U)_V)\Delta$ and $(U_V)^{-1}\Delta$. <br> $`U = (P \vee U) / P`$. And, $U$ is Perspector of $((P \vee U)_V)\Delta$ and $(P_V)^{-1}\Delta$. |
 
 > [!NOTE]
 > For $A$ (`operator`) $B$
