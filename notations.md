@@ -2,7 +2,7 @@
 
 | Notation | `Ascii`-Notation | Type | Description | Notes |
 | --- | --- | --- | --- | --- |
-| $P$ | `P` | $`\cdot`$ | A Point. | $P(\tau)$ = A Point $P$ with Trilinear coordinates $(\tau_1, \tau_2, \tau_3)$.|
+| $P$ | `P` | $`\cdot`$ | A Point. | $P(\tau)$ = A Point $P$ with Trilinear coordinates $(\tau_1 : \tau_2 : \tau_3)$.|
 | $`P^*`$ | `P^*` | $`\cdot \to \cdot`$ | Isogonal Conjugate of $P$. | $`(P^*)^* = P`$. <br> $`P^* = P*I = P*X(1)`$.[^1] |
 | $P^+$ | `P^+` | $`\cdot \to \cdot`$ | Isotomic Conjugate of $P$. | $(P^+)^+ = P$. <br> $`P^+ = P*X(31)`$. |
 | $`P^\#`$ | `P^#` | $`\cdot \to \cdot`$ | Cyclocevian Conjugate of $P$. | $`(P^\#)^\# = P`$. <br> $`P^\#`$ = $`((((P^+)^©)^*)^@)^+`$.[^1] |
@@ -25,7 +25,13 @@
 | $`P \vee U`$ <br> | `PvU` | $`(\cdot , \cdot) \to \cdot`$ | Cevapoint of $P$ and $U$. <br> (Note that it is the isogonal-conjugate of the cross-sum of $P$ and $U$). | $`P=(p:q:r) \land U=(u:v:w) \implies P \vee U = (qw + rv)^{-1}::`$. <br> Thus, $`P \vee U = (P^* \times U^*)^*`$. <br> Clearly, $`P \vee U = U \vee P`$. <br> $`P = (P/U) \vee U`$. <br> $`P = (P \vee U) / U`$. So, $P$ is Perspector of $((P \vee U)_V)\Delta$ and $(U_V)^{-1}\Delta$. <br> $`U = (P \vee U) / P`$. And, $U$ is Perspector of $((P \vee U)_V)\Delta$ and $(P_V)^{-1}\Delta$. |
 | $P.U$ | `P.U` | $`(\cdot , \cdot) \to \cdot`$ | Trilinear Product of $P$ and $U$. | $`P=(p:q:r) \land U=(u:v:w) \implies P.U = pu::`$. |
 | $P..U$ | `P..U` | $`(\cdot , \cdot) \to \cdot`$ | Barycentric Product of $P$ and $U$. | $`P=(p:q:r)_b \land U=(u:v:w)_b \implies P..U = (pu::)_b`$. |
-| $PU(X)$ | `PU(X)` | $`\cdot \to (\cdot , \cdot)`$ | Bicentric Pair of Triangle Center $X$.[^6] | $`X=(x:y:z) \implies PU(X) = (P(X) = \dfrac{y}{z} : \dfrac{z}{x} : \dfrac{x}{y}, U(X) = \dfrac{z}{y} : \dfrac{x}{z} : \dfrac{y}{x})`$. <br> $P(X)$ is called as the 1st Bicentric Quotient of $X$. <br> $U(X)$ is called as the 2nd Bicentric Quotient of $X$. <br> Note: $`U(X) = (P(X))^*`$. <br> $`P(X^*) = U(X) = (P(X))^*`$. <br> $`U(X^*) = P(X) = (U(X))^*`$. |
+| $PU(n)$ | `PU(n)` | $`\mathbb{N} \to (\cdot , \cdot)`$ | The Bicentric Pair listed as $P(n)$ in [^6]. | Note: $PU(n) \neq PU(X(n))$, where $X(n)$ is the Triangle Center listed in ETC[^5]. |
+| $PU(X)$ | `PU(X)` | $`\cdot \to (\cdot , \cdot)`$ | Bicentric Quotients of Triangle Center $X$.[^6] <br> One of the many Bicentric Pairs that can be derived from an $X$. | $`X=(x:y:z) \implies PU(X) = (P(X) = \dfrac{y}{z} : \dfrac{z}{x} : \dfrac{x}{y}, \\; U(X) = \dfrac{z}{y} : \dfrac{x}{z} : \dfrac{y}{x})`$. <br> $P(X)$ is called as the 1st Bicentric Quotient of $X$. <br> $U(X)$ is called as the 2nd Bicentric Quotient of $X$. <br> Note: $`U(X) = (P(X))^*`$. <br> $`P(X^*) = U(X) = (P(X))^*`$. <br> $`U(X^*) = P(X) = (U(X))^*`$. |
+| $BB(X)$ | `BB(X)` | $`\cdot \to (\cdot , \cdot)`$ | 1st and 2nd Bicentrics of any point $X$. <br> One of the many Bicentric Pairs that can be derived from an $X$. | $X=(x:y:z) \implies BB(X) = (y:z:x, \\; z:x:y)$ |
+| $IB(X)$ | `IB(X)` | $`\cdot \to (\cdot , \cdot)`$ | 1st and 2nd Isobarycs of any point $X$. <br> One of the many Bicentric Pairs that can be derived from an $X$. | $X=(x:y:z) \implies IB(X) = (\dfrac{by}{a} : \dfrac{cz}{b} : \dfrac{ax}{c}, \\; \dfrac{cz}{a} : \dfrac{ax}{b} : \dfrac{by}{c})$ |
+| $VB(X)$ | `VB(X)` | $`\cdot \to (\cdot , \cdot)`$ | 1st and 2nd Vega-Bicentrics of any point $X$. <br> One of the many Bicentric Pairs that can be derived from an $X$. | $X=(x:y:z) \implies VB(X) = (\dfrac{x - y}{x} : \dfrac{y - z}{y} : \dfrac{z - x}{z}, \\; \dfrac{x - z}{x} : \dfrac{y - x}{y} : \dfrac{z - y}{z})$ |
+| $V(X)$ | `V(X)` | $`\cdot \to \cdot`$ | Vega-Transform of any point $X$.[^7] | $`X=(x:y:z) \implies V(X) = \dfrac{y - z}{x} : \dfrac{z - x}{y} : \dfrac{x - y}{z}`$ |
+
 
 > [!TIP]
 > Any binary operator which looks <ins>**vertically-symmetric**</ins> is <ins>**commutative**</ins>. eg:
@@ -59,7 +65,10 @@
 
 ## Questions
 
-- Is every $P$-something-Conjugate **transformation** an **involution**? \[Since it is called "conjugate" eg $P$-Ceva-Conjugate\]
+- ❓Is every $P$-something-Conjugate **transformation** an **involution**? \[Since it is called "conjugate" eg $P$-Ceva-Conjugate\]
+- We know that many, (but how many?❓) Bicentric Pairs can be derived from a Triangle Center (or any point) $X$.[^6]
+- ❓Are the two Tables of Operations given in [^6] the only ones that map a given Bicentric Pair $PU$ to a Triangle Center?
+- ❓Is $PU(X)$ the only isogonal-conjugate Bicentric Pair that can be derived from Triangle Center $X$?
 
 [^1]: https://faculty.evansville.edu/ck6/encyclopedia/glossary.html
 [^2]: Smarandache, Florentin and Ion Patrascu. "THE GEOMETRY OF THE ORTHOLOGICAL TRIANGLES." (2020). Section 1.2, pp. 26. Section 1.3, pp. 31,35,37. https://digitalrepository.unm.edu/math_fsp/260 https://fs.unm.edu/GeometryOrthologicalTriangles.pdf
@@ -67,3 +76,4 @@
 [^4]: [./Ceva-Conjugate--Construction-Protocol.html](./Ceva-Conjugate--Construction-Protocol.html)
 [^5]: https://mathworld.wolfram.com/Involution.html, https://en.wikipedia.org/wiki/Involution_(mathematics), https://encyclopediaofmath.org/index.php?title=Involution
 [^6]: See P(113) in https://faculty.evansville.edu/ck6/encyclopedia/BicentricPairs.html
+[^7]: See X(1981) in https://faculty.evansville.edu/ck6/encyclopedia/etc.html
