@@ -161,6 +161,10 @@ Those points which have ***Coincident Pedal and Cevian Circles*** are called $\m
 - ❓❓ What are the Cevian Triangle and the Cevian Circle of the Circumcenter called?
   - ✅ Cevian Triangle of $G$ = Medial Triangle = Pedal Triangle of $O$.
   - ✅ Cevian Circle of $G$ = 9-point Circle (aka Medial Circle) = Pedal Circle of $O$ = Pedal Circle of $H$ ie $`O^*`$.
+- ❓❓ What is the Antipedal Triangle of $G$ called?
+  - ✅ Antipedal Triangle of $O$ = Tangential Triangle.[^49]
+- ❓❓ What is the Anticevian Triangle of $O$ called?
+  - ✅ Anticevian Triangle of $G$ = Anticomplementary Triangle.[^50]
 - ❓❓ What is the Cyclocevian Conjugate of the Circumcenter? Could not find on ETC[^36] after searching all Parts 1 through 36.
   - Could only find on ETC that $`((O^+)^©)^*`$ is $X275$.
   - Constructed $O^\\# = (X275^@)^+$. See [^39].
@@ -219,3 +223,5 @@ Those points which have ***Coincident Pedal and Cevian Circles*** are called $\m
 [^46]: https://www.cut-the-knot.org/Curriculum/Geometry/OrthologicPedal.shtml#explanation
 [^47]: https://www.geogebra.org/m/etp8ypns
 [^48]: Smarandache, Florentin and Ion Patrascu. "THE GEOMETRY OF THE ORTHOLOGICAL TRIANGLES." (2020). Section 1.2, pp. 26. Section 1.3, pp. 31,35,37. https://digitalrepository.unm.edu/math_fsp/260 https://fs.unm.edu/GeometryOrthologicalTriangles.pdf
+[^49]: https://mathworld.wolfram.com/TangentialTriangle.html
+[^50]: https://mathworld.wolfram.com/AnticomplementaryTriangle.html
