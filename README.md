@@ -89,6 +89,8 @@ Trilinear Polar of:
 - Is the Lemoine Axis the only line which is the circumcircle polar of a point (K) and also the central line of that point's IC ie. G?
      - In other words, is K the only point whose circumcircle polar (CP) and Trilinear Polar (TP) are the same? (Both CP and TP being the Lemoine Axis).
 - What kind of circumconics are IC's of $L_1$, $L_3$, $L_4$ ? ❓ [^1][^2]
+- When is the Circumcircle of the Polar Triangle wrt $`\sum \dfrac{\tau}{x} = 0`$ (ie Anticevian Triangle of $`P(\tau)`$) tangent to the circumcircle of the reference Triangle $\Delta ABC$?
+     - Note: Circumcircle of the Polar Triangle wrt $`\sum \dfrac{\tau}{x} = 0`$ is $\color{red}NOT$ the Polar Circle. Because, Polar Circle is not wrt a conic but is a circle wrt which $\Delta ABC$ is self-polar[^6] ie Polar Triangle wrt Polar Circle is the reference Triangle $\Delta ABC$.
 
 ## References
 [^3]: Ross Honsberger, ***Episodes in Nineteenth and Twentieth Century Euclidean Geometry***, Mathematical Assoc. of Amer., Chapter 5, pp. 47-48, 1995.
@@ -96,4 +98,5 @@ Trilinear Polar of:
 [^5]: Steiner's Theorem. [John Wellesley Russell, ***An Elementary Treatise on Pure Geometry with Numerous Examples***, p. 161, 1893](https://archive.org/details/cu31924059551501/page/n184/mode/1up)
 [^1]: https://www.geogebra.org/classic/nvvcfq36
 [^2]: https://www.geogebra.org/m/nvvcfq36
+[^6]: https://mathworld.wolfram.com/Self-PolarTriangle.html
 
