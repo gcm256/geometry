@@ -63,6 +63,15 @@
 > - (`operator`) is "conjugate" iff $A$ (`operator`) ($A$ (`operator`) $B$) = $B$.
 >
 
+## Traces of `P-vU`, `P-xU`, `PxU`, `P*U`
+
+To visualize the locus / traces, open geogebra html file [^8] locally in browser, and drag any one of the movable points `A`, `B,` `C`, `P`, `U`, keeping the others fixed.
+
+Below is diagram of the traces of `P-vU`, `P-xU`, `PxU`, `P*U` when $\Delta ABC$ and $P$ are fixed, and $U$ is moved along the circumcircle.
+
+<img width="1345" height="672" alt="image" src="https://github.com/user-attachments/assets/2bef3f16-7570-4497-8afc-8e58335fbcbf" />
+
+
 ## Questions
 
 - ❓Is every $P$-something-Conjugate **transformation** an **involution**? \[Since it is called "conjugate" eg $P$-Ceva-Conjugate\]
@@ -73,7 +82,8 @@
 [^1]: https://faculty.evansville.edu/ck6/encyclopedia/glossary.html
 [^2]: Smarandache, Florentin and Ion Patrascu. "THE GEOMETRY OF THE ORTHOLOGICAL TRIANGLES." (2020). Section 1.2, pp. 26. Section 1.3, pp. 31,35,37. https://digitalrepository.unm.edu/math_fsp/260 https://fs.unm.edu/GeometryOrthologicalTriangles.pdf
 [^3]: https://faculty.evansville.edu/ck6/encyclopedia/etc.html
-[^4]: [./Ceva-Conjugate--Construction-Protocol.html](./Ceva-Conjugate--Construction-Protocol.html)
+[^4]: [geogebra/Ceva-Conjugate--Construction-Protocol.html](geogebra/Ceva-Conjugate--Construction-Protocol.html)
 [^5]: https://mathworld.wolfram.com/Involution.html, https://en.wikipedia.org/wiki/Involution_(mathematics), https://encyclopediaofmath.org/index.php?title=Involution
 [^6]: See P(113) in https://faculty.evansville.edu/ck6/encyclopedia/BicentricPairs.html
 [^7]: See X(1981) in https://faculty.evansville.edu/ck6/encyclopedia/etc.html
+[^8]: [geogebra/CevaConjugate-CrossConjugate-Crosspoint-isoconjugate.html](geogebra/CevaConjugate-CrossConjugate-Crosspoint-isoconjugate.html)
