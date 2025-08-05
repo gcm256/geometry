@@ -140,9 +140,38 @@ See [^16][^17]
   $$\iff$$ (iff)\
   Pedal Triangle of point $`X^*`$ $\equiv$ Cevian Triangle of point $Y^\\#$
 
+- Pedal Triangle of point $X$ $\equiv$ Cevian Triangle of point $Y$\
+  $$\iff$$ (iff)\
+  Pedal Triangle of point $`X`$'s Reflection in $O$ $\equiv$ Cevian Triangle of point $Y^+$
+
 > [!NOTE]
 > - Such points $X$ are called as $\mathcal{PC}$-Points, short for PedalCevian-Points.[^38][^10]
-> - Locus of $X$ (and $`X^*`$) is Darboux Cubic[^41], Locus of $Y$ (and $Y^{\\#}$) is Lucas Cubic[^15][^43].
+> - Locus of $X$ (and $`X^*`$, and also $`X`$'s Reflection in $O$) is Darboux Cubic[^41], Locus of $Y$ (and $Y^{\\#}$, and also $Y^+$) is Lucas Cubic[^15][^43].
+
+#### Examples of $\mathcal{PC}$-Points `X` and their corresponding `Y`: ($\color{red}!!TODO:$ Change this to Tree format to avoid repeated boxes.)
+
+| `X --> Y` | `X* --> Y#` | `X's Reflection in O --> Y+` |
+| --- | --- | --- |
+| `H --> H` | `O --> G` | `L --> X69` |
+| `L --> X69` | `X64 --> X253` | `H --> H` |
+| `I --> X7` | `I --> X7` | `X40 --> X8` |
+| `X40 --> X8` |  `X84 --> X189` | `I --> X7` |
+| `X64 --> X253` | `L --> X69` | `X1498 --> L` |
+
+> [!NOTE]
+> $`L = X20`$
+> 
+> $`H^+ = X69`$
+> 
+> $`L^* = X64`$\
+> $L^+ = X253 = X69^\\#$\
+> $L^\\# = X1032$
+> 
+> $`X8^+ = X7`$\
+> $X8^\\# = X189$
+> 
+> $`X40^* = X84`$
+> 
 
 ### $\mathcal{CPCC}$-Points
 
@@ -151,6 +180,15 @@ Those points which have ***Coincident Pedal and Cevian Circles*** are called $\m
 - A Point M is a $\mathcal{CPCC}$-Point\
   $$\iff$$ (iff)\
   $M$'s Pedal Triangle is a Cevian Triangle (of some point $P$ on Lucas Cubic) and $M$'s Cevian Triangle is a Pedal Triangle (of some point $Q$ on Darboux Cubic). So $M$ lies on both the Darboux and the Lucas Cubics ie their points of intersection. So $P = M^\\#$ and $Q = M^\*$.[^11]
+
+### Pivotal Isocubics[^16][^51]
+
+| Pivotal Isocubic `pK(W,P)` | Conjugation: $X \to Q$ | Pole $W$ <br> $(G \to W)$ | Pivot $P$ <br> (Pivot of a `pK` is a point $P$ such that $`\forall X,Q \in `$ `pK(W,P)` $`X \to Q \iff P, X, Q`$ are collinear. None is necessarily the midpoint of the other two.) | Center $N$ <br> (A point $N$ about which the cubic is symmetric. If $N$ exists, the cubic is called as a Central Cubic.[^51]) |
+| --- | --- | --- | --- | --- |
+| Darboux K004 `pK(K,L)` | Isogonal: $`X \to X^*`$ | $X(6) = K$ | $X(20) = L$ | $X(3) = O$ |
+| Lucas K007 `pK(G,H+)` | Isotomic: $`X \to X^+`$ | $X(2) = G$ | $X(69) = H^+$ | No Center. |
+| Lucas K007 `pK(G,H+)` or `pK(H,L)` | Cyclocevian: $X \to X^\\#$ | $X(4) = H$ | $X(20) = L$[^52] | No Center. |
+| Thomson K002 `pK(K,G)` | Isogonal: $`X \to X^*`$ | $X(6) = K$ | $X(2) = G$ | No Center. |
 
 ## Questions
 
@@ -225,3 +263,5 @@ Those points which have ***Coincident Pedal and Cevian Circles*** are called $\m
 [^48]: Smarandache, Florentin and Ion Patrascu. "THE GEOMETRY OF THE ORTHOLOGICAL TRIANGLES." (2020). Section 1.2, pp. 26. Section 1.3, pp. 31,35,37. https://digitalrepository.unm.edu/math_fsp/260 https://fs.unm.edu/GeometryOrthologicalTriangles.pdf
 [^49]: https://mathworld.wolfram.com/TangentialTriangle.html
 [^50]: https://mathworld.wolfram.com/AnticomplementaryTriangle.html
+[^51]: http://bernard-gibert.fr/notations.html , http://bernard-gibert.fr/gloss/centralcubics.html , http://bernard-gibert.fr/gloss/isoconjugation.html
+[^52]: See Bullet 5 of Section "Transformations on the Lucas cubic and associated group law" in http://bernard-gibert.fr/Exemples/k007.html
