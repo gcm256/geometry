@@ -148,15 +148,29 @@ See [^16][^17]
 > - Such points $X$ are called as $\mathcal{PC}$-Points, short for PedalCevian-Points.[^38][^10]
 > - Locus of $X$ (and $`X^*`$, and also $`X`$'s Reflection in $O$) is Darboux Cubic[^41], Locus of $Y$ (and $Y^{\\#}$, and also $Y^+$) is Lucas Cubic[^15][^43].
 
-#### Examples of $\mathcal{PC}$-Points `X` and their corresponding `Y`: ($\color{red}!!TODO:$ Change this to Tree format to avoid repeated boxes.)
+#### Examples of $\mathcal{PC}$-Points `X` and their corresponding `Y`:
 
-| `X --> Y` | `X* --> Y#` | `X's Reflection in O --> Y+` |
-| --- | --- | --- |
-| `H --> H` | `O --> G` | `L --> X69` |
-| `L --> X69` | `X64 --> X253` | `H --> H` |
-| `I --> X7` | `I --> X7` | `X40 --> X8` |
-| `X40 --> X8` |  `X84 --> X189` | `I --> X7` |
-| `X64 --> X253` | `L --> X69` | `X1498 --> L` |
+```mermaid
+graph LR;
+    H[H,H]<--"(*,#)"-->O[O,G];
+    %%O--"(O,+)"-->TO@{ shape: framed-circle, label: "Stop" };
+    O--"(O,+)"-->O;
+    H<--"(O,+)"-->L[L,X69];
+    L<--"(*,#)"-->X64[X64,X253];
+    %%I[I,X7]<--"(*,#)"-->TI@{ shape: framed-circle, label: "Stop" };
+    
+    I[I,X7]<--"(O,+)"-->X40[X40,X8];
+    I--"(*,#)"-->I;
+    X40<--"(*,#)"-->X84[X84,X189];
+    X84<--"(O,+)"-->xx2[?,X329];
+    xx2<-."(*,#)".->q2@{ shape: braces, label: "?" };
+    X64<--"(O,+)"-->X1498[X1498,L];
+    X1498<--"(*,#)"-->X3346[X3346,X1032];
+    X3346<--"(O,+)"-->xx1[?,X14361];
+    xx1<-."(*,#)".->q1@{ shape: braces, label: "?" };
+```
+
+Ref: [^53]
 
 > [!NOTE]
 > $`L = X20`$
@@ -265,3 +279,4 @@ Those points which have ***Coincident Pedal and Cevian Circles*** are called $\m
 [^50]: https://mathworld.wolfram.com/AnticomplementaryTriangle.html
 [^51]: http://bernard-gibert.fr/notations.html , http://bernard-gibert.fr/gloss/centralcubics.html , http://bernard-gibert.fr/gloss/isoconjugation.html
 [^52]: See Bullet 5 of Section "Transformations on the Lucas cubic and associated group law" in http://bernard-gibert.fr/Exemples/k007.html
+[^53]: https://faculty.evansville.edu/ck6/encyclopedia/Isogonal_and_Isotomic_Conjugates.html
