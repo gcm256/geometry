@@ -151,7 +151,7 @@ See [^16][^17]
 #### Examples of $\mathcal{PC}$-Points `X` and their corresponding `Y`:
 
 ```mermaid
-graph LR;
+graph TB;
     H[H,H]<--"(*,#)"-->O[O,G];
     %%O--"(O,+)"-->TO@{ shape: framed-circle, label: "Stop" };
     O--"(O,+)"-->O;
@@ -162,15 +162,21 @@ graph LR;
     I[I,X7]<--"(O,+)"-->X40[X40,X8];
     I--"(*,#)"-->I;
     X40<--"(*,#)"-->X84[X84,X189];
-    X84<--"(O,+)"-->xx2[?,X329];
-    xx2<-."(*,#)".->q2@{ shape: braces, label: "?" };
+    X84<--"(O,+)"-->X1490[X1490,X329];
+    X1490<--"(*,#)"-->X3345[X3345,X1034];
+    X3345<--"(O,+)"-->X3182[X3182,X5932];
+    X3182<--"(*,#)"-->X3347[X3347,?];
+    X3347<-."(O,+)".->q2@{ shape: braces, label: "?" };
     X64<--"(O,+)"-->X1498[X1498,L];
     X1498<--"(*,#)"-->X3346[X3346,X1032];
-    X3346<--"(O,+)"-->xx1[?,X14361];
-    xx1<-."(*,#)".->q1@{ shape: braces, label: "?" };
+    X3346<--"(O,+)"-->X3183[X3183,X14361];
+    X3183<--"(*,#)"-->X3348[X3348,X14365];
+    X3348<--"(O,+)"-->X2130[X2130,X14362];
+    X2130<--"(*,#)"-->X2131[X2131,?];
+    X2131<-."(O,+)".->q1@{ shape: braces, label: "?" };
 ```
 
-Ref: [^53]
+Ref: [^53][^54]
 
 > [!NOTE]
 > $`L = X20`$
@@ -280,3 +286,4 @@ Those points which have ***Coincident Pedal and Cevian Circles*** are called $\m
 [^51]: http://bernard-gibert.fr/notations.html , http://bernard-gibert.fr/gloss/centralcubics.html , http://bernard-gibert.fr/gloss/isoconjugation.html
 [^52]: See Bullet 5 of Section "Transformations on the Lucas cubic and associated group law" in http://bernard-gibert.fr/Exemples/k007.html
 [^53]: https://faculty.evansville.edu/ck6/encyclopedia/Isogonal_and_Isotomic_Conjugates.html
+[^54]: http://bernard-gibert.fr/Resources/cubics.html
