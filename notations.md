@@ -32,6 +32,11 @@
 | $VB(X)$ | `VB(X)` | $`\cdot \to (\cdot , \cdot)`$ | 1st and 2nd Vega-Bicentrics of any point $X$. <br> One of the many Bicentric Pairs that can be derived from an $X$. | $X=(x:y:z) \implies VB(X) = (\dfrac{x - y}{x} : \dfrac{y - z}{y} : \dfrac{z - x}{z}, \\; \dfrac{x - z}{x} : \dfrac{y - x}{y} : \dfrac{z - y}{z})$ |
 | $V(X)$ | `V(X)` | $`\cdot \to \cdot`$ | Vega-Transform of any point $X$.[^7] | $`X=(x:y:z) \implies V(X) = \dfrac{y - z}{x} : \dfrac{z - x}{y} : \dfrac{x - y}{z}`$ |
 
+> [!IMPORTANT]
+> ## Bicentric Pairs vs Triangle Centers:
+> If the construction steps (of a goal point) followed in anti-clockwise order (eg ABC order) and clockwise order (eg ACB order) result in the <ins>same point</ins>, it is a Triangle Center. If the result is 2 <ins>different points</ins>, they are a Bicentric Pair, not Triangle Centers.
+> Ref: https://faculty.evansville.edu/ck6/encyclopedia/BicentricPairs.html
+> 
 
 > [!TIP]
 > Any binary operator which looks <ins>**vertically-symmetric**</ins> is <ins>**commutative**</ins>. eg:
@@ -77,7 +82,7 @@ Below is diagram of the traces of `P-vU`, `P-xU`, `PxU`, `P*U` when $\Delta ABC$
 - ❓Is every $P$-something-Conjugate **transformation** an **involution**? \[Since it is called "conjugate" eg $P$-Ceva-Conjugate\]
 - We know that many, (but how many?❓) Bicentric Pairs can be derived from a Triangle Center (or any point) $X$.[^6]
 - ❓Are the two Tables of Operations given in [^6] the only ones that map a given Bicentric Pair $PU$ to a Triangle Center?
-- ❓Is $PU(X)$ the only isogonal-conjugate Bicentric Pair that can be derived from Triangle Center $X$?
+- ❓Is $PU(X)$ (Bicentric Quotients) the only isogonal-conjugate Bicentric Pair that can be derived from Triangle Center $X$?
 
 [^1]: https://faculty.evansville.edu/ck6/encyclopedia/glossary.html
 [^2]: Smarandache, Florentin and Ion Patrascu. "THE GEOMETRY OF THE ORTHOLOGICAL TRIANGLES." (2020). Section 1.2, pp. 26. Section 1.3, pp. 31,35,37. https://digitalrepository.unm.edu/math_fsp/260 https://fs.unm.edu/GeometryOrthologicalTriangles.pdf
