@@ -1,5 +1,5 @@
 # geometry
-Conics, Modern Triangle Geometry, Triangle Centers, Triangle Conics, Circumconics, Inconics, Triangle Cubics.
+Conics, Modern Triangle Geometry[^15], Triangle Centers, Triangle Conics[^16], Circumconics, Inconics, Triangle Cubics[^17].
 
 ## Some Properties of Conics
 
@@ -78,7 +78,7 @@ Trilinear Polar of:
 - $H$: $x { } \cos A + y { } \cos B + z { } \cos C = 0$ ie $L_3$ (Orthic Axis)
 - $K$: $\dfrac{x}{a} + \dfrac{y}{b} + \dfrac{z}{c} = 0$ ie $L_2$ (Lemoine Axis)
 
-## Nine-Point Circle, Incircle, Excircles
+## Nine-Point Circle[^14], Incircle, Excircles
 
 We know that isogonal conjugate points share the same Pedal Circle, with their midpoint as its center. 
 - When the isogonal conjugates are $O$ and $H$, their common Pedal Circle is the Nine-Point-Circle.
@@ -91,7 +91,7 @@ We know that isogonal conjugate points share the same Pedal Circle, with their m
 
 The line segment between the Incenter ($I$) and an Excenter (say $J_1$), or between any two Excenters (say $J_2$ and $J_3$), is the diamater of a circle[^11][^12] whose center lies on the circumcircle and which passes through two vertices of the reference triangle.
 
-This is because the Incenter $I$ and the 3 Excenters $J_1$, $J_2$, $J_3$ form an Orthocentric System[^13] whose common Nine-Point-Circle in the Circumcircle of the reference triangle.
+This is because the Incenter $I$ and the 3 Excenters $J_1$, $J_2$, $J_3$ form an Orthocentric System[^13] whose common Nine-Point-Circle is the Circumcircle of the reference triangle.
 
 Also, the centers of an $I-J$ circle and its corresponding $J-J$ circle (of the remaining 2 Excenters), are circumcircle Antipodes of each other.
 
@@ -109,6 +109,16 @@ Also, the centers of an $I-J$ circle and its corresponding $J-J$ circle (of the 
 - When is the Circumcircle of the Polar Triangle wrt $`\sum \dfrac{\tau}{x} = 0`$ (ie Anticevian Triangle of $`P(\tau)`$) tangent to the circumcircle of the reference Triangle $\Delta ABC$?
      - Note: Circumcircle of the Polar Triangle wrt $`\sum \dfrac{\tau}{x} = 0`$ is $\color{red}NOT$ the Polar Circle. Because, Polar Circle is not wrt a conic but is a circle wrt which $\Delta ABC$ is self-polar[^6] ie Polar Triangle wrt Polar Circle is the reference Triangle $\Delta ABC$.
 
+## Geometry Journals
+
+- [International Journal of Geometry](https://ijgeometry.com/volumes/)
+- https://geometry.ru/
+- [Journal of Classical Geometry](https://jcgeometry.org/articles.php)
+- [Journal for Geometry and Graphics](https://www.heldermann.de/JGG/jggcover.htm)
+- [KoG - Journal of Croatian Society for Geometry and Graphics](https://hrcak.srce.hr/en/kog)
+- [MDPI Journal of Geometry](https://www.mdpi.com/journal/geometry)
+- [International Journal of Computer Discovered Mathematics (IJCDM)](https://www.journal-1.eu/index.htm)
+
 ## References
 [^3]: Ross Honsberger, ***Episodes in Nineteenth and Twentieth Century Euclidean Geometry***, Mathematical Assoc. of Amer., Chapter 5, pp. 47-48, 1995.
 [^4]: [John Casey, ***A Treatise on the Analytical Geometry of the Point, Line, Circle, and Conic Sections, Containing an Account of Its Most Recent Extensions, with Numerous Examples., 2nd rev. enl. ed.*** Dublin: Hodges, Figgis, & Co., Article 342, p. 428, 1893.](https://archive.org/details/treatiseonanalyt00caseuoft/treatiseonanalyt00caseuoft/page/n465/mode/2up)
@@ -123,3 +133,7 @@ Also, the centers of an $I-J$ circle and its corresponding $J-J$ circle (of the 
 [^11]: https://mathworld.wolfram.com/Incenter-ExcenterCircle.html
 [^12]: https://mathworld.wolfram.com/Excenter-ExcenterCircle.html
 [^13]: https://en.wikipedia.org/wiki/Orthocentric_system , https://mathworld.wolfram.com/OrthocentricSystem.html
+[^14]: https://mathworld.wolfram.com/Nine-PointCircle.html
+[^15]: https://mathworld.wolfram.com/topics/TriangleProperties.html
+[^16]: https://mathworld.wolfram.com/topics/TriangleConics.html , https://mathworld.wolfram.com/topics/TriangleCircles.html , https://mathworld.wolfram.com/CentralCircle.html
+[^17]: https://mathworld.wolfram.com/topics/TriangleCubics.html
