@@ -88,7 +88,7 @@ Below is diagram of the traces of `P-vU`, `P-xU`, `PxU`, `P*U` when $\Delta ABC$
 [^2]: Smarandache, Florentin and Ion Patrascu. "THE GEOMETRY OF THE ORTHOLOGICAL TRIANGLES." (2020). Section 1.2, pp. 26. Section 1.3, pp. 31,35,37. https://digitalrepository.unm.edu/math_fsp/260 https://fs.unm.edu/GeometryOrthologicalTriangles.pdf
 [^3]: https://faculty.evansville.edu/ck6/encyclopedia/etc.html
 [^4]: [geogebra/Ceva-Conjugate--Construction-Protocol.html](geogebra/Ceva-Conjugate--Construction-Protocol.html)
-[^5]: https://mathworld.wolfram.com/Involution.html, https://en.wikipedia.org/wiki/Involution_(mathematics), https://encyclopediaofmath.org/index.php?title=Involution
+[^5]: https://mathworld.wolfram.com/Involution.html, https://en.wikipedia.org/wiki/Involution_(mathematics), https://encyclopediaofmath.org/index.php?title=Involution, https://archive.lib.msu.edu/crcmath/math/math/i/i224.htm
 [^6]: See P(113) in https://faculty.evansville.edu/ck6/encyclopedia/BicentricPairs.html
 [^7]: See X(1981) in https://faculty.evansville.edu/ck6/encyclopedia/etc.html
 [^8]: [geogebra/CevaConjugate-CrossConjugate-Crosspoint-isoconjugate.html](geogebra/CevaConjugate-CrossConjugate-Crosspoint-isoconjugate.html)
