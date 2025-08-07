@@ -40,7 +40,7 @@ Isogonal Conjugate (IC) of a straight line L, is a circumconic (and vice versa).
    - Iff L passes through $`O`$, the circumcenter, ie L is a circumcircle diameter, then the IC(L) circumhyperbola is a rectangular hyperbola. Every rectangular circumhyperbola:
        - Is the IC of a circumcircle diamater L.
        - Passes through the orthocenter $`H`$ (Since $`O`$ and $`H`$ are isogonal conjugates (ICs)).
-       - Has its center on the nine-point circle, where the two ($`\perp`$) Simson lines at the ends of the diameter L meet.
+       - Has its center on the nine-point circle[^7], where the two ($`\perp`$) Simson lines at the ends of the diameter L meet.
          - These two Simson lines are the asymptotes. See [below](#circumhyperbolas).
 
 ### Circumcircle
@@ -69,7 +69,7 @@ Isogonal Conjugate (IC) of a straight line L, is a circumconic (and vice versa).
      - This means, the center of circumconic $`\dfrac{\tau_1}{x} + \dfrac{\tau_2}{y} + \dfrac{\tau_3}{z} = 0`$ is the perspector of the circumconic centered at $`(\tau_1 : \tau_2 : \tau_3)`$, and vice versa. This is because the Center of the circumconic $`\dfrac{\tau_1(-a\tau_1 + b\tau_2 + c\tau_3)}{x} : \dfrac{do}{y} : \dfrac{do}{z} = 0`$ is simply the point $`(\tau_1 : \tau_2 : \tau_3)`$.
 - Point $`X_n`$, say $`(\tau_1 : \tau_2 : \tau_3)`$, is the crossdifference of every pair of points on line $`\tau_1x + \tau_2y + \tau_3z = 0`$. This line is denoted by $`L_n`$ in ETC. Further, $`X_n`$ is the only point that is the crossdifference of any pair of points on this line.
 
-### Trilinear Polar
+## Trilinear Polar
 
 Trilinear Polar of:
 - $I$: $x + y + z = 0$ ie $L_1$ (Anti-orthic Axis)
@@ -77,6 +77,23 @@ Trilinear Polar of:
 - $O$: $x { } \sec A + y { } \sec B + z { } \sec C = 0$ ie $L_4$ (What is its name?❓)
 - $H$: $x { } \cos A + y { } \cos B + z { } \cos C = 0$ ie $L_3$ (Orthic Axis)
 - $K$: $\dfrac{x}{a} + \dfrac{y}{b} + \dfrac{z}{c} = 0$ ie $L_2$ (Lemoine Axis)
+
+## Nine-Point Circle, Incircle, Excircles
+
+We know that isogonal conjugate points share the same Pedal Circle, with their midpoint as its center. 
+- When the isogonal conjugates are $O$ and $H$, their common Pedal Circle is the Nine-Point-Circle.
+- When the point is $I$ (which is its own isogonal conjugate), the (trivially common) Pedal Circle is the Incircle.
+- **Feuerbach's Theorem:**[^8]
+    - The Nine-Point-Circle is tangent, internally, to the Incircle (at ETC[^9] Point $X(11)$ called the Feuerbach Point).
+    - The Nine-Point-Circle is also tangent, externally, to the 3 Excircles.
+
+### Incenter-Excenter Lemma[^10]
+
+The line segment between the Incenter ($I$) and an Excenter (say $J_1$), or between any two Excenters (say $J_2$ and $J_3$), is the diamater of a circle[^11][^12] whose center lies on the circumcircle and which passes through two vertices of the reference triangle.
+
+This is because the Incenter $I$ and the 3 Excenters $J_1$, $J_2$, $J_3$ form an Orthocentric System[^13] whose common Nine-Point-Circle in the Circumcircle of the reference triangle.
+
+Also, the centers of an $I-J$ circle and its corresponding $J-J$ circle (of the remaining 2 Excenters), are circumcircle Antipodes of each other.
 
 ## Questions 
 - Is the Steiner Circumellipse the only triangle-conic whose center ($G$) is its own perspector?
@@ -99,4 +116,10 @@ Trilinear Polar of:
 [^1]: https://www.geogebra.org/classic/nvvcfq36
 [^2]: https://www.geogebra.org/m/nvvcfq36
 [^6]: https://mathworld.wolfram.com/Self-PolarTriangle.html
-
+[^7]: Feuerbach's Conic Theorem: The 9-point-circle is the locus of the centers of all rectangular circumhyperbolas. https://mathworld.wolfram.com/FeuerbachsConicTheorem.html
+[^8]: https://mathworld.wolfram.com/FeuerbachsTheorem.html
+[^9]: https://faculty.evansville.edu/ck6/encyclopedia/etc.html
+[^10]: https://en.wikipedia.org/wiki/Incenter%E2%80%93excenter_lemma
+[^11]: https://mathworld.wolfram.com/Incenter-ExcenterCircle.html
+[^12]: https://mathworld.wolfram.com/Excenter-ExcenterCircle.html
+[^13]: https://en.wikipedia.org/wiki/Orthocentric_system , https://mathworld.wolfram.com/OrthocentricSystem.html
