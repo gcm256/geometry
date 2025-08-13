@@ -108,6 +108,8 @@ Also, the centers of an $I-J$ circle and its corresponding $J-J$ circle (of the 
 - What kind of circumconics are IC's of $L_1$, $L_3$, $L_4$ ? ❓ [^1][^2]
 - When is the Circumcircle of the Polar Triangle wrt $`\sum \dfrac{\tau}{x} = 0`$ (ie Anticevian Triangle of $`P(\tau)`$) tangent to the circumcircle of the reference Triangle $\Delta ABC$?
      - Note: Circumcircle of the Polar Triangle wrt $`\sum \dfrac{\tau}{x} = 0`$ is $\color{red}NOT$ the Polar Circle. Because, Polar Circle is not wrt a conic but is a circle wrt which $\Delta ABC$ is self-polar[^6] ie Polar Triangle wrt Polar Circle is the reference Triangle $\Delta ABC$.
+- When can a circumhyperbola have $e > \sqrt{2}$?
+- What is the locus of a circumconic IC(L)'s center, if its eccentricity (ie the angle at which L cuts circumcircle) is given? eg For $e=\sqrt{2} (ie when L cuts circumcircle at $90^\circ$ ie L passes through the circumcenter), the locus of the center of the circumconic (which is rectangular circumhyperbola) is the 9-Point-Circle.
 
 ## Geometry Journals
 
