@@ -176,7 +176,7 @@ graph TB;
     X2131<-."(O,+)".->q1@{ shape: braces, label: "?" };
 ```
 
-Ref: [^53][^54]
+Ref: [^53][^54][^55]
 
 > [!NOTE]
 > $`L = X20`$
@@ -287,3 +287,4 @@ Those points which have ***Coincident Pedal and Cevian Circles*** are called $\m
 [^52]: See Bullet 5 of Section "Transformations on the Lucas cubic and associated group law" in http://bernard-gibert.fr/Exemples/k007.html
 [^53]: https://faculty.evansville.edu/ck6/encyclopedia/Isogonal_and_Isotomic_Conjugates.html
 [^54]: http://bernard-gibert.fr/Resources/cubics.html
+[^55]: [./geogebra/PC-Points-K004-K007.html](./geogebra/PC-Points-K004-K007.html) , [./geogebra/PC-Points-K004-K007--Construction-Protocol.html](./geogebra/PC-Points-K004-K007--Construction-Protocol.html)
