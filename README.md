@@ -50,8 +50,8 @@ Isogonal Conjugate (IC) of a straight line L, is a circumconic (and vice versa).
 ### Circumhyperbolas
 
 - If the angle between asymptotes of IC(L) is $`\theta`$ and the angle of incidence of L on the circumcircle is $`i`$, then $`\theta + i = 90^\circ`$.[^4]
-- The asymptotes of Circumhyperbola IC(L) are the two Simson lines at the two points where the straight line L cuts the circumcircle.
-
+    - And, we already know that eccentricity $e = \sec \dfrac{\theta}{2}$ (see [above](#hyperbola)). 
+- The asymptotes of Circumhyperbola IC(L) are the two Simson lines at the two points where the straight line L cuts the circumcircle. 
 
 ### Using Trilinear
 
@@ -109,7 +109,7 @@ Also, the centers of an $I-J$ circle and its corresponding $J-J$ circle (of the 
 - When is the Circumcircle of the Polar Triangle wrt $`\sum \dfrac{\tau}{x} = 0`$ (ie Anticevian Triangle of $`P(\tau)`$) tangent to the circumcircle of the reference Triangle $\Delta ABC$?
      - Note: Circumcircle of the Polar Triangle wrt $`\sum \dfrac{\tau}{x} = 0`$ is $\color{red}NOT$ the Polar Circle. Because, Polar Circle is not wrt a conic but is a circle wrt which $\Delta ABC$ is self-polar[^6] ie Polar Triangle wrt Polar Circle is the reference Triangle $\Delta ABC$.
 - When can a circumhyperbola have $e > \sqrt{2}$?
-- What is the locus of a circumconic IC(L)'s center, if its eccentricity (ie the angle at which L cuts circumcircle) is given? eg For $e=\sqrt{2} (ie when L cuts circumcircle at $90^\circ$ ie L passes through the circumcenter), the locus of the center of the circumconic (which is rectangular circumhyperbola) is the 9-Point-Circle.
+- What is the locus of a circumconic IC(L)'s center, if its eccentricity is given? eg For $e=\sqrt{2}$ (ie when L cuts circumcircle at $90^\circ$ ie L passes through the circumcenter), the locus of the center of the circumconic (which is rectangular circumhyperbola) is the 9-Point-Circle.
 
 ## Geometry Journals
 
