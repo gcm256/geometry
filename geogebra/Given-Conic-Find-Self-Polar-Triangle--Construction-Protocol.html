@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<title>GeoGebra - Construction Protocol</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"></head>
+<body>
+<table border="1">
+<tr>
+<th>Name</th>
+<th>Definition</th>
+<th>Value</th>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td>Number a</td>
+<td>&nbsp;</td>
+<td>a = 4</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td>Number b</td>
+<td>&nbsp;</td>
+<td>b = 3</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td>Parabola parab</td>
+<td>y&#178; = 4a x</td>
+<td>parab: y² = 4 * 4 x</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td>Ellipse ellipse</td>
+<td>x&#178; &#x2F; a&#178; + y&#178; &#x2F; b&#178; = 1</td>
+<td>ellipse: x² / 4² + y² / 3² = 1</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td>Hyperbola hyp</td>
+<td>x&#178; &#x2F; a&#178; - y&#178; &#x2F; b&#178; = 1</td>
+<td>hyp: x² / 4² - y² / 3² = 1</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td>Text text1</td>
+<td>&nbsp;</td>
+<td>"Given a conic:"</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td>Hyperbola conic</td>
+<td>hyp</td>
+<td>conic: x² - 1.78y² = 16</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td>Text text2</td>
+<td>&nbsp;</td>
+<td>"Construct a triangle which is self-polar wrt to the given conic."</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td>Text text3</td>
+<td>&nbsp;</td>
+<td>"Note: Many such triangles are possible."</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td>Text text4</td>
+<td>&nbsp;</td>
+<td>"Step 1: Take 3 points A,B,C on conic:"</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#6464E6">Point A</span></td>
+<td><span style="color:#6464E6">Point(conic)</span></td>
+<td><span style="color:#6464E6">A = (-10.77, 7.5)</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#6464E6">Point B</span></td>
+<td><span style="color:#6464E6">Point(conic)</span></td>
+<td><span style="color:#6464E6">B = (7.43, 4.69)</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#6464E6">Point C</span></td>
+<td><span style="color:#6464E6">Point(conic)</span></td>
+<td><span style="color:#6464E6">C = (-7.1, -4.4)</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td>Text text5</td>
+<td>&nbsp;</td>
+<td>"Triangle ABC:"</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#993300">Triangle t</span></td>
+<td><span style="color:#993300">Polygon(A, B, C)</span></td>
+<td><span style="color:#993300">t = 103.1</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#993300">Segment c</span></td>
+<td><span style="color:#993300">Segment(A, B, t)</span></td>
+<td><span style="color:#993300">c = 18.41</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#993300"><html>Segment a<sub><font size="-1">1</font></sub></html></span></td>
+<td><span style="color:#993300">Segment(B, C, t)</span></td>
+<td><span style="color:#993300">a<sub><font size="-1">1</font></sub> = 17.13</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#993300"><html>Segment b<sub><font size="-1">1</font></sub></html></span></td>
+<td><span style="color:#993300">Segment(C, A, t)</span></td>
+<td><span style="color:#993300">b<sub><font size="-1">1</font></sub> = 12.45</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td>Line aa</td>
+<td>Line(B, C)</td>
+<td>aa: 9.09x - 14.52y = -0.66</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td>Line bb</td>
+<td>Line(C, A)</td>
+<td>bb: -11.9x - 3.68y = 100.58</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td>Line cc</td>
+<td>Line(A, B)</td>
+<td>cc: 2.81x + 18.2y = 106.27</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td>Text text6</td>
+<td>&nbsp;</td>
+<td>"Step 2: Take a fourth point P on the conic:"</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#6464E6">Point P</span></td>
+<td><span style="color:#6464E6">Point(conic)</span></td>
+<td><span style="color:#6464E6">P = (5.72, -3.07)</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td>Text text7</td>
+<td>&nbsp;</td>
+<td>"Step 3: Construct Cevian Triangle ApBpCp of P wrt Triangle ABC:"</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#6E6D73"><html>Point A<sub><font size="-1">P</font></sub></html></span></td>
+<td><span style="color:#6E6D73">Intersect(aa, Line(A, P))</span></td>
+<td><span style="color:#6E6D73">A<sub><font size="-1">P</font></sub> = (0.44, 0.32)</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#6E6D73"><html>Point B<sub><font size="-1">P</font></sub></html></span></td>
+<td><span style="color:#6E6D73">Intersect(bb, Line(B, P))</span></td>
+<td><span style="color:#6E6D73">B<sub><font size="-1">P</font></sub> = (0.23, -28.09)</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#6E6D73"><html>Point C<sub><font size="-1">P</font></sub></html></span></td>
+<td><span style="color:#6E6D73">Intersect(cc, Line(C, P))</span></td>
+<td><span style="color:#6E6D73">C<sub><font size="-1">P</font></sub> = (36.85, 0.15)</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#007BAE">Triangle cevianTofP</span></td>
+<td><span style="color:#007BAE">Polygon(A<sub><font size="-1">P</font></sub>, B<sub><font size="-1">P</font></sub>, C<sub><font size="-1">P</font></sub>)</span></td>
+<td><span style="color:#007BAE">cevianTofP = 517.15</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#007BAE"><html>Segment c<sub><font size="-1">p</font></sub></html></span></td>
+<td><span style="color:#007BAE">Segment(A<sub><font size="-1">P</font></sub>, B<sub><font size="-1">P</font></sub>, cevianTofP)</span></td>
+<td><span style="color:#007BAE">c<sub><font size="-1">p</font></sub> = 28.41</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#007BAE"><html>Segment a<sub><font size="-1">p</font></sub></html></span></td>
+<td><span style="color:#007BAE">Segment(B<sub><font size="-1">P</font></sub>, C<sub><font size="-1">P</font></sub>, cevianTofP)</span></td>
+<td><span style="color:#007BAE">a<sub><font size="-1">p</font></sub> = 46.24</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#007BAE"><html>Segment b<sub><font size="-1">p</font></sub></html></span></td>
+<td><span style="color:#007BAE">Segment(C<sub><font size="-1">P</font></sub>, A<sub><font size="-1">P</font></sub>, cevianTofP)</span></td>
+<td><span style="color:#007BAE">b<sub><font size="-1">p</font></sub> = 36.41</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><html>Line aa<sub><font size="-1">p</font></sub></html></td>
+<td>Line(B<sub><font size="-1">P</font></sub>, C<sub><font size="-1">P</font></sub>)</td>
+<td>aa<sub><font size="-1">p</font></sub>: -28.24x + 36.62y = -1034.97</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><html>Line bb<sub><font size="-1">p</font></sub></html></td>
+<td>Line(C<sub><font size="-1">P</font></sub>, A<sub><font size="-1">P</font></sub>)</td>
+<td>bb<sub><font size="-1">p</font></sub>: -0.17x - 36.41y = -11.67</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><html>Line cc<sub><font size="-1">p</font></sub></html></td>
+<td>Line(A<sub><font size="-1">P</font></sub>, B<sub><font size="-1">P</font></sub>)</td>
+<td>cc<sub><font size="-1">p</font></sub>: 28.41x - 0.21y = 12.34</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td>Text text8</td>
+<td>&nbsp;</td>
+<td>"Step 4: The Cevian Triangle ApBpCp thus consructed, is self-polar wrt given conic."</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td>Line polarAp</td>
+<td>Polar(A<sub><font size="-1">P</font></sub>, conic)</td>
+<td>polarAp: 132.48x - 171.78y = 4854.9</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td>Line polarBp</td>
+<td>Polar(B<sub><font size="-1">P</font></sub>, conic)</td>
+<td>polarBp: 11.05x + 2438.03y = 781.18</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td>Line polarCp</td>
+<td>Polar(C<sub><font size="-1">P</font></sub>, conic)</td>
+<td>polarCp: 2216.24x - 16.4y = 962.4</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#1C1C1F">Boolean Value check1</span></td>
+<td><span style="color:#1C1C1F">AreEqual(polarAp, aa<sub><font size="-1">p</font></sub>)</span></td>
+<td><span style="color:#1C1C1F">check1 = true</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#1C1C1F">Boolean Value check2</span></td>
+<td><span style="color:#1C1C1F">AreEqual(polarBp, bb<sub><font size="-1">p</font></sub>)</span></td>
+<td><span style="color:#1C1C1F">check2 = true</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#1C1C1F">Boolean Value check3</span></td>
+<td><span style="color:#1C1C1F">AreEqual(polarCp, cc<sub><font size="-1">p</font></sub>)</span></td>
+<td><span style="color:#1C1C1F">check3 = true</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#EB0000">Text result</span></td>
+<td><span style="color:#EB0000">If(check1 &#8743; check2 &#8743; check3, "Proved.", "Not proved.")</span></td>
+<td><span style="color:#EB0000">"Proved."</span></td>
+</tr>
+</table>
+Created with <a href="https://www.geogebra.org/" target="_blank" >GeoGebra</a>
+<!-- Base64 string so that this file can be opened in GeoGebra with File -> Open -->
+<applet width='1' height='1' code='' style="display:none">
+<param name="ggbBase64" value="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">
+</applet>
+</body>
+</html>
