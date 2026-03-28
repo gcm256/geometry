@@ -1,5 +1,5 @@
-There is a very deep and long history of animosity between christians and muslims, apart contesting their mutual cliams over jaerusalum, 
-and crusades (from ~1100 to 1300).
+There is a very deep and long history of animosity between christians and muslims, apart from crusades (from ~1100 to 1300) and from 
+their continuing competing claims over Jerusalum.
 
 
 1. Spain and entire Iberian Peninsula were conquered round 720ce by arabs, starting from the 711 Battle of Guadalete.
