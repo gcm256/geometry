@@ -1394,10 +1394,10 @@ The Kerr metric has a remarkable property:
 For example:
 
 * Mass monopole: $M$
-* Spin dipole: $J$
+* Spin dipole (aka angular momentum): $J$
 * Mass quadrupole:
 
-  $$Q=-\frac{J^2}{M}$$
+  $$M_2=-\frac{J^2}{M}$$
 
 and all higher moments follow automatically.
 
@@ -1693,6 +1693,402 @@ One small piece of advice for future reading: whenever you encounter a new exact
 That way, instead of memorizing a collection of metrics, you see them as members of a family related by assumptions and parameters.
 
 Feel free to continue the discussion any time. Your questions have been very precise and mathematically oriented, which makes it possible to dig into the underlying structure rather than just the standard textbook explanations.
+
+
+===
+===
+
+> ### What if the object is irregular shaped, but non-rotating? Will its metric still be Kerr metric, or something more special case?
+
+Excellent question. The answer is:
+
+> **Neither Schwarzschild nor Kerr. In general, there is no simple closed-form metric.**
+
+Here's why.
+
+## 1. Why Schwarzschild doesn't apply
+
+Schwarzschild relies crucially on **spherical symmetry**.
+
+If the object is irregularly shaped—even if it is completely non-rotating—then spherical symmetry is lost.
+
+So Birkhoff's theorem no longer applies.
+
+Therefore, there is no reason for the exterior metric to be Schwarzschild.
+
+---
+
+## 2. Why Kerr doesn't apply
+
+Kerr assumes
+
+* vacuum outside,
+* stationary,
+* **axisymmetry**,
+* rotation.
+
+Your object has
+
+* vacuum outside,
+* static,
+* **no axisymmetry** (because it is irregular).
+
+So Kerr doesn't apply either.
+
+---
+
+## 3. So what metric do we get?
+
+In principle,
+
+you solve Einstein's equations
+
+$$
+G_{\mu\nu}=0
+$$
+
+outside the body,
+
+subject to boundary conditions determined by the body's shape and interior matter distribution.
+
+Usually there is **no closed-form solution**.
+
+People either
+
+* solve the equations numerically,
+* or use approximations.
+
+---
+
+## 4. Multipole expansion
+
+This is the GR analogue of what you already know from electrostatics.
+
+Suppose in electrostatics the charge distribution is irregular.
+
+Far away,
+
+the potential is
+
+$$
+\frac{1}{r}
++
+\frac{1}{r^2}
++
+\frac{1}{r^3}
++\cdots
+$$
+
+where the coefficients are
+
+* monopole,
+* dipole,
+* quadrupole,
+* etc.
+
+Gravity works similarly.
+
+Far from an isolated body,
+
+the metric can be expanded in terms of
+
+* mass monopole,
+* mass quadrupole,
+* mass octupole,
+* ...
+
+These are called the **multipole moments**.
+
+---
+
+## 5. Relation to Schwarzschild
+
+Schwarzschild is the simplest possible case.
+
+All higher multipoles vanish.
+
+Only
+
+$$
+M
+$$
+
+is nonzero.
+
+---
+
+## 6. Relation to Kerr
+
+Kerr is much more remarkable.
+
+It also has infinitely many multipole moments,
+
+but they are **not independent**.
+
+Once you specify
+
+* mass $M$,
+* angular momentum $J$,
+
+every higher multipole is fixed automatically.
+
+For example,
+
+* monopole = $M$,
+* spin dipole = $J$,
+* quadrupole = $-J^2/M$,
+* etc.
+
+A generic star does **not** satisfy these relations.
+
+Its quadrupole depends on
+
+* flattening,
+* density profile,
+* internal pressure,
+
+not just $M$ and $J$.
+
+---
+
+## 7. Static but irregular
+
+This is actually a well-studied class of solutions.
+
+There are exact solutions describing static bodies with higher multipole moments, but they are much more complicated than Schwarzschild. One famous example is the Zipoy–Voorhees metric (also called the γ-metric), which describes certain static, axisymmetric deviations from Schwarzschild. There are also other Weyl-class solutions for static, axisymmetric vacuum spacetimes.
+
+However, once you drop **axisymmetry** as well and allow a genuinely arbitrary irregular shape, there is generally **no simple named metric**. One typically resorts to numerical solutions or perturbative/multipole methods.
+
+---
+
+So there is a beautiful hierarchy:
+
+| Source                                | Exterior metric                                  |
+| ------------------------------------- | ------------------------------------------------ |
+| Static + spherical                    | Schwarzschild                                    |
+| Stationary + axisymmetric + rotating  | Kerr                                             |
+| Static + axisymmetric (non-spherical) | Various exact Weyl solutions (special cases)     |
+| Completely arbitrary shape            | Usually numerical or multipole-expanded solution |
+
+Notice how moving down the table means giving up symmetry. In GR, symmetry is what makes Einstein's nonlinear equations tractable. Once enough symmetry is lost, the equations are still well-defined, but closed-form solutions become the exception rather than the rule.
+
+===
+===
+
+> ### But if the same irregular shape were rotating, metric will be Kerr metric, correct?
+
+Actually, **no**. This is one of the most subtle aspects of GR.
+
+The answer is:
+
+> **A rotating irregular body is generally *not* described exactly by the Kerr metric.**
+
+The reason is that **Kerr is much more special than "rotating."**
+
+## What Kerr assumes
+
+Kerr is the unique vacuum solution outside an **isolated, stationary, axisymmetric** source whose multipole moments satisfy a very special relationship.
+
+The source itself need not literally be a perfect sphere, but its **exterior gravitational field** must have the Kerr multipole structure.
+
+---
+
+## Consider two examples
+
+### Example 1: Rotating perfect sphere
+
+Initially a perfect sphere starts rotating.
+
+Physically, it won't remain a perfect sphere—it will bulge slightly at the equator and become approximately an oblate spheroid.
+
+Its exterior spacetime is **approximately Kerr** if the rotation is not too rapid and higher multipole corrections are small.
+
+---
+
+### Example 2: Rotating potato-shaped asteroid
+
+Now take a very irregular asteroid and spin it.
+
+Its mass distribution is nowhere near axisymmetric.
+
+Its quadrupole, octupole, etc., are determined by its irregular shape.
+
+The exterior metric is **not Kerr**.
+
+There is no simple closed-form metric known in general.
+
+---
+
+## The role of axisymmetry
+
+This is the key.
+
+Kerr assumes the spacetime is **axisymmetric**.
+
+That means rotating the whole system around one axis leaves it unchanged.
+
+A potato-shaped object generally does **not** satisfy that.
+
+If you rotate it by $30^\circ$ about its spin axis, it looks different.
+
+Therefore it is not axisymmetric.
+
+---
+
+## What if the irregular object is spinning steadily?
+
+This is an important subtlety.
+
+Suppose the object rotates rigidly with angular velocity (\Omega).
+
+In ordinary space, its shape changes with time. Because it looks different as it rotates.
+
+So in ordinary coordinates it is not stationary.
+
+However, in coordinates that rotate with the body, the matter distribution is fixed.
+
+This is sometimes called **helical symmetry**, not ordinary stationarity.
+
+The exterior metric is generally much more complicated than Kerr.
+
+---
+
+## A useful way to think about Kerr
+
+Think of Schwarzschild as the analogue of:
+
+> "Every spherical object has the same outside field."
+
+Kerr is **not** the analogue of:
+
+> "Every rotating object has the same outside field."
+
+Instead it is closer to:
+
+> "Every isolated rotating object whose exterior field has exactly the Kerr multipole structure has the Kerr metric."
+
+That's a much stronger statement.
+
+---
+
+### A real astrophysical note
+
+Even the **Sun** is not exactly Kerr.
+
+Even though it is:
+
+* rotating,
+* nearly axisymmetric,
+
+its exterior spacetime differs slightly from Kerr because:
+
+* it is not a black hole,
+* it has a finite radius,
+* it has a quadrupole moment due to its oblateness,
+* it has internal differential rotation.
+
+For the Solar System, those deviations are tiny, so Schwarzschild plus small corrections works extremely well.
+
+---
+
+So the progression is actually:
+
+* **Static + spherical** → exactly Schwarzschild.
+* **Rotating + axisymmetric + appropriate multipole structure** → exactly Kerr.
+* **Rotating + arbitrary shape** → generally **not** Kerr; one needs a more general solution (often numerical or a multipole expansion).
+
+The key lesson is that **rotation alone is not enough**. Symmetry of the mass distribution—and the resulting multipole moments—is equally important.
+
+Cases of objects/spacetimes:
+
+1. Non-rotating, spherically symmetric: Schwarzschild
+2. Non-rotating, non-spherical: No closed-form. Neither Schwarzschild nor Kerr
+3. Rotating (in stationary manner), axisymmetric, isolated, vacuum, with negligible higher multipoles, or whose entire multipole structure is fixed by $M$ and $J$: Kerr
+4. Anything else: No closed-form. Neither Schwarzschild nor Kerr
+
+Kerr is the metric for isolated, stationary, axisymmetric vacuum spacetimes whose multipole moments are those of a Kerr solution. A rotating axisymmetric material object generally produces a different metric, although it may be approximately Kerr far away if higher multipoles are negligible.
+
+Kerr is not "the metric for axisymmetric rotating objects." It is the metric for a very special class of axisymmetric rotating vacuum spacetimes whose entire multipole structure is fixed by $M$ and $J$.
+
+Kerr forces $M_2 = -J^2/M$
+
+$M_2 = -J^2/M$ is a necessary condition for a Kerr spacetime, but it is not sufficient.
+
+A useful analogy:
+
+* **Schwarzschild**:
+  * spherical symmetry is so restrictive that $M$ alone determines the exterior.
+* **Kerr**:
+  * axisymmetry is not enough.
+  * You also need the special Kerr multipole relations.
+
+What extra condition makes Kerr unique?
+
+The key extra physics is that the object is a black hole (more precisely, an isolated, stationary, axisymmetric black hole satisfying the usual regularity assumptions).
+
+"A rotating black hole is described by the Kerr metric."
+
+"Not every rotating axisymmetric object is described by Kerr."
+
+A better mental table is:
+
+| Physical system             | Exterior metric                                                                    |
+| --------------------------- | ---------------------------------------------------------------------------------- |
+| Non-rotating spherical body | Schwarzschild                                                                      |
+| Non-rotating irregular body | General static multipole solution                                                  |
+| Rotating black hole         | Kerr                                                                               |
+| Rotating star/planet        | General stationary axisymmetric solution (approximately Kerr only in some regimes) |
+
+A useful "corrected mental map" is:
+
+| Assumptions                                                | Result                                                 |
+| ---------------------------------------------------------- | ------------------------------------------------------ |
+| Static + spherical + vacuum exterior                       | Schwarzschild                                          |
+| Static + axisymmetric + vacuum exterior                    | General static axisymmetric solutions (not unique)     |
+| Stationary + axisymmetric + vacuum exterior                | General stationary axisymmetric solutions (not unique) |
+| Stationary + axisymmetric + vacuum + black hole regularity | Kerr                                                   |
+| Charged versions with the corresponding assumptions        | Reissner–Nordström / Kerr–Newman                       |
+
+
+The surprising lesson is:
+
+> Symmetry reduces the possible metrics, but it does not always reduce them to one unique metric.
+
+Spherical symmetry is exceptionally powerful. Axisymmetry is only a partial constraint.
+
+Your sequence of questions actually uncovered the main conceptual trap in learning GR: phrases like "the metric of a rotating object" are often shorthand for "the metric of a rotating black hole," and those are not the same thing. A rotating planet, star, and black hole can all have angular momentum, but their external spacetimes need not be identical.
+
+If a body described by the Kerr metric stops rotating, the Kerr metric reduces to the Schwarzschild metric.
+
+If a body described by a non-Kerr metric stops rotating, the metric **may** reduce to the Schwarzschild metric, or become something else. (This means, if a body described by the Schwarzschild metric starts rotating, it may become Kerr (if $M_2 = -J^2/M$) or non-Kerr ($M_2 \neq -J^2/M$).)
+
+A rotating object with a non-Kerr exterior metric can, after it stops rotating, end up with a Schwarzschild exterior metric, but only if the final non-rotating object satisfies the Schwarzschild conditions.
+
+There are some (finite) named metric solutions. There are infinite exact solutions. There are also infinite closed-form solutions.
+
+$\text{Named Solutions} \subset \text{Closed-form Solutions} \subset \text{Exact Solutions}$
+
+The named metrics are usually the ones that are:
+
+* physically important,
+* historically important,
+* mathematically elegant,
+* or useful approximations.
+
+A useful way to organize them is by the assumptions they make.
+
+| Metric                                     | Main assumptions                           | Parameters                              | Physical interpretation                                           |
+| ------------------------------------------ | ------------------------------------------ | --------------------------------------- | ----------------------------------------------------------------- |
+| Schwarzschild metric                       | Static, spherical symmetry, vacuum         | $M$                                     | Non-rotating uncharged black hole; exterior of any spherical body |
+| Reissner–Nordström metric                  | Static, spherical symmetry, charged vacuum | $M,Q$                                   | Non-rotating charged black hole                                   |
+| Kerr metric                                | Stationary, axisymmetric, vacuum           | $M,J$                                   | Rotating uncharged black hole                                     |
+| Kerr–Newman metric                         | Stationary, axisymmetric, charged vacuum   | $M,J,Q$                                 | Rotating charged black hole                                       |
+| Friedmann–Lemaître–Robertson–Walker metric | Homogeneous, isotropic universe            | density, pressure, curvature, $\Lambda$ | Expanding universe models                                         |
+| de Sitter metric                           | Vacuum with (\Lambda>0)                    | $\Lambda$                               | Accelerating empty universe                                       |
+| Anti-de Sitter metric                      | Vacuum with (\Lambda<0)                    | $\Lambda$                               | Negatively curved spacetime                                       |
+| Gödel metric                               | Homogeneous rotating universe              | matter density, rotation                | A universe with closed timelike curves                            |
+| Taub–NUT metric                            | Vacuum, unusual topology                   | mass, NUT parameter                     | Mathematical rotating-like spacetime                              |
+| Kasner metric                              | Homogeneous but anisotropic vacuum         | expansion exponents                     | Early-universe anisotropic model                                  |
 
 
 ===
