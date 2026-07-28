@@ -1,6 +1,4 @@
-> 1. Does perihelion advance happen only in Mercury, or all planets, and in general, for any astro object revolving around any other astro object?
->
-> 2. Why only Mercury was the exception demanding explanation in terms of gen relativity?
+> ### 1. Does perihelion advance happen only in Mercury, or all planets, and in general, for any astro object revolving around any other astro object? <br><br> 2. Why only Mercury was the exception demanding explanation in terms of gen relativity?
 
 Great questions. The short answers are:
 
@@ -96,7 +94,7 @@ So Mercury wasn't unique because it precesses—it was unique because its **rema
 ===
 ===
 
-> How does TGR explain the 43 secs, rather how does TGR contribute to apsidal precession?
+> ### How does TGR explain the 43 secs, rather how does TGR contribute to apsidal precession?
 
 This gets to one of the most beautiful predictions of general relativity. The key idea is that **in Newtonian gravity, the Sun's gravitational field is exactly an inverse-square force, so bound orbits are perfect ellipses. In general relativity, gravity is not a force in the same sense—it's the curvature of spacetime—and that changes the orbit slightly.**
 
@@ -124,13 +122,15 @@ The geometry outside a spherical, non-rotating Sun is described by the Schwarzsc
 
 When you solve the geodesic equations for Mercury, the orbit equation becomes
 
-$$\frac{d^2u}{d\phi^2}+u = \frac{GM}{h^2} + \frac{3GM}{c^2}u^2$$,
+$$
+\frac{d^2u}{d\phi^2}+u = \frac{GM}{h^2} + \frac{3GM}{c^2}u^2
+$$
 
 where
 
-* (u=1/r),
-* (h) is the angular momentum per unit mass,
-* (c) is the speed of light.
+* $u=1/r$,
+* $h$ is the angular momentum per unit mass,
+* $c$ is the speed of light.
 
 Notice the extra term
 
@@ -152,17 +152,17 @@ $$
 u=\frac{GM}{h^2}(1+e\cos\phi),
 $$
 
-which repeats perfectly every (2\pi) radians.
+which repeats perfectly every $2\pi$ radians.
 
 With the relativistic correction, the solution becomes approximately
 
 $$
 u\simeq
 \frac{GM}{h^2}
-\left[1+e\cos((1-\delta)\phi)\right],
+\left(1+e\cos((1-\delta)\phi)\right),
 $$
 
-where ($`\delta`$) is a tiny positive number.
+where $\delta$ is a tiny positive number.
 
 Now the cosine repeats after
 
@@ -192,8 +192,8 @@ $$
 
 where
 
-* (a) is the semi-major axis,
-* (e) is the eccentricity.
+* $a$ is the semi-major axis,
+* $e$ is the eccentricity.
 
 This formula has **no adjustable parameters**. Plug in Mercury's measured orbit and the Sun's mass.
 
@@ -231,9 +231,7 @@ This is one of the few situations where the geometry of spacetime has a directly
 ===
 ===
 
-> 1. What do you mean by "This formula has no adjustable parameters."? a and e are the orbital parameters, different for different planets, no? Or, even if you consider only one planet, then also, what would be a possible adjustable param, like an initial condition?
-> 
-> 2. Please explain: "On a curved surface, trying to follow the "same" geometric path". What kind of curved surface, all kinds or certain kinds? Let's say for surface of a sphere, you can certainly draw an "ellipse" which closes perfectly. Same for the surface of a hyperboloid too, no?
+> ### 1. What do you mean by "This formula has no adjustable parameters."? a and e are the orbital parameters, different for different planets, no? Or, even if you consider only one planet, then also, what would be a possible adjustable param, like an initial condition? <br> <br> 2. Please explain: "On a curved surface, trying to follow the "same" geometric path". What kind of curved surface, all kinds or certain kinds? Let's say for surface of a sphere, you can certainly draw an "ellipse" which closes perfectly. Same for the surface of a hyperboloid too, no?
 
 These are exactly the right questions. They touch on what made Einstein's result so convincing and on where the surface analogy starts to break down.
 
@@ -249,11 +247,11 @@ $$
 
 Every quantity on the right-hand side is already known:
 
-* (G): measured in the lab.
-* (M): the Sun's mass, determined independently (e.g., from planetary motion).
-* (a): measured from Mercury's orbit.
-* (e): measured from Mercury's orbit.
-* (c): measured in the lab.
+* $G$: measured in the lab.
+* $M$: the Sun's mass, determined independently (e.g., from planetary motion).
+* $a$: measured from Mercury's orbit.
+* $e$: measured from Mercury's orbit.
+* $c$: measured in the lab.
 
 There is **nothing left to tune**.
 
@@ -393,7 +391,7 @@ For a perfect ellipse,
 
 So after one orbit,
 
-* angle advanced = ($`2\pi`$),
+* angle advanced = $2\pi$,
 * radial cycle completed = 1,
 
 and the planet returns to the same perihelion.
@@ -407,9 +405,7 @@ This viewpoint is especially powerful because it doesn't rely on visualizing cur
 ===
 ===
 
-> 1. But you said "On a curved surface, trying to follow the "same" geometric path doesn't bring you back to exactly the same orientation." So here you mean a person is trying to draw a path ie he is unconstrained?
-> 
-> 2. Wrt "Changing the geometry changes those equations.", what is the parameter for the geometry in the GR equation of orbit you gave? 
+> ### 1. But you said "On a curved surface, trying to follow the "same" geometric path doesn't bring you back to exactly the same orientation." So here you mean a person is trying to draw a path ie he is unconstrained? <br> <br> 2. Wrt "Changing the geometry changes those equations.", what is the parameter for the geometry in the GR equation of orbit you gave? 
 
 
 Excellent questions. They get at exactly where analogies stop being reliable and where the mathematics takes over.
@@ -444,9 +440,9 @@ The answer is:
 
 The geometry is encoded in the **metric tensor**
 
-[
+$$
 g_{\mu\nu}(x).
-]
+$$
 
 This is the object that tells spacetime:
 
@@ -454,30 +450,28 @@ This is the object that tells spacetime:
 * how to measure time,
 * what the straightest possible paths (geodesics) are.
 
-Everything about the geometry is contained in (g_{\mu\nu}).
+Everything about the geometry is contained in $g_{\mu\nu}$.
 
 ---
 
 For empty space outside the Sun, Einstein's equations uniquely determine the metric to be the Schwarzschild metric:
 
-[
-ds^2
-====
-
+$$
+ds^2=
 -\left(1-\frac{2GM}{rc^2}\right)c^2dt^2
 +
 \left(1-\frac{2GM}{rc^2}\right)^{-1}dr^2
 +
-r^2d\Omega^2.
-]
+r^2d\Omega^2
+$$
 
 Notice something remarkable.
 
 The only physical parameter appearing is
 
-[
+$$
 M,
-]
+$$
 
 the Sun's mass.
 
@@ -491,40 +485,38 @@ There is no extra "curvature knob."
 
 Earlier I wrote the orbit equation
 
-[
-u''+u
-=====
-
+$$
+u''+u=
 \frac{GM}{h^2}
 +
 \frac{3GM}{c^2}u^2.
-]
+$$
 
 That equation is **not** postulated.
 
 It comes from solving the geodesic equation
 
-[
+$$
 \frac{D^2x^\mu}{d\tau^2}=0
-]
+$$
 
 using the Schwarzschild metric.
 
 In other words,
 
 > metric
-> (\rightarrow)
+> $\rightarrow$
 > Christoffel symbols
-> (\rightarrow)
+> $\rightarrow$
 > geodesic equation
-> (\rightarrow)
+> $\rightarrow$
 > orbit equation.
 
 The extra
 
-[
+$$
 \frac{3GM}{c^2}u^2
-]
+$$
 
 is simply what drops out after the algebra.
 
@@ -536,24 +528,22 @@ Yes.
 
 In Newtonian gravity, only the time-time component is effectively modified:
 
-[
+$$
 g_{tt}
 \approx
 -\left(1+\frac{2\Phi}{c^2}\right),
-]
+$$
 
-where (\Phi=-GM/r).
+where $\Phi=-GM/r$.
 
 If that were the whole story, you would recover Newtonian gravity.
 
 General relativity also changes the **spatial** geometry:
 
-[
-g_{rr}
-======
-
+$$
+g_{rr}=
 \left(1-\frac{2GM}{rc^2}\right)^{-1},
-]
+$$
 
 meaning that radial distances are no longer Euclidean.
 
@@ -565,18 +555,16 @@ Historically, Einstein himself noted something interesting: if you include only 
 
 ---
 
-So, unlike the analogy with a curved 2D surface, in GR the "geometry" isn't described by a single curvature parameter. It is encoded in the entire metric tensor (g_{\mu\nu}), and the perihelion advance is a consequence of the specific way the Schwarzschild metric modifies both the flow of time and the geometry of space around the Sun. This is why the orbit equation acquires that extra (3GMu^2/c^2) term.
+So, unlike the analogy with a curved 2D surface, in GR the "geometry" isn't described by a single curvature parameter. It is encoded in the entire metric tensor $g_{\mu\nu}$, and the perihelion advance is a consequence of the specific way the Schwarzschild metric modifies both the flow of time and the geometry of space around the Sun. This is why the orbit equation acquires that extra $3GMu^2/c^2$ term.
 
 ===
 ===
 
-> 1. So can we say after simplifying the tensor equation to a scalar form, the mass M of the central object (around which the orbital motion occurs), determines the geometry? Or M only captures the "strength" of the geometry, not the "type" of geometry. To give a 2D example, let's say the tensor determines if the geometry of the path is a "circle", "parabola", "ellipse", "hyperbola", or even some other plane curve, and M captures the eccentricity (of the type (if it is a conic)) or the curvature function (if it is some arbitrary plane curve)? Again I am just giving an analogy.
-> 
-> 2. So to understand apsidal precession, if there are only two point masses (therefore no oblateness / irregular shape issues, no tidal forces, no other masses to consider), pre-GR (ie Newton) laws predict that there will be no apsidal precession, ie the period of the angular motion is equal to the period of the radial motion, both are 2π. But in GR, there is a correction so the radial period (2π+∂) is slightly greater than the angular period (2π), correct?
+> ### 1. So can we say after simplifying the tensor equation to a scalar form, the mass M of the central object (around which the orbital motion occurs), determines the geometry? Or M only captures the "strength" of the geometry, not the "type" of geometry. To give a 2D example, let's say the tensor determines if the geometry of the path is a "circle", "parabola", "ellipse", "hyperbola", or even some other plane curve, and M captures the eccentricity (of the type (if it is a conic)) or the curvature function (if it is some arbitrary plane curve)? Again I am just giving an analogy. <br> <br> 2. So to understand apsidal precession, if there are only two point masses (therefore no oblateness / irregular shape issues, no tidal forces, no other masses to consider), pre-GR (ie Newton) laws predict that there will be no apsidal precession, ie the period of the angular motion is equal to the period of the radial motion, both are 2π. But in GR, there is a correction so the radial period (2π+∂) is slightly greater than the angular period (2π), correct?
 
 These are very insightful formulations. Let me refine them a bit.
 
-## 1. Does (M) determine the geometry, or just its "strength"?
+## 1. Does $M$ determine the geometry, or just its "strength"?
 
 The best answer is:
 
@@ -586,9 +574,9 @@ Here's what I mean.
 
 Einstein's field equations are
 
-[
+$$
 G_{\mu\nu}=\frac{8\pi G}{c^4}T_{\mu\nu}.
-]
+$$
 
 Once you specify the matter distribution (T_{\mu\nu}), the equations determine the metric (g_{\mu\nu}).
 
@@ -600,7 +588,7 @@ For your Mercury problem, the assumptions are:
 
 Under these assumptions, there is a theorem (Birkhoff's theorem) that says there is only **one** possible exterior geometry: the Schwarzschild geometry.
 
-Within that family, (M) is the only free parameter.
+Within that family, $M$ is the only free parameter.
 
 So your statement
 
@@ -617,9 +605,9 @@ For example:
 * electrically charged body → Reissner–Nordström metric
 * expanding universe → Friedmann–Lemaître–Robertson–Walker metric
 
-So (M) does **not** choose the "type" of geometry. The physical assumptions do.
+So $M$ does **not** choose the "type" of geometry. The physical assumptions do.
 
-Once the type is fixed, (M) fixes how strongly curved that geometry is.
+Once the type is fixed, $M$ fixes how strongly curved that geometry is.
 
 ---
 
@@ -646,11 +634,11 @@ Likewise,
 
 Then
 
-* (M)
+* $M$
 
 tells you **which Schwarzschild spacetime.**
 
-So yes, (M) is more analogous to a parameter *within* a family than to the family itself.
+So yes, $M$ is more analogous to a parameter *within* a family than to the family itself.
 
 ---
 
@@ -660,9 +648,9 @@ You are **extremely close**, but there is one subtle reversal.
 
 You wrote
 
-> radial period = (2\pi+\delta),
+> radial period = $2\pi+\delta$,
 >
-> angular period = (2\pi).
+> angular period = $2\pi$.
 
 Actually it's the opposite way of thinking.
 
@@ -681,20 +669,20 @@ After
 
 the planet has rotated by exactly
 
-[
+$$
 2\pi.
-]
+$$
 
 So
 
-[
+$$
 \Omega_\phi=\Omega_r,
-]
+$$
 
 where
 
-* (\Omega_\phi) = angular frequency,
-* (\Omega_r) = radial frequency.
+* $\Omega_\phi$ = angular frequency,
+* $\Omega_r$ = radial frequency.
 
 The orbit closes.
 
@@ -710,17 +698,17 @@ That defines one radial period.
 
 But during that same radial cycle, the planet has turned by
 
-[
+$$
 2\pi+\Delta\phi.
-]
+$$
 
 So it has rotated **more** than one full revolution before reaching the next perihelion.
 
 Equivalently,
 
-[
+$$
 \Omega_\phi>\Omega_r.
-]
+$$
 
 The angular motion is slightly "ahead."
 
@@ -734,14 +722,14 @@ Another way to express it is:
 
 Let
 
-* (T_r) = radial period,
-* (T_\phi) = time to rotate through (2\pi).
+* $T_r$ = radial period,
+* $T_\phi$ = time to rotate through $2\pi$.
 
 Then in GR,
 
-[
+$$
 T_\phi<T_r.
-]
+$$
 
 The planet completes one full (360^\circ) revolution **before** it has completed one radial oscillation. By the time it returns to perihelion, it has already gone an additional tiny angle (\Delta\phi).
 
@@ -754,7 +742,7 @@ This frequency viewpoint is actually how relativists often think about the probl
 ===
 ===
 
-> ok got it. You mentioned about different geometries for different assumptions/scenarios eg non-rotating spherical body → Schwarzschild metric etc. What about the gremetry/metric when I assume point mass? In this case, will GR also give zero apsidal precession?
+> ### ok got it. You mentioned about different geometries for different assumptions/scenarios eg non-rotating spherical body → Schwarzschild metric etc. What about the gremetry/metric when I assume point mass? In this case, will GR also give zero apsidal precession?
 
 This is a very good question because it exposes a subtle point: **"point mass" is a Newtonian concept, and in GR it is not quite the same thing as "spherical body."**
 
@@ -770,15 +758,15 @@ Let's unpack why.
 
 In Newtonian gravity, a point mass means:
 
-[
+$$
 \rho(\mathbf{x})=M\delta(\mathbf{x})
-]
+$$
 
 and the gravitational field outside it is:
 
-[
+$$
 \Phi=-\frac{GM}{r}.
-]
+$$
 
 For a spherical extended body, Newton's shell theorem says the outside field is exactly the same as a point mass. So Newtonian mechanics does not care whether the Sun is a point or a sphere.
 
@@ -798,14 +786,14 @@ all produce the **same exterior metric** (assuming no rotation and no other comp
 
 The metric is:
 
-[
+$$
 ds^2=
 -\left(1-\frac{2GM}{rc^2}\right)c^2dt^2
 +
 \left(1-\frac{2GM}{rc^2}\right)^{-1}dr^2
 +
 r^2d\Omega^2.
-]
+$$
 
 So the "point mass" assumption does **not** lead to a new metric with zero precession. It leads to Schwarzschild.
 
@@ -817,9 +805,9 @@ This is the key distinction.
 
 In Newtonian mechanics:
 
-[
+$$
 V(r)=-\frac{GM}{r}
-]
+$$
 
 has a special property: all bound orbits close.
 
@@ -827,8 +815,8 @@ This is not true for most potentials.
 
 For example:
 
-* (V(r)\propto r^2) → closed ellipses (harmonic oscillator)
-* (V(r)\propto -1/r) → closed ellipses (gravity)
+* $V(r)\propto r^2$ → closed ellipses (harmonic oscillator)
+* $V(r)\propto -1/r$ → closed ellipses (gravity)
 * most other potentials → precessing ellipses
 
 This is related to the Joseph Bertrand theorem: only those two central potentials produce closed orbits for all initial conditions.
@@ -837,9 +825,9 @@ This is related to the Joseph Bertrand theorem: only those two central potential
 
 In GR, even though the Newtonian potential is still approximately:
 
-[
+$$
 -\frac{GM}{r},
-]
+$$
 
 the **effective potential** for orbital motion gets an additional term.
 
@@ -847,37 +835,33 @@ The radial equation can be written schematically as:
 
 Newton:
 
-[
+$$
 \dot r^2 + V_{\rm eff}(r)=E
-]
+$$
 
 with
 
-[
-V_{\rm eff}
-===========
-
+$$
+V_{\rm eff}= 
 -\frac{GM}{r}
 +\frac{L^2}{2r^2}.
-]
+$$
 
 GR adds a correction:
 
-[
-V_{\rm eff}^{GR}
-================
-
+$$
+V_{\rm eff}^{GR}= 
 -\frac{GM}{r}
 +\frac{L^2}{2r^2}
 -\frac{GML^2}{c^2r^3}
 +\cdots
-]
+$$
 
 That extra:
 
-[
+$$
 -\frac{GML^2}{c^2r^3}
-]
+$$
 
 term breaks the exact balance that makes the Newtonian ellipse close.
 
@@ -889,23 +873,23 @@ The orbit becomes a slowly rotating ellipse.
 
 If the central object is a point mass, the spacetime has a singularity at:
 
-[
+$$
 r=0.
-]
+$$
 
 The Schwarzschild solution describes a black hole if the mass is compressed within its Schwarzschild radius:
 
-[
+$$
 r_s=\frac{2GM}{c^2}.
-]
+$$
 
 For the Sun:
 
-[
+$$
 r_s\approx3,\text{km}.
-]
+$$
 
-The actual solar radius is about (700,000) km, so the Sun is nowhere near a black hole, but its **external spacetime is still Schwarzschild**.
+The actual solar radius is about $700,000$ km, so the Sun is nowhere near a black hole, but its **external spacetime is still Schwarzschild**.
 
 ---
 
@@ -940,7 +924,7 @@ So the surprising result is:
 ===
 ===
 
-> Ah ok I got it. Just as in Newtonian mechanics, outside the mass, it does not matter if it was a perfect sphere or a point (we can take the COM as the point mass, and result will be same), in GR also, it must be same, ie non-rotating spherical body → Schwarzschild metric already covers point mass body.
+> ### Ah ok I got it. Just as in Newtonian mechanics, outside the mass, it does not matter if it was a perfect sphere or a point (we can take the COM as the point mass, and result will be same), in GR also, it must be same, ie non-rotating spherical body → Schwarzschild metric already covers point mass body.
 
 Exactly. Your understanding is now aligned with the key idea.
 
@@ -950,9 +934,9 @@ The analogy between Newtonian gravity and GR is:
 
 Outside a spherically symmetric body:
 
-[
+$$
 \Phi(r)=-\frac{GM}{r}
-]
+$$
 
 regardless of whether the mass is:
 
@@ -963,7 +947,7 @@ regardless of whether the mass is:
 
 as long as it is **spherically symmetric**.
 
-The outside world only "sees" the total mass (M).
+The outside world only "sees" the total mass $M$.
 
 ---
 
@@ -981,16 +965,16 @@ So:
 
 all give the same external metric:
 
-[
+$$
 ds^2=
 -\left(1-\frac{2GM}{rc^2}\right)c^2dt^2
 +
 \left(1-\frac{2GM}{rc^2}\right)^{-1}dr^2
 +
 r^2d\Omega^2.
-]
+$$
 
-The only parameter is (M).
+The only parameter is $M$.
 
 So yes, for Mercury's orbit, the Sun can be treated as a point mass **as far as the external gravitational field is concerned**. The Sun's radius, density distribution, etc., do not enter the Schwarzschild metric.
 
@@ -1007,7 +991,7 @@ This is literally a statement about replacing an extended distribution by an equ
 In GR, we have to be more careful:
 
 * A spherical body has an exterior Schwarzschild geometry.
-* A point mass also has a Schwarzschild geometry outside (r=0).
+* A point mass also has a Schwarzschild geometry outside $r=0$.
 * But the interior solutions are different.
 
 For example:
@@ -1023,15 +1007,15 @@ This also explains why Mercury was such a clean test of GR:
 
 Astronomers did not need a complicated model of the Sun's interior. They only needed:
 
-1. Sun's mass (M)
-2. Mercury's orbital parameters (a,e)
+1. Sun's mass $M$
+2. Mercury's orbital parameters $a,e$
 3. Schwarzschild exterior geometry
 
 and GR predicted the extra:
 
-[
+$$
 43''/\text{century}
-]
+$$
 
 from pure spacetime geometry.
 
@@ -1051,11 +1035,7 @@ Those are additional effects layered on top of the dominant Schwarzschild perihe
 ===
 ===
 
-> 1. What if the body is non-rotating, but the surface has mass moving around eg plasma flows, plasma storms etc.?
-> 
-> 2. Also, since the sun is in fact rotating, there will be further corrections also, no? Because we have to use Kerr metric.
-> 
-> 3. Also, does superposition work ie lets say if it is a rotating and charged body, then can we simply "add" (ie do some generic tensor/metric addition operation on) the Kerr metric and the RN metric? And so on?
+> ### 1. What if the body is non-rotating, but the surface has mass moving around eg plasma flows, plasma storms etc.? <br> <br> 2. Also, since the sun is in fact rotating, there will be further corrections also, no? Because we have to use Kerr metric. <br> <br> 3. Also, does superposition work ie lets say if it is a rotating and charged body, then can we simply "add" (ie do some generic tensor/metric addition operation on) the Kerr metric and the RN metric? And so on?
 
 These are excellent questions because they move from the "clean textbook cases" into what real astrophysical objects actually require.
 
@@ -1067,13 +1047,13 @@ But if there are **mass motions that break spherical symmetry**, then Schwarzsch
 
 The key point is:
 
-> In GR, it is not only the total mass that matters. The full stress-energy tensor (T_{\mu\nu}) matters.
+> In GR, it is not only the total mass that matters. The full stress-energy tensor $T_{\mu\nu}$ matters.
 
 Einstein's equation is:
 
-[
+$$
 G_{\mu\nu}=\frac{8\pi G}{c^4}T_{\mu\nu}.
-]
+$$
 
 The right side contains:
 
@@ -1110,10 +1090,10 @@ A rotating mass produces **frame dragging**, and the exact idealized solution is
 
 The Kerr metric has parameters:
 
-* (M): mass
-* (J): angular momentum
+* $M$: mass
+* $J$: angular momentum
 
-instead of only (M).
+instead of only $M$.
 
 The extra term is roughly associated with the gravitomagnetic field created by the rotating mass.
 
@@ -1122,19 +1102,16 @@ For Mercury, the solar rotation correction exists, but it is **tiny** compared w
 The contributions are roughly:
 
 * Schwarzschild GR effect:
-  [
-  43''/\text{century}
-  ]
+
+  $$43''/\text{century}$$
 
 * Solar quadrupole/oblateness effect:
-  [
-  \sim 0.025''/\text{century}
-  ]
+
+  $$\sim 0.025''/\text{century}$$
 
 * Solar frame dragging:
-  [
-  \sim 0.001''/\text{century}
-  ]
+
+  $$\sim 0.001''/\text{century}$$
 
 (order of magnitude)
 
@@ -1154,33 +1131,33 @@ This is a fundamental difference.
 
 In Newtonian gravity:
 
-[
+$$
 \Phi=\Phi_1+\Phi_2+\cdots
-]
+$$
 
 because the equations are linear.
 
 In electromagnetism:
 
-[
+$$
 \mathbf{E}=\mathbf{E}_1+\mathbf{E}_2+\cdots
-]
+$$
 
 because Maxwell's equations are linear.
 
 But Einstein's equations are nonlinear:
 
-[
+$$
 G_{\mu\nu}(g)=\frac{8\pi G}{c^4}T_{\mu\nu}.
-]
+$$
 
 The left side contains products of the metric and its derivatives.
 
 So generally:
 
-[
+$$
 g_{\mu\nu}^{(1)}+g_{\mu\nu}^{(2)}
-]
+$$
 
 is **not** another valid solution.
 
@@ -1198,21 +1175,21 @@ It is called the Kerr–Newman metric.
 
 It has three parameters:
 
-[
+$$
 M,\quad J,\quad Q
-]
+$$
 
 where:
 
-* (M) = mass
-* (J) = angular momentum
-* (Q) = electric charge
+* $M$ = mass
+* $J$ = angular momentum
+* $Q$ = electric charge
 
 So nature does not combine:
 
-[
+$$
 \text{Kerr}+\text{Reissner–Nordström}
-]
+$$
 
 by addition.
 
@@ -1226,51 +1203,51 @@ The standard progression is:
 
 ### 1. Newtonian point mass
 
-[
+$$
 M
-]
+$$
 
 ↓
 
 ### 2. GR non-rotating spherical mass
 
-[
+$$
 \text{Schwarzschild}
-]
+$$
 
 parameters:
 
-[
+$$
 M
-]
+$$
 
 ↓
 
 ### 3. Rotating mass
 
-[
+$$
 \text{Kerr}
-]
+$$
 
 parameters:
 
-[
+$$
 M,J
-]
+$$
 
 ↓
 
 ### 4. Rotating charged mass
 
-[
+$$
 \text{Kerr–Newman}
-]
+$$
 
 parameters:
 
-[
+$$
 M,J,Q
-]
+$$
 
 Each step is **not** obtained by adding the previous solutions. It is a new solution of the field equations.
 
@@ -1286,7 +1263,7 @@ A nice way to summarize:
 ===
 ===
 
-> ok got it thx.
+> ### ok got it thx.
 
 You're welcome! These were unusually good questions because they moved through the hierarchy of ideas in the right order:
 
@@ -1298,7 +1275,7 @@ You're welcome! These were unusually good questions because they moved through t
 2. **GR with spherical symmetry**
 
    * Exterior geometry is fixed by the Schwarzschild solution.
-   * The mass (M) sets the strength of that geometry.
+   * The mass $M$ sets the strength of that geometry.
    * Even a point mass and a spherical star have the same exterior spacetime.
 
 3. **Why precession appears**
@@ -1315,7 +1292,7 @@ You're welcome! These were unusually good questions because they moved through t
 
 A particularly nice conceptual takeaway is this:
 
-> In Newtonian physics, gravity is a field **on** spacetime.
+> In Newtonian physics, gravity is a field **on** spacetime.  
 > In GR, gravity is the geometry **of** spacetime itself.
 
 That single change is why ideas like "adding gravitational fields" or "just adding metrics" stop working in the straightforward way they do for electromagnetism.
