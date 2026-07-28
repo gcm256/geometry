@@ -1334,7 +1334,7 @@ The assumptions are:
 * stationary,
 * axisymmetric.
 
-Axisymmetric means the object looks the same only after rotations **about its spin axis**.
+~Axisymmetric means the object looks the same only after rotations **about its spin axis**.~ An object is referred to as being axisymmetric wrt a given axis, if rotating the object by any angle θ about that axis leaves the object unchanged.
 
 A rotating body is generally **not** spherically symmetric because the rotation singles out a preferred direction.
 
