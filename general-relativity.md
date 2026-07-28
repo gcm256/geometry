@@ -568,7 +568,7 @@ These are very insightful formulations. Let me refine them a bit.
 
 The best answer is:
 
-> **The mass (M) determines the specific geometry within a given family of geometries.**
+> **The mass $M$ determines the specific geometry within a given family of geometries.**
 
 Here's what I mean.
 
@@ -578,7 +578,7 @@ $$
 G_{\mu\nu}=\frac{8\pi G}{c^4}T_{\mu\nu}.
 $$
 
-Once you specify the matter distribution (T_{\mu\nu}), the equations determine the metric (g_{\mu\nu}).
+Once you specify the matter distribution $T_{\mu\nu}$, the equations determine the metric $g_{\mu\nu}$.
 
 For your Mercury problem, the assumptions are:
 
@@ -728,10 +728,10 @@ Let
 Then in GR,
 
 $$
-T_\phi<T_r.
+T_\phi \lt T_r
 $$
 
-The planet completes one full (360^\circ) revolution **before** it has completed one radial oscillation. By the time it returns to perihelion, it has already gone an additional tiny angle (\Delta\phi).
+The planet completes one full $360^\circ$ revolution **before** it has completed one radial oscillation. By the time it returns to perihelion, it has already gone an additional tiny angle $\Delta\phi$.
 
 So your qualitative picture—that GR breaks the equality between the radial and angular motions—is exactly right. The only correction is the direction: it's the **angular** motion that gets slightly ahead of the radial oscillation, not the other way around.
 
@@ -1298,3 +1298,402 @@ A particularly nice conceptual takeaway is this:
 That single change is why ideas like "adding gravitational fields" or "just adding metrics" stop working in the straightforward way they do for electromagnetism.
 
 It was a pleasure discussing this—your questions were exactly the kind that expose the structure behind the equations rather than just the formulas.
+
+===
+===
+
+> ### The Kerr metric, the rotating object does not need to have spherical symmetry?
+
+This is a subtle point, and the answer depends on whether you're talking about the **matter distribution** or the **spacetime**.
+
+The short answer is:
+
+> **No, the Kerr metric does not assume spherical symmetry. It assumes axial symmetry (rotational symmetry about one axis) and stationarity (unchanging in time).**
+
+Let's unpack that.
+
+### Schwarzschild
+
+The assumptions are:
+
+* non-rotating,
+* static,
+* spherically symmetric.
+
+"Spherically symmetric" means the object looks the same after **any** rotation about its center.
+
+A perfect sphere satisfies this.
+
+---
+
+### Kerr
+
+The assumptions are:
+
+* rotating,
+* stationary,
+* axisymmetric.
+
+Axisymmetric means the object looks the same only after rotations **about its spin axis**.
+
+A rotating body is generally **not** spherically symmetric because the rotation singles out a preferred direction.
+
+A good everyday analogy is the Earth:
+
+* If you rotate the Earth about its spin axis, it looks essentially the same.
+* If you rotate it by 90° so that the North Pole moves to the equator, it definitely does not.
+
+So the Earth is approximately axisymmetric, not spherically symmetric.
+
+The same idea underlies the Kerr solution.
+
+---
+
+### But isn't a rotating star slightly flattened?
+
+Yes.
+
+A real rotating star is typically an **oblate spheroid**, not a sphere.
+
+So you might think:
+
+> "If Kerr assumes only axisymmetry, is it describing the flattened star?"
+
+Interestingly, **not directly**.
+
+The Kerr metric is the **vacuum exterior solution** outside a rotating, axisymmetric source.
+
+It does **not** describe the matter inside the star.
+
+In that sense, it is analogous to Schwarzschild:
+
+* Schwarzschild is the exterior vacuum metric of a non-rotating spherical body.
+* Kerr is the exterior vacuum metric of a rotating axisymmetric body.
+
+The interior requires a separate solution matched to the exterior.
+
+---
+
+### One subtle but important point
+
+A generic rotating star is **not exactly Kerr**.
+
+Why?
+
+Because the exterior gravitational field of a real body depends not only on:
+
+* mass $M$,
+* angular momentum $J$,
+
+but also on higher **multipole moments**, especially the quadrupole moment that measures how much the body is flattened.
+
+The Kerr metric has a remarkable property:
+
+> **All of its multipole moments are completely determined by just (M) and (J).**
+
+For example:
+
+* Mass monopole: $M$
+* Spin dipole: $J$
+* Mass quadrupole:
+
+  $$Q=-\frac{J^2}{M}$$
+
+and all higher moments follow automatically.
+
+A real star generally has a quadrupole moment that **does not** satisfy this relation exactly, because it depends on the star's internal structure (equation of state, density profile, etc.).
+
+So:
+
+* **Black holes** in GR are expected to be described exactly by the Kerr metric (assuming they are isolated and uncharged).
+* **Stars** are only approximately Kerr outside, with small corrections due to their actual shape and internal mass distribution.
+
+So your intuition is correct: Kerr does **not** require spherical symmetry. It requires a weaker symmetry—axisymmetry—and that is exactly why it is the natural metric for rotating bodies. The only refinement is that Kerr is an exact description for an idealized rotating vacuum spacetime (and astrophysical black holes), whereas real rotating stars have small deviations from Kerr because of their additional multipole structure.
+
+===
+===
+
+> ### ok thx.
+
+You're welcome! I enjoyed this discussion—it naturally progressed from the historical Mercury problem into some of the deeper geometry of GR.
+
+Since you seem to appreciate conceptual structure, here's one "mental map" that many students only acquire much later:
+
+| Assumptions                          | Exterior GR metric | Free parameters |
+| ------------------------------------ | ------------------ | --------------- |
+| Static + spherical                   | Schwarzschild      | $M$             |
+| Static + spherical + charge          | Reissner–Nordström | $M, Q$          |
+| Stationary + axisymmetric (rotating) | Kerr               | $M, J$          |
+| Stationary + axisymmetric + charge   | Kerr–Newman        | $M, J, Q$       |
+
+The progression is almost like a taxonomy of increasingly general isolated objects.
+
+Another idea that often surprises people is this:
+
+* In **Newtonian gravity**, the potential $\Phi$ is the primary object.
+* In **GR**, the metric $g_{\mu\nu}$ is the primary object.
+
+Everything else follows from the metric:
+
+1. Compute the Christoffel symbols $\Gamma^\mu_{\nu\rho}$.
+2. Solve the geodesic equation.
+3. Obtain the orbit.
+4. Read off effects like perihelion advance, light bending, Shapiro delay, etc.
+
+So all of these famous "tests of GR" are really different manifestations of the same underlying geometry.
+
+Given the kinds of questions you've been asking, I think you'd enjoy learning the Schwarzschild solution "from the inside out"—not a full tensor derivation (which is quite involved), but how one goes from symmetry assumptions to the metric, then from the metric to the geodesic equations, and finally to Mercury's $43''$ per century. It's one of the cleanest examples of how physics, geometry, and differential equations come together.
+
+
+===
+===
+
+> ### What is the difference between Static and Stationary?
+
+This is one of the most important distinctions in GR, and the terminology is unfortunately a bit counterintuitive.
+
+The short answer is:
+
+* **Stationary** = nothing changes with time.
+* **Static** = stationary **and** there is no "twisting" of spacetime.
+
+So,
+
+> **Every static spacetime is stationary, but not every stationary spacetime is static.**
+
+Let's build some intuition.
+
+---
+
+## 1. Stationary
+
+A spacetime is **stationary** if its geometry does not change with time.
+
+Imagine taking a "snapshot" today and another tomorrow.
+
+The metric is identical.
+
+Mathematically,
+
+$$
+\frac{\partial g_{\mu\nu}}{\partial t}=0.
+$$
+
+So all metric coefficients are independent of the time coordinate.
+
+A rotating black hole satisfies this.
+
+Why?
+
+Although the hole is spinning, it spins steadily.
+
+The geometry tomorrow is exactly the same as today.
+
+Nothing evolves.
+
+So Kerr is stationary.
+
+---
+
+## 2. Static
+
+Static is a stronger condition.
+
+The spacetime must
+
+1. be stationary, and
+2. have no preferred direction of time.
+
+More physically,
+
+> If you reverse time $(t\to -t)$, the geometry is unchanged.
+
+This excludes rotation.
+
+---
+
+### Why does rotation matter?
+
+Imagine stirring coffee.
+
+Suppose the coffee rotates clockwise.
+
+Now reverse time.
+
+The coffee would rotate counterclockwise.
+
+Those are different physical situations.
+
+So a rotating spacetime cannot be static.
+
+---
+
+## 3. The metric tells you immediately
+
+For Schwarzschild,
+
+$$
+ds^2=
+-\left(1-\frac{2GM}{rc^2}\right)dt^2
++
+\cdots
+$$
+
+Notice there are **no mixed terms** like
+
+$$
+dt d\phi.
+$$
+
+This means time and space are "orthogonal."
+
+Schwarzschild is static.
+
+---
+
+For Kerr, however,
+
+the metric contains a term like
+
+$$
+g_{t\phi} dt d\phi.
+$$
+
+This couples
+
+* time,
+* azimuthal angle.
+
+That cross-term is the mathematical signature of frame dragging.
+
+It tells you:
+
+> Time and rotation are mixed together.
+
+So Kerr is stationary but not static.
+
+---
+
+## 4. Physical picture
+
+Imagine floating near the Sun.
+
+### Schwarzschild
+
+You can hover.
+
+Nothing tries to make you rotate.
+
+Space is curved, but not twisted.
+
+---
+
+### Kerr
+
+Now imagine the central body rotates.
+
+Even if you try to stay "still,"
+
+spacetime itself is rotating.
+
+Nearby inertial frames are dragged around.
+
+This is called frame dragging.
+
+So there is no globally meaningful notion of "not rotating."
+
+That's why Kerr cannot be static.
+
+---
+
+## 5. A nice analogy
+
+Imagine a river.
+
+### Static river
+
+The water is perfectly still.
+
+The riverbed never changes.
+
+Everything is motionless.
+
+---
+
+### Stationary river
+
+Now the water flows steadily.
+
+The flow pattern never changes with time.
+
+Today it looks identical to yesterday.
+
+So it is stationary.
+
+But it certainly isn't static because there is continuous motion.
+
+Kerr is like the second case.
+
+The "flow" is spacetime itself being dragged around by the rotating mass.
+
+---
+
+### Summary
+
+| Property          | Static | Stationary |
+| ----------------- | ------ | ---------- |
+| Time-independent? | ✅      | ✅          |
+| Rotation allowed? | ❌      | ✅          |
+| Frame dragging?   | ❌      | ✅          |
+| Schwarzschild     | ✅      | ✅          |
+| Kerr              | ❌      | ✅          |
+
+One final remark that ties into our earlier discussion: the presence of the $g_{t\phi}$ cross-term in the Kerr metric is exactly what encodes the Sun's (or a black hole's) rotation. It's this term that gives rise to effects like frame dragging and the additional, very small corrections to orbital precession beyond the Schwarzschild prediction. This is why, when we say "rotation changes the geometry," we mean that the metric acquires fundamentally new structure—not just different numerical values for the old terms.
+
+
+===
+===
+
+> ### ok thx.
+
+You're very welcome! This was a genuinely enjoyable discussion. Your questions followed a path that mirrors how GR is often taught to graduate students:
+
+1. **Why does Mercury precess?**
+2. **Where does the extra term in the orbit equation come from?**
+3. **How is that related to the metric?**
+4. **What determines the metric?**
+5. **What changes when the source rotates?**
+6. **Why can't we just add metrics?**
+7. **What do "static" and "stationary" really mean?**
+
+That's essentially the conceptual roadmap from Newtonian gravity to the geometry of spacetime.
+
+One small piece of advice for future reading: whenever you encounter a new exact solution in GR, ask yourself these three questions first:
+
+1. **What symmetry assumptions were made?**
+
+   * Spherical?
+   * Axisymmetric?
+   * Homogeneous?
+   * Vacuum?
+
+2. **What are the free parameters?**
+
+   * $M$?
+   * $J$?
+   * $Q$?
+   * Cosmological constant $\Lambda$?
+
+3. **What physical phenomena disappear if I set one parameter to zero?**
+
+   * $J=0$ ⇒ Kerr → Schwarzschild.
+   * $Q=0$ ⇒ Reissner–Nordström → Schwarzschild.
+   * $J=Q=0$ ⇒ Kerr–Newman → Schwarzschild.
+
+That way, instead of memorizing a collection of metrics, you see them as members of a family related by assumptions and parameters.
+
+Feel free to continue the discussion any time. Your questions have been very precise and mathematically oriented, which makes it possible to dig into the underlying structure rather than just the standard textbook explanations.
+
+
+===
+===
