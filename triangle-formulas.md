@@ -117,6 +117,10 @@ $\therefore \\; \overline{OM_a} = R\\, \cos A = \dfrac{1}{2}\overline{AH}$
   - If $P(\tau)$ lies inside the Medial Triangle, its Anticevian Triangle ie the Polar Triangle of $\sum \dfrac{\tau}{x}=0$, circumscribes the reference $\Delta ABC$.
   - Otherwise, the Anticevian / Polar Triangle won't circumscribe the reference $\Delta ABC$. Because, at least one of the 3 vertices $A$, $B$, $C$ will lie on the ***extended*** side(s) of the Anticevian / Polar Triangle.
 - The Trilinear Polar[^29] of $P(\tau)$ ie $\sum \dfrac{x}{\tau} = 0$ is the Perspectrix[^28] of all these Triangles ($\Delta ABC$, $P(\tau)$'s Cevian Triangle, and Polar Triangle of $\sum \dfrac{\tau}{x}=0$, which is $P(\tau)$'s Anticevian Triangle).
+- Let $F$ be a given triangle family containing 2 or more triangles. Then:
+  - $$F \text{ is pairwise similar AND has common perspector } P \iff F \text{ is a homothetic family with common homothety center } P$$. 
+  - Also, $$F \text{ is a homothetic family with common homothety center } P \implies F\text{'s one and only common perspectix is the line at infinity}$$. (Converse isn't true because, two triangles only need to have corresponding sides parallel (as necessary and sufficient condition), in order to have line at infinity as the perspetrix. Homothety is a stronger restriction than having corresponding sides parallel. Homothety implies parallel corresponding sides, but parallel corresponding sides does not imply homothety).
+  - Hence, triangles can be similar without being in perspective, and vice-versa. They are both similar and in perspective iff they are homothetic (and homothety center must be common when there are more than two triangles.)
 
 ## Pedal-Cevian Points[^10], CPCC Points[^11], Darboux Cubic[^12], Thomson Cubic[^13], Lucas Cubic[^14][^15]
 
