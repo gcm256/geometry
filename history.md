@@ -1,3 +1,24 @@
+## Lesser Known Wars
+
+* Roman - Persian Wars (including Byzantine - Sasanian Wars)
+* Arab - Byzantine Wars
+* Russian - Persian Wars
+* Russian - Turkish / Russian - Ottoman Wars
+* Ottoman - Persian Wars
+* Greece - Ottoman Wars
+
+## Control of Greece, Anatolia, Levant, Egypt and Persia during 1200 - 1300 CE
+
+```mermaid
+block
+  Greece space Anatolia
+  block
+    Iraq Iran
+end
+```
+
+## Abrahamic Animosity Always Shaped History in Eastern Mediterranean and Southern (and Central) Europe
+
 There is a very deep and long history of animosity between christians and muslims, apart from crusades (from ~1100 to 1300), also apart from 
 their continuing competing claims over Jerusalem (specifically, the Main Temple there).
 
