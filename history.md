@@ -7,14 +7,19 @@
 * Ottoman - Persian Wars
 * Greece - Ottoman Wars
 
-## Control of Greece, Anatolia, Levant, Egypt and Persia during 1200 - 1300 CE
+## Control of Greece, Anatolia, Levant, Egypt, Persia during 1200 - 1300 CE
 
 ```mermaid
 block
-  Greece space Anatolia
-  block
-    Iraq Iran
-end
+  columns 11
+  Greece:1 space:1 Anatolia:4
+  block:Persia["Persia"]:5
+    columns 5
+    Iraq:2 Iran:3
+  end
+  M["Mediterranean"]:5 SLevant["S Levant"]:1 space:5
+  space:5 NLevant["N Levant"]:1 space:5
+  space:1 Egypt:4 space:6
 ```
 
 ## Abrahamic Animosity Always Shaped History in Eastern Mediterranean and Southern (and Central) Europe
