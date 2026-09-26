@@ -9,6 +9,7 @@
 
 ## Control of Greece, Anatolia, Levant, Egypt, Persia during 1200 - 1300 CE
 
+<!--
 ```mermaid
 block
   columns 11
@@ -21,6 +22,268 @@ block
   space:5 NLevant["N Levant"]:1 space:5
   space:1 Egypt:4 space:6
 ```
+-->
+
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Greece",
+        "shape": "Rectangle",
+        "angle": 0,
+        "fill": "#2196F3",
+        "fill-opacity": 0.4,
+        "stroke": "#1565C0",
+        "stroke-width": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              19.346994,
+              35.056207
+            ],
+            [
+              19.346994,
+              42.066467
+            ],
+            [
+              29.543539,
+              42.066467
+            ],
+            [
+              29.543539,
+              35.056207
+            ],
+            [
+              19.346994,
+              35.056207
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Anatolia",
+        "shape": "Rectangle",
+        "angle": 0,
+        "fill": "#F44336",
+        "fill-opacity": 0.4,
+        "stroke": "#C62828",
+        "stroke-width": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.543539,
+              35.960223
+            ],
+            [
+              29.543539,
+              42.066467
+            ],
+            [
+              41.234406,
+              42.066467
+            ],
+            [
+              41.234406,
+              35.960223
+            ],
+            [
+              29.543539,
+              35.960223
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Persia",
+        "shape": "Polygon",
+        "fill": "#4CAF50",
+        "fill-opacity": 0.4,
+        "stroke": "#2E7D32",
+        "stroke-width": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              41.234406,
+              42.066467
+            ],
+            [
+              58.550953,
+              42.163403
+            ],
+            [
+              58.990459,
+              25.720735
+            ],
+            [
+              41.322307,
+              31.503629
+            ],
+            [
+              41.234406,
+              35.960223
+            ],
+            [
+              41.234406,
+              42.066467
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "N Levant",
+        "shape": "Rectangle",
+        "angle": 0,
+        "fill": "#9C27B0",
+        "fill-opacity": 0.4,
+        "stroke": "#6A1B9A",
+        "stroke-width": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.598795,
+              33.063924
+            ],
+            [
+              31.598795,
+              35.960223
+            ],
+            [
+              36.453318,
+              35.960223
+            ],
+            [
+              36.453318,
+              33.063924
+            ],
+            [
+              31.598795,
+              33.063924
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "S Levant",
+        "shape": "Rectangle",
+        "angle": 0,
+        "fill": "#FFEB3B",
+        "fill-opacity": 0.4,
+        "stroke": "#F9A825",
+        "stroke-width": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.442139,
+              33.063924
+            ],
+            [
+              36.463618,
+              33.063924
+            ],
+            [
+              36.463618,
+              29.142566
+            ],
+            [
+              34.442139,
+              29.142566
+            ],
+            [
+              34.442139,
+              33.063924
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fill":"#9C27B0",
+        "fill-opacity": 0.6,
+        "stroke": "#333333",
+        "stroke-width": 1,
+        "stroke-opacity": 1,
+        "name": "Egypt",
+        "title": "Egypt"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              19.276453,
+              26.689707
+            ],
+            [
+              19.276453,
+              33.08136
+            ],
+            [
+              34.42642,
+              33.08136
+            ],
+            [
+              34.42642,
+              26.689707
+            ],
+            [
+              19.276453,
+              26.689707
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shape": "Marker",
+        "name": "Jerusalem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.240251,
+          31.760867
+        ]
+      }
+    }
+  ]
+}
+```
+
+
 
 ## Abrahamic Animosity Always Shaped History in Eastern Mediterranean and Southern (and Central) Europe
 
