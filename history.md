@@ -283,13 +283,32 @@ block
 }
 ```
 
+### Greece, Western Anatolia, North-coastal Levant
 
+1. Byzantine Empire, then,
+2. Byzantine Empire + Crusader Kingdoms
+
+### Central and Eastern Anatolia
+
+1. Seljuk Empire, then,
+2. Sultanate of Rum, then,
+3. Early Ottoman Sultanate
+
+### Egypt, South-coastal Levant (including Jerusalem)
+
+1. Fatimid Caliphate, then,
+2. Ayyubid Sultanate, then,
+3. Mamluk Empire
+
+### Iran / Persia, Iraq
+
+1. Abbasid Caliphate, then,
+2. Ilkhanate
 
 ## Abrahamic Animosity Always Shaped History in Eastern Mediterranean and Southern (and Central) Europe
 
 There is a very deep and long history of animosity between christians and muslims, apart from crusades (from ~1100 to 1300), also apart from 
 their continuing competing claims over Jerusalem (specifically, the Main Temple there).
-
 
 1. Spain and entire Iberian Peninsula were conquered round 720ce by arabs, starting from the 711 Battle of Guadalete.
 2. West Europeans fought with Arabs, in france and spain, from 711 till end of their reconquista in 1492 (Granada War)[^1].
