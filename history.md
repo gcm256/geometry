@@ -307,6 +307,8 @@ block
 1. Abbasid Caliphate, then,
 2. Ilkhanate
 
+## See also [^3][^4][^5][^6]
+
 ## Abrahamic Animosity Always Shaped Their History in Eastern Mediterranean and Southern (and Central) Europe
 
 There is a very deep and long history of animosity between christians and muslims, apart from crusades (from ~1100 to 1300), also apart from 
@@ -332,6 +334,10 @@ their continuing competing claims over Jerusalem (specifically, the Main Temple 
 
    [^1]: This Granada is the southern part of Iberia / Spain.
    [^2]: There was an earlier Ottoman Siege of Vienna in 1529.
+   [^3]: https://en.wikipedia.org/wiki/Template:Timeline_of_Mesopotamia
+   [^4]: https://en.wikipedia.org/wiki/Template:Ancient_kingdoms_in_Anatolia
+   [^5]: https://en.wikipedia.org/wiki/Template:Ancient_states_and_regions_of_the_Levant
+   [^6]: https://en.wikipedia.org/wiki/Template:History_of_Egypt
 
 ## History with ChatGPT
 
