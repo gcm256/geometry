@@ -1,4 +1,6 @@
-## Lesser Known Wars
+## Deep Conflicts That Are Very Important But Lesser Known
+
+These conflicts are so deep, they still very much exist under the surface as the current major geopolitical drivers of this region.
 
 * Roman - Persian Wars (including Byzantine - Sasanian Wars)
 * Arab - Byzantine Wars
@@ -7,7 +9,7 @@
 * Ottoman - Persian Wars
 * Greece - Ottoman Wars
 
-## Control of Greece, Anatolia, Levant, Egypt, Persia during 1200 - 1300 CE
+## Control of PLAGE Region (Persia, Levant, Anatolia, Greece, Egypt) during 1200 - 1300 CE
 
 <!--
 ```mermaid
@@ -274,8 +276,8 @@ block
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.240251,
-          31.760867
+          35.236,
+          31.777
         ]
       }
     }
@@ -300,15 +302,15 @@ block
 2. Ayyubid Sultanate, then,
 3. Mamluk Empire
 
-### Iran / Persia, Iraq
+### Persia / Iran, Iraq
 
 1. Abbasid Caliphate, then,
 2. Ilkhanate
 
-## Abrahamic Animosity Always Shaped History in Eastern Mediterranean and Southern (and Central) Europe
+## Abrahamic Animosity Always Shaped Their History in Eastern Mediterranean and Southern (and Central) Europe
 
 There is a very deep and long history of animosity between christians and muslims, apart from crusades (from ~1100 to 1300), also apart from 
-their continuing competing claims over Jerusalem (specifically, the Main Temple there).
+their continuing competing claims over Jerusalem (specifically, the Main Temple area there, called The Temple Mount).
 
 1. Spain and entire Iberian Peninsula were conquered round 720ce by arabs, starting from the 711 Battle of Guadalete.
 2. West Europeans fought with Arabs, in france and spain, from 711 till end of their reconquista in 1492 (Granada War)[^1].
@@ -321,7 +323,7 @@ their continuing competing claims over Jerusalem (specifically, the Main Temple 
        * 732 (Battle of Tours) - europeans successfully prevent France from falling to muslims.
        * 1236 (Siege of Cordoba by Castille) - most of Iberia retaken by christians.
 3. In East and South East, Christians fought with Turkic muslims from 1071 (Battle of Manzikert) till 1920's.
-   * Seljuk Turk muslims took Anatolia from chrisian Eastern Roman Empire (ERE) aka Byzantine Empire, in 1071 (Battle of Manzikert).
+   * Seljuk Turk muslims took Anatolia from christian Eastern Roman Empire (ERE) aka Byzantine Empire, in 1071 (Battle of Manzikert).
    * ERE was christian since its beginning in 330 with Constantine. Constantine made the ERE christian,  both de jure and de facto.
    * Muslims have kept Constantinople from 11th Century till now. And they kept Jerusalem from 11th Century till ~1918, when English and French
      took it back from Ottoman Empire.
