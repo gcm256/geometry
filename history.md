@@ -307,7 +307,28 @@ block
 1. Abbasid Caliphate, then,
 2. Ilkhanate
 
+## Some Peoples of the PLAGE Region:
+
+- Assyrians
+- Babylonians
+- Canaanites
+- Judeans
+- Hittites
+- Hurrians
+- Mitanni
+- Minoans
+- Phonicians
+- Sumerians
+- Kurds
+- Yazidis
+
 ## See also [^3][^4][^5][^6]
+
+> [!NOTE]
+> Most pro-Ind states (in order): Russia. Then may be Kenya, Israel.
+>
+> Most anti-Ind states (in order): Germany (worst), Brazil (2nd worst), Turkey, France.
+> 
 
 ## Abrahamic Animosity Always Shaped Their History in Eastern Mediterranean and Southern (and Central) Europe
 
