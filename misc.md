@@ -4,6 +4,25 @@
 
 ## Zipf Law
 
+## Are We Living In A Simulation? Yes, Most Likely.[^4]
+
+#### Reasoning that the Universe is most likely a simulation:
+
+1. A simulation is statistically simpler, so can be started & run easily, than constructing a "physical" universe.
+2. Also, many simulations can be spawned concurrently and easily, representing multiple universes.
+3. In a simulation, questions like _"How big is the universe"_ don't matter. Because in a simulation, the size, extent, and expanse of what we're observing,
+   becomes a **"rendering"** issue than an **"existence"** issue. Just like a computer game, we only see (and need) what is rendered on the screen. Our field of view
+   and exploration dictates the rendering. New areas of the game appear and render as we proceed further in the game.
+   Its not like they already existed on the screen before we got there. It was defined in the simulation/game code, but it renders only when the observer/gamer reaches there, or
+   advances to that level.
+4. In a simulation, the Planck Length can be analogous to the "pixel", the smallest unit of observable game-space.
+5. In a simulation, the [**Wave Function Collapse**](https://physics.stackexchange.com/questions/35328) can be easily and trivially explained:
+   An area of the game is not _rendered_ until we (the gamer) observe and venture there.
+     - Once we go there and observe/explore/play/interact, that area/object gets rendered into place.
+       Just like a quantum system component is unspecified (due to superposition of multiple possible states), until
+       an _observation_ (eg a measurement or physical interaction) abruptly **transitions**/**collapses** the component into a single, definite state.
+       The component's wave function—initially in a superposition of several eigenstates—reduces to a single eigenstate due to interaction with the external world. 
+
 ## Emergent / Bulk / Statistical / Macroscopic Properties[^1]
 
 Eg Temperature, Pressure etc.
@@ -54,3 +73,7 @@ Complexity lies between Complete Order and Complete Disorder.[^3]
 [^1]: "...it might be that gravity is actually this emergent property like temperature or pressure and it's not this fundamental force of the universe...": [The Rest Is Science - We're All Being Pulled Together](https://youtu.be/946HzFDGf4g?t=1740)
 [^2]: "Meaning is \[...\] \[the\] information \[...\] discarded but not lost." during communication.: [The Rest Is Science - Searching For Meaning In Randomness](https://youtu.be/tiXIOpq_tQ0?t=960)
 [^3]: "I think we need to have a certain amount of complexity, which is the name for this region in between chaos and order. We need a bit of complexity for a creature like ourselves to exist.": [The Rest Is Science - Searching For Meaning In Randomness](https://youtu.be/tiXIOpq_tQ0?t=2480)
+[^4]: "For example, if you can simulate a universe, it can probably be simulated a lot more simply than like a real one can be made. 
+Like if you can run an entire universe on some special uh advanced alien computer, then you could probably run a
+trillion of them simultaneously, in which case statistically we are much more likely to be in one of those simulations than in the actual universe.": 
+[The Rest Is Science - The Scale Of The Universe](https://youtu.be/9yGdvsASj5c?t=720)
