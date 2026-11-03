@@ -11,7 +11,7 @@ Spinors are therefore often described heuristically as "square roots" of (geomet
 This maximum rank represents the "raw, uncontracted" state. 
 We can then use mathematical operations to step that rank down, creating a family of lower-rank tensors out of those same original building blocks.
 
-In general, the product of $n=2k$ (where $k \in ℤ^+$) Spinors gives a Tensor of maximum rank $2n$. Lower ranks are obtained via contractions/bridges.
+In general, the product of $n=2k$ (where $k \in ℤ^+$) Spinors gives a Tensor of maximum rank $n$. Lower ranks are obtained via contractions/bridges.
 Contraction always occurs 2 ranks at a time: Rank $n$ → Rank $n-2$ → ... → Rank $2$ → Rank $0$
 
 ### Example 
@@ -80,7 +80,22 @@ $$
 q=a+bi+cj+dk
 $$
 
-Quaternionic representation of a group $G$ is a group homomorphism $φ: G → GL(V, H)$, the group of invertible quaternion-linear transformations of $V$.
+## Quaternions can also represent Groups
+
+[Quaternionic representation](https://en.wikipedia.org/wiki/Quaternionic_representation) of a group $G$ is 
+a group homomorphism $φ: G → GL(V, ℍ)$, the group of invertible quaternion-linear transformations of $V$.
+- $GL$: General Linear Group
+- $V$: The vector space $V$ over the quaternion division ring $ℍ$
+
+This can be simplified as $φ: G → GL(n, ℍ)$, where $n = \text{ dim }_ℍ(V)$ is the dimension of $V$ over $ℍ$.
+Thus we can represent a given group in multiple ways using quaternions by varying the dimension $n$ as a parameter. 
+
+For example, a given group $G$ can have a 1-dimensional quaternionic representation ($n=1$, where elements map to single quaternions), 
+a 2-dimensional one ($n=2$, where elements map to $2 \times 2$ quaternion matrices), a 3-dimensional one, and so on.
+
+Just like matrix representations over the real or complex numbers, a single group can have many different quaternion representations, and their dimensions ($n$) can vary,
+because $n$ is a **property of the specific representation** we want, not the group itself. 
+A group can have an entire "family" of representations across many different dimensions.
 
 ### Geometrical Hierarchy in terms of Spinors and Quaternions
 
