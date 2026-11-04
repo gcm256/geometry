@@ -2,6 +2,18 @@
 
 Everything else—vectors, electromagnetic fields, and the very curvature of gravity—is just a macroscopic manifestation of these fundamental quantum building blocks interacting in pairs.
 
+## Points Can Be Built From Spinors
+
+The traditional concept of a "point"—defined by Euclid as "that which has no part"—has long been viewed as the ultimate, indivisible atom of space.
+
+In advanced mathematics, quantum geometry and modern physics, however, the point is no longer considered atomic. Points can be explicitly constructed using spinors.
+
+Algebraically, points are composite structures built from quadratic combinations of spinors.
+
+Cosmologically, generic spacetime points are viewed as emergent, derived phenomena. 
+They require an interacting web or superposition of multiple fundamental spinorial degrees of freedom to exist.
+Therefore smooth space and time are also macro-phenomena built out of foundational spinorial elements.
+
 ## A Tensor is a Product of 2 Spinors
 
 Spinors are therefore often described heuristically as "square roots" of (geometric) vectors, and a geometric vector can be constructed quadratically from a spinor.
