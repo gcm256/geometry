@@ -14,6 +14,39 @@ Cosmologically, generic spacetime points are viewed as emergent, derived phenome
 They require an interacting web or superposition of multiple fundamental spinorial degrees of freedom to exist.
 Therefore smooth space and time are also macro-phenomena built out of foundational spinorial elements.
 
+### Example
+
+To represent a specific point (let's say a point in 4D spacetime with coordinates $x^{\mu} = (t, x, y, z)$ ) using spinors, we don't use a single spinor. 
+Instead, we translate the point's coordinates into the following Hermitian matrix with the [spacetime interval](https://en.wikipedia.org/wiki/Spacetime#Spacetime_interval) 
+$t^2 - x^2 - y^2 - z^2$ as its determinant, and then build that matrix out of pairs of Weyl spinors. Note that we're using 
+[geometrized natural units](https://en.wikipedia.org/wiki/Geometrized_unit_system), eg Plank units, where $c=1$.
+
+$$ X = x^\mu(\sigma_\mu) = 
+\begin{pmatrix} 
+t + z & x - iy \\ 
+x + iy & t - z
+\end{pmatrix} $$
+
+- **When the determinant $t^2 - x^2 - y^2 - z^2 = 0$**: The point lies on the light-cone. Matrix $X$ is rank-1, so can be written as a
+  single spinor-pair out product $X = \phi\psi^T$, where each Spinor is of the form
+
+$$
+    \begin{pmatrix}
+    u \\
+    v
+    \end{pmatrix}
+$$
+  
+- **When the determinant $t^2 - x^2 - y^2 - z^2 ≠ 0$**: The point lies off the light-cone. Matrix $X$ is full rank-2, requiring exactly two independent spinor pairs added together
+  eg $X = \phi_1{\psi_1}^T +  \phi_2{\psi_2}^T$
+
+> [!IMPORTANT]
+> - For $d$-dimensions, using chiral splitting (Weyl spinors) in even dimensions, the point matrix $X$ will be $N \times N$ where $N = 2^{\lfloor d/2 \rfloor - 1}$.
+>   The number of Spinor pairs will be rank($X$) and \
+>   $X = \displaystyle\sum_{i=1}^{\text{ rank }(X)} \phi_i{\psi_i}^T$
+> - When the point eg $(t, x, y, z)$ is such that the point matrix $X$ is symmetric, each spinor pair will be conjugates. $\psi_i = \overline{\phi_i}$
+> 
+
 ## A Tensor is a Product of 2 Spinors
 
 Spinors are therefore often described heuristically as "square roots" of (geometric) vectors, and a geometric vector can be constructed quadratically from a spinor.
