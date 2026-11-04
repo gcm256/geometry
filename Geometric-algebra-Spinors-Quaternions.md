@@ -36,13 +36,50 @@ See:
 - https://mathworld.wolfram.com/ScalarCurvature.html
 - https://physics.stackexchange.com/questions/453047
 
-In the grand mathematical sense, multiplying any number of spinors always produces a tensor. However, it is only a **Spacetime Tensor** if 
-the left-handed and right-handed spinors are perfectly balanced in a 1:1 ratio. 
-If they are unbalanced, they form **Internal Tensors** that govern the invisible quantum rules of the universe, like entanglement and nuclear forces.
+## Spacetime Tensor (even total spinors, balanced handedness) vs Internal Tensors (even, but unbalanced) vs Spinor-Tensors (odd total spinors, hence unbalanced)
 
-Even for these non-spacetime tensors, **contraction still strictly leaps by 2 ranks at a time**.
+In the grand mathematical sense, multiplying any number of spinors always produces a tensor. Because:
+- In pure mathematics and category theory, a **tensor product** is simply the mathematical operation used to combine any vector spaces.
+- Spinor spaces are vector spaces.
+- Therefore, multiplying any number of them (even or odd) via tensor products ($\otimes$) mathematically results in an element residing in a tensor product space.
+- In this broad, formal sense, _everything_ built this way is technically a tensor of some rank.
+
+In physics, the word "tensor" has a much stricter definition. A physical tensor must be a purely **bosonic (integer spin)** object that transforms smoothly under 
+standard spacetime rotations and returns to its exact self after a 360° rotation. Because multiplying an _odd_ number of spinors leaves a leftover half-integer spin 
+that flips its sign under a 360° rotation, physicists refuse to call it a standard tensor. 
+Instead, they call it a **spinor-tensor** (or spin-tensor) because it requires a spinor index to describe it.
+
+It is only a **Spacetime Tensor** if the left-handed and right-handed spinors are perfectly balanced in a 1:1 ratio. 
+
+If they are even in total number but unbalanced, they form **Internal Tensors** that govern the invisible quantum rules of the universe, like entanglement and nuclear forces.
+
+**Spinor-Tensors** are hybrid objects carrying _both_ spacetime/internal indices and spinor indices 
+(e.g., $\psi^\mu_\alpha$, where $\mu$ is a vector index and $\alpha$ is a spinor index).
+
+| Feature                    | Spacetime Tensors           | Internal Tensors                      | Spin-Tensors (Spinor-Tensors)        |
+|:----:                      |----                         |----                                   |----                                  |
+| **Number of Spinors**      | Even                        | Even                                  | Odd                                  |
+| **Handedness Ratio**       | Balanced (1:1)              | Unbalanced ($\neq$ 1:1)               | Imbalanced by definition (odd total) |
+| **Spin Statistics**        | Integer (Bosonic)           | Integer (Bosonic)                     | Half-Integer (Fermionic)             |
+| **360° Rotation Behavior** | Returns to original state   | Returns to original state             | Flips sign                           |
+| **Role in Physics**        | Ordinary spacetime geometry | Internal gauge fields / quantum rules | Spacetime + fermionic quantum matter |
+
+## Rank Contraction of Tensors and Spin-Tensors
+
+Even for the Internal Tensors and Spinor-tensors, **contraction still strictly leaps by 2 ranks at a time**.
 The rule of dropping by 2 ranks is a universal rule of the **mathematical act of contraction itself**, not just a quirk of spacetime.
 
+- **For Tensors (Spacetime or Internal)**: Contraction pairs a covariant index with a contravariant index using a (spacetime or internal) metric tensor,
+  consuming two indices at once and dropping the rank by 2.
+  - **Spacetime Tensor Contraction**: Use the **spacetime metric** ($g_{\mu\nu}$) to contract coordinate/vector indices (like $\mu$ and $\nu$).
+  - **Internal Tensor Contraction**: They do not use $g_{\mu\nu}$. Use an **invariant internal metric** (invariant tensors eg Kronecker deltas $\delta_{ab}$) or
+    an **invariant internal (pseudo)tensor** (eg invariant alternating antisymmetric symbols like $\epsilon_{ab}$) to contract internal indices.
+- **For Spin-Tensors**: Because a spin-tensor is a hybrid object carrying _two completely different types of indices_, it requires two different "rulers" to contract them:
+  - **For the Spacetime/Vector Indices**: Use the **spacetime metric** ($g_{\mu\nu}$) to contract spacetime indices (dropping the tensor rank by 2).
+  - **For the Spinor Indices**: Contraction pairs spinor indices which also requires consuming a pair of indices at a time, similarly reducing the index count by 2.
+    Use the **spinor metric / charge-conjugation matrix ($C$)** or the **antisymmetric metric** (eg **epsilon symbol** $\epsilon^{\alpha\beta}$) to
+    contract the spinor indices (dropping the spinor rank by 2).
+  
 ### The "Even vs. Odd" Rule of Spinor Products
 
 Rule about how spinor space maps into physical spacetime:
