@@ -28,7 +28,7 @@ x + iy & t - z
 \end{pmatrix} $$
 
 - **When the determinant $t^2 - x^2 - y^2 - z^2 = 0$**: The point lies on the light-cone. Matrix $X$ is rank-1, so can be written as a
-  single spinor-pair out product $X = \phi\psi^T$, where each Spinor is of the form
+  single spinor-pair outer product $X = \phi\psi^T$, where each Spinor is of the form
 
 $$
     \begin{pmatrix}
@@ -44,7 +44,7 @@ $$
 > - For $d$-dimensions, using chiral splitting (Weyl spinors) in even dimensions, the point matrix $X$ will be $N \times N$ where $N = 2^{\lfloor d/2 \rfloor - 1}$.
 >   The number of Spinor pairs will be rank($X$) and \
 >   $X = \displaystyle\sum_{i=1}^{\text{ rank }(X)} \phi_i{\psi_i}^T$
-> - When the point eg $(t, x, y, z)$ is such that the point matrix $X$ is symmetric, each spinor pair will be conjugates. $\psi_i = \overline{\phi_i}$
+> - When the point eg $(t, x, y, z)$ is such that the point matrix $X$ is symmetric, each spinor pair will be conjugates: $\psi_i = \overline{\phi_i}$
 > 
 
 ## A Tensor is a Product of 2 Spinors
