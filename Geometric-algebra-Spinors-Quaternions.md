@@ -24,10 +24,17 @@ Contraction always occurs 2 ranks at a time: Rank $n$ → Rank $n-2$ → ... →
 
 ### [Riemann Curvature Tensor](https://en.wikipedia.org/wiki/Riemann_curvature_tensor) Spacetime Tensor
 
-Applying a single contraction (using the metric $\epsilon _{AB}$) on the Rank-4 **Riemann Curvature Tensor** gives the Rank-2 **Ricci Curvature Tensor**.
+Applying a single contraction (using the metric $\epsilon _{AB}$) on the Rank-4 **Riemann Curvature Tensor** gives 
+the Rank-2 **[Ricci Curvature Tensor](https://en.wikipedia.org/wiki/Ricci_curvature)**.
 
-Contracting it completely gives the Rank-0 **Ricci Curvature Scalar**, which  the total [scalar curvature](https://en.wikipedia.org/wiki/Scalar_curvature) of 
+Contracting it completely gives the Rank-0 **Ricci Curvature Scalar**, which gives the total [scalar curvature](https://en.wikipedia.org/wiki/Scalar_curvature) of 
 the universe at a single point.
+
+See:
+
+- https://mathworld.wolfram.com/RicciCurvatureTensor.html
+- https://mathworld.wolfram.com/ScalarCurvature.html
+- https://physics.stackexchange.com/questions/453047
 
 In the grand mathematical sense, multiplying any number of spinors always produces a tensor. However, it is only a **Spacetime Tensor** if 
 the left-handed and right-handed spinors are perfectly balanced in a 1:1 ratio. 
