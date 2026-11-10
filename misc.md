@@ -2,7 +2,15 @@
 
 ## Borsuk-Ulam Theorem
 
-## Zipf Law
+## [Zipf's Law](https://mathworld.wolfram.com/ZipfsLaw.html) and [Benford's Law](https://mathworld.wolfram.com/BenfordsLaw.html)
+
+See:
+- https://mathworld.wolfram.com/topics/DescriptiveStatistics.html
+- https://en.wikipedia.org/wiki/Template:Probability_distributions
+- https://en.wikipedia.org/wiki/Zipf's_law
+- https://en.wikipedia.org/wiki/Benford's_law
+
+----
 
 ## Are We Living In A Simulation? Yes, Most Likely.[^4]
 
