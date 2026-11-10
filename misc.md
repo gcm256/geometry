@@ -11,6 +11,7 @@ See:
 - https://en.wikipedia.org/wiki/Benford's_law
 
 ----
+----
 
 ## Are We Living In A Simulation? Yes, Most Likely.[^4]
 
@@ -31,6 +32,9 @@ See:
        an _observation_ (eg a measurement or physical interaction) abruptly **transitions**/**collapses** the component into a single, definite state.
        The component's wave function—initially in a superposition of several eigenstates—reduces to a single eigenstate due to interaction with the external world. 
 
+----
+----
+
 ## Emergent / Bulk / Statistical / Macroscopic Properties[^1]
 
 Eg Temperature, Pressure etc.
@@ -49,6 +53,9 @@ Eg Temperature, Pressure etc.
 | **Thermal Conductivity** | Transport of phonons and free electrons | Heat moves through bulk material via the microscopic passing of atomic vibrations (phonons) or mobile electrons from particle to particle. |
 | **Density** | Average atomic mass packed within a lattice volume | While a single atom has a fixed mass, bulk density depends on how closely the atomic structures pack together under macroscopic forces. |
 | **Refractive Index** | Microscopic scattering and absorption by electron clouds | Light slows down in bulk matter because photons are continuously absorbed and re-emitted by the electron clouds of the material's atoms. |
+
+----
+----
 
 ## Randomness vs Disorder / Chaos / Entropy / Information-content
 
