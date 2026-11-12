@@ -11,6 +11,16 @@ See:
 - https://en.wikipedia.org/wiki/Benford's_law
 
 ----
+
+## Color Models:
+
+- **RGB**  → How computers display color
+- **CMYK** → How printers mix ink
+- **HSL**  → How humans casually describe color
+- **Lab/LCH** → How scientists measure color
+- **OKLCH** → How modern software wants humans to edit color
+
+----
 ----
 
 ## Are We Living In A Simulation? Yes, Most Likely.[^4]
