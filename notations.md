@@ -7,7 +7,7 @@
 | $P^+$ | `P^+` | $`\cdot \to \cdot`$ | Isotomic Conjugate of $P$. | $(P^+)^+ = P$. <br> $`P^+ = P*X(31)`$. |
 | $`P^\#`$ | `P^#` | $`\cdot \to \cdot`$ | Cyclocevian Conjugate of $P$. | $`(P^\#)^\# = P`$. <br> $`P^\#`$ = $`((((P^+)^©)^*)^@)^+`$.[^1] |
 | $P^@$ | `P^@` | $`\cdot \to \cdot`$ | Anticomplement of $P$. | | 
-| $P^©$ | `P^c` | $`\cdot \to \cdot`$ | Complement of $P$. | $(P^©)^@ = P = (P^@)^©$. <br> $(P^©)^© \neq P \iff P \neq G$. <br> $(P^@)^@ \neq P\iff P \neq G$. |
+| $P^©$ | `P^c` | $`\cdot \to \cdot`$ | Complement of $P$. | $`(P^©)^{@} = P = (P^@)^©`$. <br> $`(P^©)^© \neq P \iff P \neq G`$. <br> $`(P^@)^@ \neq P\iff P \neq G`$. |
 | $P/U$ | `P-vU` | $`\cdot \to (\cdot \to \cdot)`$ | $P$-Ceva-Conjugate of $U$. | Perspector of $(P_V)\Delta$ and $(U_V)^{-1}\Delta$. <br> $P/P = P$. <br> Since it is called conjugate, is $P/(P/U) = U$❓ Yes. See [^4]. <br> So the $`(P/)`$ **transformation** is an **involution**.[^1][^5] |
 | $P*U$ | `P*U` | $`\cdot \to (\cdot \to \cdot)`$ | $P$-isoconjugate of $U$. | $`P=(p:q:r) \land U=(u:v:w) \implies P*U=(p^{-1}u^{-1} ::)`$. <br> $`P*U = U*P`$. <br> $`P*(P*U) = U`$. <br> $`P*P=(p^{-2}::)`$. <br> $`P*(P*P) = P`$. <br> $`(P*P)*U=(p^2u^{-1} ::) \neq P*(P*U)=U`$. <br> Thus the isoconjugation operator is commutative but not associative.|
 | $`P /_b U`$ | `P-/U` | $`\cdot \to (\cdot \to \cdot)`$ | $P$-reciprocal-conjugate of $U$. | In Barycentric coordinates, $`P=(p:q:r)_b \land U=(u:v:w)_b \implies P /_b U=(pu^{-1}::)_b`$. <br> $`P /_b U = G /_b (U /_b P)`$. <br> $`P /_b P = (1:1:1)_b = G`$.|
