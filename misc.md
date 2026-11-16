@@ -1,3 +1,21 @@
+## Quantum Nature of the Universe
+
+- At the quantum level (subatomic and below, when macroscopic properties are largely stripped away) we can't ask even "normal" basic questions we're used to:
+    - What is really an object?
+    - What is it's color?
+    - Where is it located? What is its boundary?
+    - What is its temperature?
+    - What makes two of them equal or unequal in identity?
+    - Is it a particle or a wave or something else?
+    - etc. ${\color{crimson}\textsf{These common questions don't make sense anymore.}}$
+
+- Any "object" is just a mathematical superposition/mixture of many states (a state being what we can distinguish from another state via experiments).
+    - The act of observing itself extracts and presents one state out of the mixture, a la collapse of the wave function.
+    - Yet, the macroscopic world totally hides away all of these details, and appears with properties of objects and phenomena
+     that were never there in the basic quantum components the world is built from.
+
+----
+
 ## Banach–Tarski Paradox
 
 ## Borsuk-Ulam Theorem
