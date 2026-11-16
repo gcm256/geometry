@@ -16,8 +16,11 @@ Therefore smooth space and time are also macro-phenomena built out of foundation
 
 ### Example
 
-To represent a specific point (let's say a point in 4D spacetime with coordinates $x^{\mu} = (t, x, y, z)$ ) using spinors, we don't use a single spinor. 
-Instead, we translate the point's coordinates into the following Hermitian matrix with the [spacetime interval](https://en.wikipedia.org/wiki/Spacetime#Spacetime_interval) 
+In the simplest case of non-relativistic Euclidean space with Cartesian co-ordinates, a point ($x, y, z$) in 3D space (or a point ($x_1, x_2, \cdots , x_n$) in $n$-dimensional space)
+is represented by its **position-vector** and any vector can be constructed with spinors.
+
+For relativistic non-Euclidean space, To represent a specific point (let's say a point in 4D spacetime with coordinates $x^{\mu} = (t, x, y, z)$ ) using spinors, 
+we translate the point's coordinates into the following Hermitian matrix with the [spacetime interval](https://en.wikipedia.org/wiki/Spacetime#Spacetime_interval) 
 $t^2 - x^2 - y^2 - z^2$ as its determinant, and then build that matrix out of pairs of Weyl spinors. Note that we're using 
 [geometrized natural units](https://en.wikipedia.org/wiki/Geometrized_unit_system), eg Plank units, where $c=1$.
 
@@ -26,6 +29,9 @@ $$ X = x^\mu(\sigma_\mu) =
 t + z & x - iy \\ 
 x + iy & t - z
 \end{pmatrix} $$
+
+Then we can use Linear Algebra ([SVD](https://en.wikipedia.org/wiki/Singular_value_decomposition#Example) or [EVD](https://en.wikipedia.org/wiki/Eigendecomposition_of_a_matrix) 
+[Matrix decomposition](https://en.wikipedia.org/wiki/Matrix_decomposition)) to write the point matrix $X$ as a sum of spinor-pair-products.
 
 - **When the determinant $t^2 - x^2 - y^2 - z^2 = 0$**: The point lies on the light-cone. Matrix $X$ is rank-1, so can be written as a
   single spinor-pair outer product $X = \phi\psi^T$, where each Spinor is of the form
@@ -218,3 +224,6 @@ A group can have an entire "family" of representations across many different dim
 19. https://en.wikipedia.org/wiki/Spinor
 20. https://en.wikipedia.org/wiki/Spinors_in_three_dimensions
 21. https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation
+22. https://en.wikipedia.org/wiki/Template:Linear_algebra
+23. https://en.wikipedia.org/wiki/Template:Functional_analysis
+24. https://en.wikipedia.org/wiki/Template:Spectral_theory
