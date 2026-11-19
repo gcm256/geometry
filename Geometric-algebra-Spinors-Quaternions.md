@@ -203,27 +203,36 @@ A group can have an entire "family" of representations across many different dim
 
 ## Appendix and References
 
-1. https://en.wikipedia.org/wiki/Template:Number_systems
-2. https://en.wikipedia.org/wiki/Template:Dimension_topics
-3. https://en.wikipedia.org/wiki/Template:Tensors
-4. https://en.wikipedia.org/wiki/Template:Riemannian_geometry
-5. https://en.wikipedia.org/wiki/Template:Curvature
-6. https://en.wikipedia.org/wiki/Spinor_group
-7. https://en.wikipedia.org/wiki/Quaternionic_representation
-8. https://en.wikipedia.org/wiki/Quaternionic_structure
-9. https://en.wikipedia.org/wiki/Quaternion_algebra
-10. https://en.wikipedia.org/wiki/Quaternionic_vector_space
-11. https://en.wikipedia.org/wiki/Group_homomorphism
-12. https://en.wikipedia.org/wiki/Category_of_groups
-13. https://en.wikipedia.org/wiki/SO(8)#Spin(8)
-14. https://en.wikipedia.org/wiki/Spin_structure
-15. https://en.wikipedia.org/wiki/Spin_geometry
-16. https://en.wikipedia.org/wiki/Spin_representation
-17. https://en.wikipedia.org/wiki/Clifford_algebra
-18. https://en.wikipedia.org/wiki/Geometric_algebra
-19. https://en.wikipedia.org/wiki/Spinor
-20. https://en.wikipedia.org/wiki/Spinors_in_three_dimensions
-21. https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation
-22. https://en.wikipedia.org/wiki/Template:Linear_algebra
-23. https://en.wikipedia.org/wiki/Template:Functional_analysis
-24. https://en.wikipedia.org/wiki/Template:Spectral_theory
+- https://en.wikipedia.org/wiki/Template:Number_systems
+- https://en.wikipedia.org/wiki/Clifford_algebra aka https://en.wikipedia.org/wiki/Geometric_algebra
+- https://en.wikipedia.org/wiki/Geometric_analysis
+- https://en.wikipedia.org/wiki/Geometric_calculus#Relation_to_differential_geometry
+- https://en.wikipedia.org/wiki/Differential_geometry
+- https://en.wikipedia.org/wiki/Spacetime_algebra
+  - https://en.wikipedia.org/wiki/Spacetime_algebra#Lagrangian_formulation
+    - https://en.wikipedia.org/wiki/Lagrangian_density#Vector_fields,_tensor_fields,_spinor_fields
+      - https://en.wikipedia.org/wiki/Spinor_field
+- https://en.wikipedia.org/wiki/Action_(physics)#Action_(functional)
+- https://en.wikipedia.org/wiki/Template:Functional_analysis
+- https://en.wikipedia.org/wiki/Functional_(mathematics)
+- https://en.wikipedia.org/wiki/Calculus_of_variations
+- https://en.wikipedia.org/wiki/Template:Dimension_topics
+- https://en.wikipedia.org/wiki/Template:Tensors
+- https://en.wikipedia.org/wiki/Template:Riemannian_geometry
+- https://en.wikipedia.org/wiki/Template:Curvature
+- https://en.wikipedia.org/wiki/Spinor_group
+- https://en.wikipedia.org/wiki/Quaternionic_representation
+- https://en.wikipedia.org/wiki/Quaternionic_structure
+- https://en.wikipedia.org/wiki/Quaternion_algebra
+- https://en.wikipedia.org/wiki/Quaternionic_vector_space
+- https://en.wikipedia.org/wiki/Group_homomorphism
+- https://en.wikipedia.org/wiki/Category_of_groups
+- https://en.wikipedia.org/wiki/SO(8)#Spin(8)
+- https://en.wikipedia.org/wiki/Spin_structure
+- https://en.wikipedia.org/wiki/Spin_geometry
+- https://en.wikipedia.org/wiki/Spin_representation
+- https://en.wikipedia.org/wiki/Spinor
+- https://en.wikipedia.org/wiki/Spinors_in_three_dimensions
+- https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation
+- https://en.wikipedia.org/wiki/Template:Linear_algebra
+- https://en.wikipedia.org/wiki/Template:Spectral_theory
